@@ -137,7 +137,7 @@ int main()
     cout << "After ++c1, c1 = ";
     c1.print();
 
-    c1++;
+  //  c1++;
     cout << "After c1++, c1 = ";
     c1.print();
 
