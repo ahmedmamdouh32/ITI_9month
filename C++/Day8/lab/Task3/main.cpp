@@ -1,140 +1,124 @@
-///3-Composition with [debugging]
-//class point ALL
-//class Line
-//class Rect
+//-----------------------------------------------------------------------------------------------------------
+#include <BLEDevice.h>
+#include <BLEServer.h>
+#include <BLEUtils.h>
+#include <BLE2902.h>
+BLEServer *pServer = NULL;
+BLECharacteristic *pTxCharacteristic;
+bool deviceConnected = false;
+bool oldDeviceConnected = false;
+uint8_t txValue = 0;
+bool first_connect = true;
+//-----------------------------------------------------------------------------------------------------------
+#define BluetoothPIN 12
+#define BluetoothPIN_PressTime 1200
+bool BluetoothPIN_state;
+bool button_pressed = false;
+long long BluetoothPIN_Start_Time;
+bool BluetoothPIN_timer_stop = false;
+long long BluetoothPIN_Press_Duration = 0;
+bool first_time = true;
+//-----------------------------------------------------------------------------------------------------------
+#include "esp_mac.h"
 
-#include <iostream>
 
-using namespace std;
+// See the following for generating UUIDs:
+// https://www.uuidgenerator.net/
 
-class Point{
-private:
-    int x;
-    int y;
+#define SERVICE_UUID           "6E400001-B5A3-F393-E0A9-E50E24DCCA9E"  // UART service UUID
+#define CHARACTERISTIC_UUID_RX "6E400002-B5A3-F393-E0A9-E50E24DCCA9E"
+#define CHARACTERISTIC_UUID_TX "6E400003-B5A3-F393-E0A9-E50E24DCCA9E"
 
-public:
-    void setX(int n){
-        x = n;
+class MyServerCallbacks : public BLEServerCallbacks {
+  void onConnect(BLEServer *pServer) {
+    deviceConnected = true;
+	Serial.println("Device Connected Successfully");
+  };
+
+  void onDisconnect(BLEServer *pServer) {
+    deviceConnected = false;
+	Serial.println("Device Disconnected !!!");
+  }
+};
+class MyCallbacks : public BLECharacteristicCallbacks {
+  void onWrite(BLECharacteristic *pCharacteristic) {
+  String rxValue = pCharacteristic->getValue().c_str();
+
+    if (rxValue.length() > 0) {
+        Serial.println(rxValue);  //send to the Laptop
+        Serial2.print(rxValue);  //send to stm32
     }
-    int getX(){
-        return x;
-    }
+  }
+};
 
-    void setY(int n){
-        y = n;
-    }
-    int getY(){
-        return y;
-    }
+void setup() {
+  pinMode(BluetoothPIN,INPUT_PULLUP);
+  Serial.begin(115200);
 
-    void setPoint(int x, int y)
+  // Create the BLE Device
+  BLEDevice::init("ESP32 BLE Device");
+
+  // Create the BLE Server
+  pServer = BLEDevice::createServer();
+  pServer->setCallbacks(new MyServerCallbacks());
+
+  // Create the BLE Service
+  BLEService *pService = pServer->createService(SERVICE_UUID);
+
+  BLECharacteristic *pRxCharacteristic = pService->createCharacteristic(CHARACTERISTIC_UUID_RX, BLECharacteristic::PROPERTY_WRITE);
+
+  pRxCharacteristic->setCallbacks(new MyCallbacks());
+
+  // Start the service
+  pService->start();
+
+  // Start advertising
+  pServer->getAdvertising()->start();
+  Serial.println("Waiting a client connection to notify...");
+
+
+  Serial2.begin(9600, SERIAL_8N1, 16, 17); // RX = 16 (R2), TX = 17 (T2)
+  Serial.println("UART2 is ready!");
+
+  Print_MAC_Address();
+
+
+}
+
+void loop() {  
+  if (deviceConnected) {
+    if(first_connect)
     {
-        this->x = x;
-        this->y = y;
-
+      Serial.println("device connected");
+      first_connect = false;
     }
 
-    Point(){
-        x = y = 0;
-    }
+    delay(10);  // bluetooth stack will go into congestion, if too many packets are sent
+  }
 
-    Point(int _x, int _y){
-        x = _x;
-        y = _y;
-    }
+  // disconnecting
+  if (!deviceConnected && oldDeviceConnected){
+    first_connect = true;
+    delay(500);                   // give the bluetooth stack the chance to get things ready
+    pServer->startAdvertising();  // restart advertising
+    Serial.println("start advertising");
+    oldDeviceConnected = deviceConnected;
+  }
+  // connecting
+  if (deviceConnected && !oldDeviceConnected) {
+    // do stuff here on connecting
+    oldDeviceConnected = deviceConnected;
+  }
+}
 
-    void print(){
-        cout<<"x="<<x<<", y="<<y<<endl;
-    }
-
-};
-
-
-class Line{
-
-private:
-    Point startPoint;
-    Point endPoint;
-
-public:
-    void setStartPoint(int x, int y){
-       startPoint.setPoint(x,y);
-    }
-    Point getStartPoint(){
-        return startPoint;
-    }
-
-    void setEndPoint(int x, int y){
-       endPoint.setPoint(x,y);
-    }
-    Point getEndPoint(){
-        return endPoint;
-    }
-
-    Line(){
-    }
-    Line(int s1, int s2, int e1 , int e2):startPoint(s1,s2),endPoint(e1,e2){
-    }
-
-
-    void Print(){
-        cout<<"Start Point :";
-        startPoint.print();
-        cout<<"End Point :";
-        endPoint.print();
-    }
-};
-
-class Rect
-{
-private:
-    Point upperLeft;
-    Point lowerRight;
-
-public:
-    void setUpperLeft(int x, int y){
-       upperLeft.setPoint(x,y);
-    }
-    Point getUpperLeft(){
-        return upperLeft;
-    }
-
-    void setLowerRight(int x, int y){
-       lowerRight.setPoint(x,y);
-    }
-    Point getLowerRight(){
-        return lowerRight;
-    }
-
-    Rect(){
-    }
-    Rect(int x1,int y1,int x2,int y2):upperLeft(x1,y1),lowerRight(x2,y2){
-
-    }
-
-    void Print()
-    {
-        cout<<"Upper-left Point :";
-        upperLeft.print();
-        cout<<"Lower-right Point :";
-        lowerRight.print();
-    }
-};
-
-int main()
-{
-cout<<"-------------------------Line--------------------------"<<endl;
-
-    Line line1;
-    line1.Print();
-
-    Line line2(1,2,3,4);
-    line2.Print();
-cout<<"-----------------------Rectangle-----------------------"<<endl;
-    Rect rectangle1;
-    rectangle1.Print();
-
-    Rect rectangle2(1,2,3,4);
-    rectangle2.Print();
-    return 0;
+void Print_MAC_Address(){
+  uint8_t mac[6] = {0};
+  esp_err_t ret = ESP_OK;
+  ret = esp_read_mac(mac, ESP_MAC_EFUSE_FACTORY);
+  if (ret != ESP_OK){
+    Serial.printf("Failed to get base MAC address from EFUSE BLK0. (%s)", esp_err_to_name(ret));
+  }
+  else{
+    Serial.printf("MAC %02X%02X%02X%02X%02X%02X\n", mac[0], mac[1], mac[2], mac[3], mac[4], mac[5]+2);
+  }
 }
