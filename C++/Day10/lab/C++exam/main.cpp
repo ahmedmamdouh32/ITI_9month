@@ -1,52 +1,33 @@
+// CollegeCourse Class
 #include <iostream>
-
+#include<string.h>
 using namespace std;
 
-class parent{
-    int age;
+class parent {
+
+
+        static int z;
 
 
 public :
+    int y;
 
-
-    parent(){
-        age = 50;
-        cout<<"Iam the default constructor"<<endl;
-    }
-
-    parent(parent& P1){
-        age = P1.age;
-        cout<<"Iam the copy constructor"<<endl;
-    }
-
-
-void setAge(int n){
-    age = n;
-}
-int getAge(){
-    return age;
-}
-
+	parent() {
+		y = 0;
+		cout<<z;
+	}
+	parent(int n)
+	{
+		y = n;
+	}
 };
 
-void show(parent& p){
-    cout<<"Iam the show function"<<p.getAge()<<endl;
-}
-
-int main(){
-
-parent P1;
-//parent P2 = P1;
-show(P1);
+int parent::z = 0;
 
 
+int main() {
 
-
-
-
-
-
-
-return 0;
-
+parent* p1 = new parent(5);
+cout<<p1->y;
+    return 0;
 }
