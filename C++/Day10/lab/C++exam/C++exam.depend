@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1762808861 source:c:\users\adminstrator\documents\iti_9months\c++\day10\lab\c++exam\main.cpp
+1764164281 source:c:\users\adminstrator\documents\iti_9months\c++\day10\lab\c++exam\main.cpp
 	<iostream>
-	<string.h>
+	<vector>
+	<algorithm>
 
