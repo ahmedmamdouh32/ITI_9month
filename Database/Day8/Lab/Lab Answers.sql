@@ -1,5 +1,12 @@
-
-	where SC.Grade >= 50;
+--1-Create a view that displays student full name, course name if the student has a grade more than 50. 
+alter view V1
+as
+select S.St_Fname,S.St_Lname,C.Crs_Name
+from Student S inner join Stud_Course SC
+	on S.St_Id = SC.St_Id
+	inner join Course C
+	on C.Crs_Id = SC.Crs_Id
+	where sc.Grade > 50
 
 
 --2.	 Create an Encrypted view that displays manager names and the topics they teach. create view vstudent
@@ -50,7 +57,6 @@ from Employee E inner join Works_for WF
 	on P.Pnumber = WF.Pno
 
 	group by(P.Pname)
-
 
 
 --6.	Create index on column (Hiredate) that allow u to cluster the data in table Department. 
