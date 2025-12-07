@@ -1,0 +1,259 @@
+Tags
+-- Opening Closing Tag - Paired Tags - nested tags
+--- <tag name> content </tag name>
+-- Self Closing Tag - Unpaired Tags - empty tags
+--- <tag name > or
+---  <tag name/>
+
+Attributes
+1- Global Attributes
+-- id - class - title - style
+2- Element Attributes (Specific)
+-- src - href
+
+
+SEO
+-- Search engine optimization
+rules
+
+
+
+
+<!-- Root element -->
+<html>
+    <head>
+        <title>First Web Page</title>
+        <link rel="shortcut icon" href="coffee.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <meta name="description" content="This is my first web page">
+        <meta name="keywords" content="sport football basketball">
+        <meta name="author" content="Sara Omran">
+
+    </head>
+    <body>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam veritatis ullam natus consequuntur dolore voluptate mollitia eos quos error, officia modi maiores perferendis quidem vitae iure totam aut doloribus asperiores.</p>
+    </body>
+</html>
+
+
+
+not support arabic language
+<meta charset="iso-8859-1">
+
+
+
+Heading
+
+
+ <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+
+paragraph
+<p></p>
+
+
+<pre>
+<code>
+
+<pre>
+<code>
+    if(x > y)
+        console.log("x is greater than y")
+    else
+        console.log("y is greater than x")
+
+</code>
+</pre>
+
+
+Entities
+
+&nbsp;
+&emsp;
+&copy;
+&Longrightarrow;
+
+
+-------------------
+Absolute path 
+not work with live server
+<img src="D:\Intake 46\Html\Day1\coffee.jpg" alt="">
+
+Relative Path
+
+<img src="./images/coffee.jpg" alt="" width="200px" height="200px">
+
+   
+<img src="D:\Intake 46\Html\Day1\images/coffee.jpg" alt="">
+<!-- <img src="./images/coffee.jpg" alt="" width="200px" height="200px"> -->
+<!-- <img src="../images/coffee.jpg" alt="" width="200px" height="200px"> -->
+ <img src="https://i.pinimg.com/1200x/a2/49/c2/a249c25a48a998064720bd7254802e90.jpg" alt="Decoration image" width="200px" height="200px" title="Decore">
+
+
+
+ ----------------------------
+ link
+    
+<a href="https://www.google.com" target="_blank">Google</a>
+
+<a href="mailto:kareem@gmail.com?subject=Full stack developer App?cc=maged@gmail.com?bcc=yousef@gmail.com">Full stack app</a>
+
+
+    <a href="../about.html">About</a>
+    <a href="#contact">Contact</a>
+    <a href="../about.html#mark">Mark</a>
+
+    -----------------------------------
+    formatting text
+    <p><b>Bold Text</b></p>
+<p><strong>Bold Text</strong></p>
+
+
+<p>Lorem ipsum, dolor sit <del>amet</del> </p>
+<p><del>100$</del> 70$</p>
+<p>Lorem ipsum, dolor sit <s>amet</s> </p>
+
+
+<p>Lorem, ipsum dolor <i>Italic</i> sit amet consectetur adipisicing elit.</p>
+<p>Lorem, ipsum dolor <em>Italic</em> sit amet consectetur adipisicing elit.</p>
+
+<p>Lorem, ipsum dolor sit <u>underline</u> consectetur adipisicing elit.</p>
+<p>Lorem ipsum dolor <ins>inserted text</ins> amet.</p>
+
+<p>Lorem ipsum dolor sit amet <mark>mark</mark> consectetur adipisicing elit.</p>
+<p>Lorem, ipsum <small>small</small> sit amet consectetur adipisicing elit.</p>
+<p>h <sub>2</sub> O</p>
+
+<p>2 <sup>2</sup> =4</p>
+---------------------------------
+Elements type
+--Block elements
+-- inline elements
+--------------------------------
+lists
+-ul
+
+
+<ul type="circle">
+<li>html
+    <ul>
+        <li>Tags</li>
+        <li>Attributes</li>
+        <li>Form</li>
+    </ul>
+</li>
+
+<li>css</li>
+<li>js</li>
+</ul>
+
+-ol
+-Nested list
+
+<ol type="I">
+    <li>html
+        <ul>
+            <li>Tags</li>
+            <li>Attribute</li>
+            <li>Tables</li>
+        </ul>
+    </li>
+    <li>css</li>
+<li>Js</li>
+<li>bootstrap</li>
+</ol>
+
+-dl
+
+<dl>
+    <dt>Html</dt>
+    <dd>Hypertext Markup Language</dd>
+
+    <dt>Css</dt>
+    <dd>Cascading stylesheet</dd>
+</dl>
+
+
+
+
+------------------------------
+div
+hr
+br
+button
+
+
+<span>Lorem ipsum dolor sit amet consectetur adipisicing.</span>
+<br> 
+
+<hr>
+<span>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span>
+
+
+-----------------------
+Form
+Field set legend
+radio
+checkbox
+
+
+
+<form   method="get">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+
+    <label >Email
+            <input type="email" name="email">
+
+    </label>
+
+    <!-- <textarea name="" id=""></textarea> <br> -->
+
+    <input type="radio" name="gender" id="" value="male">Male
+    <input type="radio" name="gender" id="" value="female">FeMale
+
+    <input type="checkbox" name="" id="" value="book1">Book1
+    <input type="checkbox" name="" id=""> Book 2
+    <input type="checkbox" name="" id="">Book 3
+
+    <input type="color" name="" id="">
+    <input type="date" name="" id="">
+
+    <!-- <input type="submit" value="Submit"> -->
+    <!-- <button>Submit</button> -->
+     <!-- <input type="button" value="submit"> -->
+      <button>Submit</button>
+
+</form>
+
+<!-- <button>Submit</button> -->
+------------------
+    <fieldset>
+        <legend>Form 1</legend>
+
+        <form   method="get">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+
+    <label >Email
+            <input type="email" name="email">
+
+    </label>
+
+      <button>Submit</button>
+
+</form>
+    </fieldset>
+
+-----------------------------
+
+Table
+
+colspan
+rowspan  - self study
