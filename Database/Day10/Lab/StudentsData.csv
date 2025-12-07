@@ -1,0 +1,14 @@
+﻿1,Ahmed,"Hassan    ",Cairo,20,10,NULL
+2,Amr,"Magdy     ",Cairo,21,10,1
+3,Mona,"Saleh     ",Cairo,22,10,1
+4,Ahmed,"Mohamed   ",Alex,9,10,1
+5,Khalid,"Moahmed   ",Alex,24,10,1
+6,Heba,"Farouk    ",Mansoura,30,20,NULL
+7,Ali,"Hussien   ",Cairo,25,20,1
+8,Mohamed,"Fars      ",Alex,28,20,1
+9,Saly,"Ahmed     ",Mansoura,29,30,NULL
+10,Fady,"Ali       ",Alex,18,30,9
+12,Noha,"Omar      ",Cairo,11,40,NULL
+120,ahmed,"mamdouh   ",benha-bate,27,NULL,NULL
+121,ahmed,"mamdouh   ",benha-bate,23,NULL,NULL
+100000,NULL,NULL,NULL,NULL,NULL,NULL
