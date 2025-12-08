@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+}
+
+
+.first_paragraph{
+    text-align: center;
+    margin: 12px;
+    width: 80%;
+    /* position: relative;
+    left: 10%; */
+    margin:10px  auto;
+
+}
+
+.computers_imgs{
+    width: 215px;
+    height:150px;
+    margin : 30px;
+
+}
+
+.computers_img_dev{
+    /* align-content: center; */
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.computers_imgs_paragraph{
+    color:rgb(255, 162, 0);
+    font-size: 12px;
+    text-align: right;
+    position:relative;
+    right:10%
+}
+
+.computer_and_text{
+    display: inline;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.text_under_image{
+    margin: 0;
+    width: 150px; 
+    font-size:10px;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Read_More_text{
+    color: rgb(255, 162, 0);
+    font-size: 8px;
+    margin-left: 50px;  /* problem here <<<<>>>>> */
+}
+
+.four_divs_to_be_inline{
+    text-align: center;
+    margin: 50px;
+}
+
+.text_next_to_image{
+    margin : 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+
+
+.image_and_text_div{
+    display: inline-block;
+}
+
+
+
+
+.footer_div{
+    width: 100%;
+    background-color: rgb(64, 62, 62);
+    color: grey;        
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    height: 30px;    
+    bottom:0px;
+    position:relative; 
+    text-align: center;    
+}
+
+
+.breakLine{
+width:80%;
+position: relative;
+left: 10%;
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
