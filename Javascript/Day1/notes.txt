@@ -1,0 +1,93 @@
+Agenda
+-- Data Types
+-- Operators
+-- Condition
+-- Looping
+-- Switch
+-- interact with user
+
+
+
+-----------------------------------------------
+
+1995 - Brendan Eich 10 -15 days  - mocha - livescript -  javascript  netscape - netscape navigator
+1996 - microsoft  internet explorer - jscript 
+1997 - ecma standard Ecma1
+1998 - Ecma2
+99 - ecma3
+2009 - ecma9
+2015 - ecma6
+2025 - ecma16
+------------------------------------------------
+Variables
+
+3+5=8
+
+-------------------------------------
+interpretation
+
+interpreter -> line by line
+
+
+---------------------------------------
+Js Engine 
+chrome - edge - v8
+spidermonkey - safari
+chakara - firef
+nitro 
+
+
+------------------------------------
+Data Types
+
+Primitive data Types     Reference Dattype
+number                     object
+string
+boolean
+null
+undefined
+symbol ()
+
+
+------------------------------
+
+Coercion
+string
+number
+
+--------------------
+NaN
+number + undefined 
+
+number - string
+
+Number(undefined)
+Number("sss")
+
+----------------------------
+Falsy values
+0
+false
+undefined
+null
+""
+
+
+
+|| &&
+
+
+||
+
+true || true -> true
+true || false -> true
+false || true -> true
+false || false -> false
+
+----------------------------
+
+&&
+true && true -> true
+true && false -> false
+false && true -> false
+false && false -> false
