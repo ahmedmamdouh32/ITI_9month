@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet1.css">
+</head>
+<body>
+    <div id ="userInputDiv">
+        <div class = "inputDiv"> 
+            <p class="inputDivPar">Enter Your Name</p>
+            <input name = "userData" value="Ahmed">
+            <p class="inputErrorPara" id="userNameError"></p>
+        </div>
+
+        <div class = "inputDiv"> 
+            <p class="inputDivPar">Enter Your Age</p>
+            <input name = "userData" value="23">
+            <p class="inputErrorPara" id="userAgeError" ></p>
+        </div> 
+        <button onclick="getUserData()">Submit</button>
+        <table id="studentsTable" border = 1px style="width: 50%;margin: auto;">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <!-- <tbody>
+                
+            </tbody> -->
+        </table>
+    </div>
+
+
+
+    <script src="script1.js"></script>
+</body>
+</html>

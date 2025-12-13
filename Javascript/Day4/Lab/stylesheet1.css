@@ -1,0 +1,46 @@
+#userInputDiv{
+    text-align: center;
+
+}
+.inputDiv{
+    padding: 6px;
+    margin: 6px 0px;
+}
+.inputDivPara{
+    display: inline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inputDiv input{
+    padding: 8px;
+    margin-top: -20px;
+    border-radius: 8px;
+    border-style: groove;
+}
+.inputErrorPara{
+    position:absolute;
+    color:red ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#userInputDiv button{
+    background-color: rgb(48, 163, 48);
+    color: white;
+    font-size: 16px;
+    border-radius: 22px;
+    margin : 16px 0px;
+    padding: 4px 12px;
+}
+
+
+#studentsTable button{
+    background-color: rgb(181, 11, 11);
+    color: white;
+    font-size: 12px;
+    border-radius: 22px;
+    margin : 16px 0px;
+    padding: 4px ;
+
+}
+
+

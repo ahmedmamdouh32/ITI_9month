@@ -1,0 +1,47 @@
+.container{
+    margin: 12px;
+    padding: 20px;
+    text-align: center;
+}
+.container div{
+    display: inline-block;
+}
+.container button{
+    background-color: rgb(45, 152, 45);
+    color: white;
+}
+.container input{
+    margin:2px;
+
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode p{
+    color: burlywood;
+}
+
+.dark-mode input {
+    background-color: #1e1e1e;
+    color: gold;
+    border-color: #4c4c4a;
+}
+.dark-mode button{
+    background-color: burlywood;
+    /* color: ; */
+    color:black;
+}
+
+
+
