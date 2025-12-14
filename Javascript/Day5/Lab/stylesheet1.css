@@ -1,0 +1,44 @@
+.images_container{
+    border: 2px solid green;
+    width: 60%;
+    margin: auto;
+    text-align: center; /*for buttons centering */
+    position: relative;
+
+}
+
+/* .images_container img{
+    width:100%;
+    text-align: center;
+    
+} */
+
+
+.buttons_container{
+    /* margin: 12px; */
+    text-align: center;
+    padding: 18px;
+    border: none;
+}
+.buttons_container button{
+    margin: 12px;
+    text-align: center;
+    padding: 12px;
+    background-color: white;
+    border: none;
+    cursor:pointer
+}
+.buttons_container img{
+    width:50px;
+    background-color: white;
+}
+
+.play_stop_buttons{
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 16px;
+    width: 130px;
+}
