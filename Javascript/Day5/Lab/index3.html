@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validator Game</title>
+    <link rel="stylesheet" href="stylesheet3.css">
+</head>
+<body>
+    <div>
+        <form  action="" method="GET" id="formID">
+            Name <input type="text" name="userName" id="userName">
+            <br>
+            Email <input type="email" name="Email" id="userEmail">
+            <br>
+            Password <input type="Password" name="password" id="userPassword">
+            <br>
+            Gender
+            <input type="radio" value="male" name="userGender">Male
+            <input type="radio" value="female" name="userGender">Female 
+            <br>
+            Sports 
+            <input type="checkbox" value="Tennis" name="userSports">Tennis
+            <input type="checkbox" value="Running" name="userSports">Running
+            <input type="checkbox" value="Football" name="userSports">Football<br>
+            Country <select id="userCountry">
+                <option>Select</option>
+                <option>Egypt</optionvalue>
+                <option>Morocco</option>
+                <option>Tunisia</option>
+            </select>
+            <br>
+            <button type="button" id="buttonSubmit">Submit</button>
+            <button type="button" id="buttonClear">Clear</button>
+            <p id="ValidationStatement"></p>
+
+        </form>
+    </div>
+    <script src="script3.js"></script>
+</body>
+</html>

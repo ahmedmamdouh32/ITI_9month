@@ -1,0 +1,29 @@
+#formID{
+width:300px ;
+height: 300px;
+position: relative;
+}
+
+#formID input{
+    margin: 6px;
+    padding: 6px;
+}
+
+#formID p{
+    color: red;
+}
+#formID button{
+    margin:8px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+}
+
+#formID button[id ="buttonSubmit"]{
+    background-color: green;
+}
+
+#formID button[id ="buttonClear"]{
+    background-color: red;
+}

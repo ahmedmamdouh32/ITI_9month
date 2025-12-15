@@ -1,0 +1,42 @@
+.info{
+    background-color: blue;
+}
+
+.test{
+    color: white;
+}
+
+.jsClass{
+    background-color: red;
+    padding: 2rem;
+}
+
+
+.first{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+    color: white;
+}
+
+
+.second{
+    width: 150px;
+    height: 300px;
+    background-color: blue;
+    color: white;
+}
+
+
+.third{
+    width: 100px;
+    height: 200px;
+    background-color: rgb(23, 172, 23);
+    color: white;
+}
+.another{
+     width: 120px;
+    height: 220px;
+    background-color: rgb(144, 21, 125);
+    color: white;
+}

@@ -1,0 +1,25 @@
+-- Bom
+--- Browser Object Model
+
+-- open
+-- close 
+-- resize to
+-- resize by
+-- move to
+-- move by
+
+-----------------------
+setTimeOut
+
+setInterval
+
+
+--------------
+self study - screen object
+
+-----------------
+
+Events
+
+--inline event
+-- attach Function

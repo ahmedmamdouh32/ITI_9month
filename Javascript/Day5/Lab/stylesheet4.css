@@ -1,0 +1,18 @@
+#container{
+    text-align: center;
+}
+
+#container div{
+    width: 200px;
+    background-color: rgb(157, 157, 157);
+    height: 200px;
+    display: inline-block;
+    border-radius: 100px;
+    margin: 12px;
+}
+
+#statusWord{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,43 +1,23 @@
-redLED = document.getElementById("redLED");
-orangeLED = document.getElementById("orangeLED");
-greenLED = document.getElementById("greenLED");
-statusWord = document.getElementById("statusWord")
-var LEDsNames = ['r','o','g'];
-var currentLedIndex = 0;
-var currentLED;
-var offColor = `rgb(${157},${157},${157})`;
-var timeoutEventHandler = setInterval(function(){
-    openLED(LEDsNames[currentLedIndex]);
-    currentLedIndex === LEDsNames.length-1 ? currentLedIndex = 0 : currentLedIndex++;
-},1000);
+var messageButton = document.getElementById("messageButton");
+var newWindowHandler;
+var timeIntervalHandler;
+var sentence = "This is Ahmed Mamdouh from track Professional Development & BI-Infused CRM -ITI-";
+var currentCharIndex=0;
+messageButton.addEventListener("click",function(){
+    newWindowHandler = open("","_blank" ,"width=600px,height=200px"); 
+    timeIntervalHandler = setInterval(() => addCharacter(sentence[currentCharIndex]), 100);
+});
 
-
-
-function openLED(LEDName){
-    switch(LEDName)
+function addCharacter(char){
+    if(newWindowHandler !== 'undefined')
     {
-        
-        case 'r':
-            redLED.style.backgroundColor="red";
-            orangeLED.style.backgroundColor=offColor;
-            greenLED.style.backgroundColor=offColor;
-            statusWord.style.color = "red";
-            statusWord.textContent = "Stop";
-            break;
-        case 'o':
-            redLED.style.backgroundColor=offColor;
-            orangeLED.style.backgroundColor="orange";
-            greenLED.style.backgroundColor=offColor;
-            statusWord.style.color = "orange";
-            statusWord.textContent = "Steady";
-            break;
-        case 'g':
-            redLED.style.backgroundColor=offColor;
-            orangeLED.style.backgroundColor=offColor;
-            greenLED.style.backgroundColor="green";
-            statusWord.style.color = "green";
-            statusWord.textContent = "Go";
-            break;
+        newWindowHandler.document.write(char);
+        currentCharIndex === sentence.length-1 ? clearInterval(timeIntervalHandler) : currentCharIndex++;
     }
-
+    else
+    {
+        console.log("the page is not opened yet");
+    }
 }
+
+
