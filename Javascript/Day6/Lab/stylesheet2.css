@@ -1,0 +1,18 @@
+#UsersButton{
+    padding: 6px;
+    margin-bottom: 12px;
+    color: white;
+    background-color: rgb(0, 145, 255);
+    font-size: 22px;
+    border-radius: 12px;
+    width: 30%;
+    cursor: pointer;
+}
+
+
+.view-details-cell{
+    color: rgb(255, 132, 0);
+    text-align: center;
+    text-decoration-line:underline;
+    cursor: pointer;
+}

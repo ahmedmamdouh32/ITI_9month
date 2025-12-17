@@ -10,7 +10,7 @@ function showResults(){
     console.log(nameNumber);
 
     var resultStatament = document.getElementById("lastP");
-    resultStatament.innerText=`Number of ${userInput[0].value} : ${tagsNumbers}, Class ${userInput[1].value} : ${classNumbres},ID : ${idStatus},Name: ${nameNumber}`;
+    resultStatament.innerText=`Number of ${userInput[0].value} : ${tagsNumbers}, Class ${userInput[1].value} : ${classNumbres}, ID : ${idStatus}, Name: ${nameNumber}`;
 
 }
 
@@ -19,3 +19,6 @@ function showResults(){
 function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
 }
+
+f1 = (a,b) => (a+b);
+console.log(f1(2,0))
