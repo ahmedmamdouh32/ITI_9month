@@ -23,16 +23,8 @@ function SumN(n1,n2,n3,n4){
 
     }
     else if(isNaN(n1) + isNaN(n2)+ isNaN(n3)+ isNaN(n4) > 0){
-        throw "invalid iput datatype";
+        throw "invalid input datatype";
     }
 
     return n1+n2+n3+n4;
-}
-
-
-SumN(1,2,3,"5")
-
-var obj = {
-    Name : "ahmed",
-    age : 23
 }
