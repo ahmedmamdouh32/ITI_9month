@@ -1,0 +1,15 @@
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\bin\Debug\net10.0\Task2.exe
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\bin\Debug\net10.0\Task2.deps.json
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\bin\Debug\net10.0\Task2.runtimeconfig.json
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\bin\Debug\net10.0\Task2.dll
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\bin\Debug\net10.0\Task2.pdb
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\obj\Debug\net10.0\Task2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\obj\Debug\net10.0\Task2.AssemblyInfoInputs.cache
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\obj\Debug\net10.0\Task2.AssemblyInfo.cs
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\obj\Debug\net10.0\Task2.csproj.CoreCompileInputs.cache
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\obj\Debug\net10.0\Task2.sourcelink.json
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\obj\Debug\net10.0\Task2.dll
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\obj\Debug\net10.0\refint\Task2.dll
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\obj\Debug\net10.0\Task2.pdb
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\obj\Debug\net10.0\Task2.genruntimeconfig.cache
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day3\Lab\Task2\obj\Debug\net10.0\ref\Task2.dll
