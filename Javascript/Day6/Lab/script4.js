@@ -1,21 +1,17 @@
-/**
- * @param {Object|Array} obj
- * @return {boolean}
- */
+var join = function(arr1, arr2) {
+  const combinedArray = arr1.concat(arr2);
+  const merged = {};
 
-var obj = {
-
-}
-console.log(Object.keys(obj).length);
-console.log(obj.isEmpty)
-
-var isEmpty = function(obj) {
-    if(Object.keys(obj).length > 0){
-        return true;
+  combinedArray.forEach((obj) => {
+    const id = obj.id;
+    if (!merged[id]) {
+      merged[id] = { ...obj };
+    } else {
+      merged[id] = { ...merged[id], ...obj };
     }
-    else{
-        return false;
-    }
+  });
+
+  return Object.values(merged)
 };
 
-console.log(isEmpty(obj));
+Array.binar
