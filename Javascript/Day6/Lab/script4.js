@@ -1,17 +1,13 @@
-var join = function(arr1, arr2) {
-  const combinedArray = arr1.concat(arr2);
-  const merged = {};
+var num = 0;
 
-  combinedArray.forEach((obj) => {
-    const id = obj.id;
-    if (!merged[id]) {
-      merged[id] = { ...obj };
-    } else {
-      merged[id] = { ...merged[id], ...obj };
-    }
-  });
+switch(num){
+    case false:
+        console.log("false");
+        break;
+    case '0':
+        console.log("zero");
+        break;
+    default:
+        console.log("default");
 
-  return Object.values(merged)
-};
-
-Array.binar
+}
