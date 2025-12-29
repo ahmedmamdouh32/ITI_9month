@@ -1,0 +1,12 @@
+Log message
+12/29/2025 2:37:38 PM, Message : Invalid Day Value : 33, Source : problemSolving
+12/29/2025 2:37:51 PM, Message : Invalid Month Value : 33, Source : problemSolving
+12/29/2025 2:38:10 PM, Message : Invalid Year Value : -12, Source : problemSolving
+12/29/2025 2:38:18 PM, Message : Invalid Employee ID Value : -2, Source : problemSolving
+12/29/2025 2:38:26 PM, Message : Invalid Employee Salary Value : -232, Source : problemSolving
+The input string '' was not in a correct format.
+The input string '' was not in a correct format.
+The input string '' was not in a correct format.
+The input string '' was not in a correct format.
+The input string '' was not in a correct format.
+12/29/2025 3:48:53 PM, Message : Invalid Month Value : 32, Source : Task1

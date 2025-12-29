@@ -1,0 +1,15 @@
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\bin\Debug\net10.0\Task2_day5.exe
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\bin\Debug\net10.0\Task2_day5.deps.json
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\bin\Debug\net10.0\Task2_day5.runtimeconfig.json
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\bin\Debug\net10.0\Task2_day5.dll
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\bin\Debug\net10.0\Task2_day5.pdb
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\obj\Debug\net10.0\Task2_day5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\obj\Debug\net10.0\Task2_day5.AssemblyInfoInputs.cache
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\obj\Debug\net10.0\Task2_day5.AssemblyInfo.cs
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\obj\Debug\net10.0\Task2_day5.csproj.CoreCompileInputs.cache
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\obj\Debug\net10.0\Task2_day5.sourcelink.json
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\obj\Debug\net10.0\Task2_day5.dll
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\obj\Debug\net10.0\refint\Task2_day5.dll
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\obj\Debug\net10.0\Task2_day5.pdb
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\obj\Debug\net10.0\Task2_day5.genruntimeconfig.cache
+C:\Users\adminstrator\Documents\ITI_9Months\ProblemSolving\Solving C#\Task2_day5\obj\Debug\net10.0\ref\Task2_day5.dll
