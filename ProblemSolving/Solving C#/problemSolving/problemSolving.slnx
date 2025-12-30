@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/Solution Items/" />
+  <Project Path="../leetcode/leetcode.csproj" Id="d7439fd6-a7db-4dc6-94b2-5b64f68a3976" />
   <Project Path="../Task2_day5/Task2_day5.csproj" Id="2bd6c53b-ad25-490c-9d9d-0acb5441a7aa" />
   <Project Path="problemSolving.csproj" />
 </Solution>

@@ -3,11 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ProblemSolving\\Solving C#\\problemSolving\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BD6C53B-AD25-490C-9D9D-0ACB5441A7AA}|..\\Task2_day5\\Task2_day5.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\problemsolving\\solving c#\\task2_day5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D7439FD6-A7DB-4DC6-94B2-5B64F68A3976}|..\\leetcode\\leetcode.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\problemsolving\\solving c#\\leetcode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B588A56F-FF3A-BEBD-C881-87DF44B85BC1}|problemSolving.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\problemsolving\\solving c#\\problemsolving\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B588A56F-FF3A-BEBD-C881-87DF44B85BC1}|problemSolving.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B588A56F-FF3A-BEBD-C881-87DF44B85BC1}|problemSolving.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\problemsolving\\solving c#\\problemsolving\\problemsolving.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B588A56F-FF3A-BEBD-C881-87DF44B85BC1}|problemSolving.csproj|solutionrelative:problemsolving.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD6C53B-AD25-490C-9D9D-0ACB5441A7AA}|..\\Task2_day5\\Task2_day5.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\problemsolving\\solving c#\\task2_day5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +30,39 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ProblemSolving\\Solving C#\\leetcode\\Program.cs",
+              "RelativeDocumentMoniker": "..\\leetcode\\Program.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ProblemSolving\\Solving C#\\leetcode\\Program.cs*",
+              "RelativeToolTip": "..\\leetcode\\Program.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowC4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T16:21:17.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "problemSolving.csproj",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ProblemSolving\\Solving C#\\problemSolving\\problemSolving.csproj",
+              "RelativeDocumentMoniker": "problemSolving.csproj",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ProblemSolving\\Solving C#\\problemSolving\\problemSolving.csproj",
+              "RelativeToolTip": "problemSolving.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-29T13:48:18.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ProblemSolving\\Solving C#\\Task2_day5\\Program.cs",
               "RelativeDocumentMoniker": "..\\Task2_day5\\Program.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ProblemSolving\\Solving C#\\Task2_day5\\Program.cs*",
-              "RelativeToolTip": "..\\Task2_day5\\Program.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ProblemSolving\\Solving C#\\Task2_day5\\Program.cs",
+              "RelativeToolTip": "..\\Task2_day5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T12:58:43.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-29T12:58:43.59Z"
             },
             {
               "$type": "Document",
@@ -40,7 +72,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ProblemSolving\\Solving C#\\problemSolving\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAlwLwAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T20:36:48.776Z",
               "EditorCaption": ""
