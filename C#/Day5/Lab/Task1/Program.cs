@@ -150,10 +150,6 @@
             {
                 return $"ID : {_id}, Salary : {String.Format("{0:C}", _salary)}, Hire Date : {_hireDate.ToString()}";
             }
-
-
-
-
         }
 
         static void Main(string[] args)

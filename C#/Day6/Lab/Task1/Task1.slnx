@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="../../../../../../Downloads/Demo.cs" />
+    <File Path="../../../../../../Downloads/Demo2.cs" />
+  </Folder>
+  <Project Path="Task1.csproj" />
+</Solution>

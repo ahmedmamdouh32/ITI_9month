@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day6\\Lab\\Task1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BA8F0B81-7930-471C-9F7C-E4D6679FE5B2}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day6\\lab\\task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA8F0B81-7930-471C-9F7C-E4D6679FE5B2}|Task1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day6\\Lab\\Task1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day6\\Lab\\Task1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-02T11:13:26.55Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

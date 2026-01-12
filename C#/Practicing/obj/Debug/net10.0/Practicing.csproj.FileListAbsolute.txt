@@ -1,0 +1,15 @@
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\bin\Debug\net10.0\Practicing.exe
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\bin\Debug\net10.0\Practicing.deps.json
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\bin\Debug\net10.0\Practicing.runtimeconfig.json
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\bin\Debug\net10.0\Practicing.dll
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\bin\Debug\net10.0\Practicing.pdb
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\obj\Debug\net10.0\Practicing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\obj\Debug\net10.0\Practicing.AssemblyInfoInputs.cache
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\obj\Debug\net10.0\Practicing.AssemblyInfo.cs
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\obj\Debug\net10.0\Practicing.csproj.CoreCompileInputs.cache
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\obj\Debug\net10.0\Practicing.sourcelink.json
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\obj\Debug\net10.0\Practicing.dll
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\obj\Debug\net10.0\refint\Practicing.dll
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\obj\Debug\net10.0\Practicing.pdb
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\obj\Debug\net10.0\Practicing.genruntimeconfig.cache
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Practicing\obj\Debug\net10.0\ref\Practicing.dll

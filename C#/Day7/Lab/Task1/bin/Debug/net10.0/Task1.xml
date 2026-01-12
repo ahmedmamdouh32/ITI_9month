@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Task1</name>
+    </assembly>
+    <members>
+        <member name="T:Task1.Program.Gender">
+            <summary>
+            Enum to represent Gender type
+            </summary>
+        </member>
+        <member name="T:Task1.Program.SecurityLevel">
+            <summary>
+            Enum for Security levels with flags
+            </summary>
+        </member>
+        <member name="T:Task1.Program.WrongDayException">
+            <summary>
+            Exception for entering wrong day value
+            </summary>
+        </member>
+        <member name="T:Task1.Program.Date">
+            <summary>
+            Structure to represent Date
+            </summary>
+        </member>
+        <member name="M:Task1.Program.Employee.#ctor(System.Int32,System.Decimal,Task1.Program.Date,Task1.Program.Gender,Task1.Program.SecurityLevel)">
+            <summary>
+            Employee constructor that recieves all values of class's attributes
+            </summary>
+            <param name="ID"></param>
+            <param name="Salary"></param>
+            <param name="HireDate"></param>
+            <param name="gender"></param>
+            <param name="securityLevel"></param>
+        </member>
+    </members>
+</doc>

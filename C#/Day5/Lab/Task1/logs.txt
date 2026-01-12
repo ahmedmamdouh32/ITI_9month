@@ -1,1 +1,9 @@
 12/29/2025 3:49:38 PM, Message : Invalid Day Value : 123, Source : Task1
+The input string '' was not in a correct format.
+Requested value 'ewqe' was not found.
+Requested value 'malE' was not found.
+The input string 'qw' was not in a correct format.
+Requested value 'dba' was not found.
+Requested value 'guest, developer' was not found.
+The input string 'd' was not in a correct format.
+Requested value 'guest dba' was not found.
