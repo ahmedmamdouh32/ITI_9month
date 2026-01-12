@@ -9,6 +9,14 @@
       "Task1/1.0.0": {
         "runtime": {
           "Task1.dll": {}
+        },
+        "resources": {
+          "aa/Task1.resources.dll": {
+            "locale": "aa"
+          },
+          "en/Task1.resources.dll": {
+            "locale": "en"
+          }
         }
       }
     }

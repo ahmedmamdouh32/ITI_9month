@@ -3,16 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88B1E542-003D-4FB8-8390-F9CCC7D1C51E}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B1E542-003D-4FB8-8390-F9CCC7D1C51E}|Task1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B1E542-003D-4FB8-8390-F9CCC7D1C51E}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B1E542-003D-4FB8-8390-F9CCC7D1C51E}|Task1.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B1E542-003D-4FB8-8390-F9CCC7D1C51E}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{88B1E542-003D-4FB8-8390-F9CCC7D1C51E}|Task1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\studentslist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentslist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\models\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:models\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\studentdetails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentdetails.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\addstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:addstudent.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +74,195 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAApwB4AAAAeAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAIA7wBIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T09:14:04.237Z",
+              "WhenOpened": "2026-01-12T09:13:59.127Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Title": "StudentsList.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.cs",
+              "RelativeDocumentMoniker": "StudentsList.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.cs",
+              "RelativeToolTip": "StudentsList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T09:13:59.127Z",
+              "WhenOpened": "2026-01-12T21:51:55.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "Title": "StudentDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentDetails.cs",
+              "RelativeDocumentMoniker": "StudentDetails.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentDetails.cs [Design]",
+              "RelativeToolTip": "StudentDetails.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T09:06:53.898Z",
+              "WhenOpened": "2026-01-12T22:27:21.318Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentDetails.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentDetails.cs",
+              "RelativeDocumentMoniker": "StudentDetails.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentDetails.cs",
+              "RelativeToolTip": "StudentDetails.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAlwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T22:19:50.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentsList.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.Designer.cs",
+              "RelativeDocumentMoniker": "StudentsList.Designer.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.Designer.cs",
+              "RelativeToolTip": "StudentsList.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T21:52:16.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentsList.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.cs",
+              "RelativeDocumentMoniker": "StudentsList.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.cs [Design]",
+              "RelativeToolTip": "StudentsList.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T21:49:35.005Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\models\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "models\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\models\\StudentRepository.cs",
+              "RelativeToolTip": "models\\StudentRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T22:37:50.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddStudent.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\AddStudent.cs",
+              "RelativeDocumentMoniker": "AddStudent.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\AddStudent.cs [Design]",
+              "RelativeToolTip": "AddStudent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T23:00:16.771Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainForm.cs [Design - English]",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\MainForm.cs [Design - English]",
+              "RelativeToolTip": "MainForm.cs [Design - English]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:45:33.272Z",
+              "EditorCaption": " [Design - English]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\MainForm.Designer.cs",
+              "RelativeToolTip": "MainForm.Designer.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:43:54.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T21:51:35.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentDetails.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentDetails.Designer.cs",
+              "RelativeDocumentMoniker": "StudentDetails.Designer.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentDetails.Designer.cs",
+              "RelativeToolTip": "StudentDetails.Designer.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwEoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T22:25:31.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\models\\Student.cs",
+              "RelativeDocumentMoniker": "models\\Student.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\models\\Student.cs",
+              "RelativeToolTip": "models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T22:20:10.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddStudent.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\AddStudent.Designer.cs",
+              "RelativeDocumentMoniker": "AddStudent.Designer.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\AddStudent.Designer.cs",
+              "RelativeToolTip": "AddStudent.Designer.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAEwFgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T18:46:37.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddStudent.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\AddStudent.cs",
+              "RelativeDocumentMoniker": "AddStudent.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\AddStudent.cs",
+              "RelativeToolTip": "AddStudent.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:46:21.448Z",
+              "EditorCaption": ""
             }
           ]
         }

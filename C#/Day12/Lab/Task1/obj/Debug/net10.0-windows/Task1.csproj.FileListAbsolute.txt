@@ -3,7 +3,6 @@ C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\bin\Debug\net10.0
 C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\bin\Debug\net10.0-windows\Task1.runtimeconfig.json
 C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\bin\Debug\net10.0-windows\Task1.dll
 C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\bin\Debug\net10.0-windows\Task1.pdb
-C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\Task1.Form1.resources
 C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\Task1.csproj.GenerateResource.cache
 C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\Task1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\Task1.AssemblyInfoInputs.cache
@@ -15,3 +14,14 @@ C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0
 C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\Task1.pdb
 C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\Task1.genruntimeconfig.cache
 C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\ref\Task1.dll
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\Task1.AddStudent.resources
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\Task1.MainForm.resources
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\Task1.Properties.Resources.resources
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\Task1.MainForm.aa.resources
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\Task1.MainForm.en.resources
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\bin\Debug\net10.0-windows\aa\Task1.resources.dll
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\bin\Debug\net10.0-windows\en\Task1.resources.dll
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\aa\Task1.resources.dll
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\en\Task1.resources.dll
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\Task1.StudentsList.resources
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Day12\Lab\Task1\obj\Debug\net10.0-windows\Task1.StudentDetails.resources
