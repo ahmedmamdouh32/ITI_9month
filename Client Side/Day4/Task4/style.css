@@ -1,0 +1,20 @@
+.box{
+    text-align: center;
+    border: 4px black;
+    border-style: solid;
+    width: 300px;
+    height:300px;
+    img{
+        width:30%;
+    }
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.big-box{
+    text-align: center;
+    display: inline-block;
+}
+
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main"></div>
+    <p>Select Your Language</p>
+    <input type="radio" name="lang" value="AR"> Arabic
+    <input type="radio" name="lang" value="EN"> English
+    <input type="button" value="Select" onclick="SelectLanguage()">
+    <br>
+
+    <div class="controls">
+        <video id="videoSource">
+            <source src="resources/video.mp4" type="video/mp4">
+            <track id="captionEn" label="English" kind="subtitles" srclang="en" src="resources/englishCaption.vtt">
+            <track id="captionAr" label="Arabic" kind="subtitles" srclang="ar" src="resources/arabicCaption.vtt">
+        </video>
+        <div class="time-slider">
+            <input type="range" min="0" value="0" step="1" id="timeSlider">
+            <br>
+            <span id="videoCurrentTime">0:00</span>
+            <span>/</span>
+            <span id="videoFullTime">0:00</span>
+        </div>
+        <br>
+        <input type="button" value="Play" id="startVideoBtn">
+        <input type="button" value="Pause" id="pauseVideoBtn">
+        <input type="button" value="Show Caption" id="showCaptionVideoBtn">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

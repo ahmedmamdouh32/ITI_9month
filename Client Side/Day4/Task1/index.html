@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Map</title>
+
+    <script src="script.js" defer></script>
+
+    <style>
+        /* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+        #map {
+            height: 80%;
+            /* position: absolute; */
+            /* top: 120px; */
+        }
+
+        /* 
+ * Optional: Makes the sample page fill the window. 
+ */
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <label for="language">Choose a country</label>
+
+    <select id="country" name="language">
+        <option value="">-- Select --</option>
+        <option value="Egypt">Egypt</option>
+        <option value="Canada">Canada</option>
+        <option value="cpp">France</option>
+    </select>
+
+
+    <!-- 
+      The `defer` attribute causes the script to execute after the full HTML
+      document has been parsed. For non-blocking uses, avoiding race conditions,
+      and consistent behavior across browsers, consider loading using Promises. See
+      https://developers.google.com/maps/documentation/javascript/load-maps-js-api
+      for more information.
+      -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&v=weekly"
+        defer></script>
+
+</body>
+
+</html>

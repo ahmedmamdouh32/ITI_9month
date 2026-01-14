@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<div class="main">
+		<p id="musicTitle">Music Title</p>
+		<audio src="resources/Aetheric - Snap Crackle.mp3" class="time-range" id="musicSource"></audio>
+
+		<input type="range"class="time-range" id="timeRange" step="1" min="0" value="0">
+		<p class="time-start" id="currentTime">0:00</p>
+		<p class="time-end" id="musicTime">0:00</p>
+		<div class="controls">
+			<button onclick="backAud()" id="backButton">
+				<img src="resources/back-button.png">
+			</button>
+			<button onclick="playAud()" id="playButton">
+				<img src="resources/play-button.png">
+			</button>
+			<button onclick="pauseAud()" id="pauseButton">
+				<img src="resources/stop-button.png">
+			</button>
+			<button onclick="nextAud()" id="nextButton">
+				<img src="resources/next-button.png">
+			</button>
+		</div>
+		<div class="volume-div">
+			<img src="resources/volume.png" class="volume-image">
+			<input type="range" id="volumeRange" min="0" max="1" step="0.01" value="1" class="volume-range">
+		</div>
+
+	</div>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>

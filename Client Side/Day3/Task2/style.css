@@ -1,0 +1,23 @@
+.controls {
+    text-align: center;
+    margin: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Video inside controls */
+.controls video {
+    width: 1000px;
+}
+
+/* Inputs inside controls */
+.controls input {
+    margin: 12px;
+    padding: 12px;
+}
+
+/* Time slider */
+#timeSlider {
+    width: 60%; /* now it works */
+}
