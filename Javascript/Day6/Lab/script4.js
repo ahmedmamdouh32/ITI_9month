@@ -1,64 +1,38 @@
-function Person(name) {
-    this.name = name;
-    this.printName = function(){
-        return this.name;
-    }
-}
-
-Person.prototype.sayHi = function () {
-    // console.log("Hi, I'm " + this.name);
-};
+// var person = {
+//     type: "human",
+//     sayHi() {
+//         console.log("السلام عليكم");
+//     }
+// };
 
 
 
-function Student(name, grade) {
-    Person.call(this, name); // inherit properties
-    this.grade = grade;
-}
+// var student = {
+//     username: "Hany"
+// }
+// Object.setPrototypeOf(student, person);
 
-Student.prototype = Object.create(Person.prototype);
-
-
-var st = new Student("Ahmed", "A");
-// console.log(st)
-
-
-
-var parent = {
-    sayHello : function()
-    {
-        return "Hello";
-    }
-}
-
-// console.log(parent.sayHello());
-
-
-var child = {
-Name : "Ahmed"
-}
-
-child.prototype = parent.prototype;
-
-// console.log(child.sayHello())
+// student.sayHi();
+// console.log(student.username);
 
 
 
 
-const person = {
-    type: "human",
+var A = {
     sayHi() {
-    console.log("Hi");
+        console.log("السلام عليكم");
     }
 };
-person.prototype.Name="ahmed";
 
-const student = Object.create(person);
-student.grade = "A";
+var B = {
+    tooLazy() {
+        console.log("Lazzzzzy");
+    }
+};
 
+var C = Object.create(B);
 
-console.log(person.type);
-console.log(person.prototype.Name);
-student.type = "animal";
-console.log(person.type);
+C.sayHi(); //undefined --> undefined() leads to an error!!.
 
+Object.setPrototypeOf(C, A);
+C.sayHi() //السلام عليكم

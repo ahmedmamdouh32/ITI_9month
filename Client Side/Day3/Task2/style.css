@@ -1,3 +1,10 @@
+.warning-hint{
+    text-align: center;
+}
+.warning-hint p{
+    color:red;
+}
+
 .controls {
     text-align: center;
     margin: 30px;
