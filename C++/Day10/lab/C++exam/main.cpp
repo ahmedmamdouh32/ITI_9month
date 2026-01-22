@@ -3,44 +3,38 @@
 #include<algorithm>
 using namespace std;
 
-int arraySum(int* arr, int n){
-    n--;
-    if(n < 0)
-        return 0;
-
-    return arr[n] + arraySum(arr, n);
-}
-
-
-
-void printArray(int* ptr, int n){
-    for(int i=0; i<n;i++){
-        cout<<*ptr<<" ";
-        ptr++;
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target){
+        for(int i=0 ; i <nums.size();i++){
+            cout<<nums[i]<<" ";
+        }
+        sort(nums.begin(),nums.end());
+        for(int i=0 ; i <nums.size();i++){
+            cout<<nums[i]<<" ";
+        }
+        vector<int> result;
+        int startIndex = 0;
+        int endIndex = nums.size()-1;
+        while(true){
+            int sum = nums[startIndex] + nums[endIndex];
+            if(sum > target) endIndex--;
+            else if(sum < target) startIndex++;
+            else {
+                result.push_back(startIndex);
+                result.push_back(endIndex);
+                return result;
+            }
+        }
+        return result;
     }
-    cout<<endl;
-}
-
-
-
-
-
-void insertionSort(int *ptr, int n) {
-	for (int i = 1; i < n;i++) {
-		for (int j = i ; j > 0; j--) {
-			if (ptr[j-1] > ptr[j]) {
-				swap(ptr[j-1], ptr[j]);
-			}
-			else break;
-		}
-	}
-}
-
+};
 
 int main()
 {
-   int arr[10] = {1,2,3,4,5,6,7,8,9,10}; //sum = 55
-   cout<<arraySum(arr,10);
+    vector<int> v = {4,3,2,1};
+    Solution s;
+   s.twoSum(v,12);
 
     return 0;
 
