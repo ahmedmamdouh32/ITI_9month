@@ -1,0 +1,10 @@
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADODay01\bin\Debug\ADODay01.exe.config
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADODay01\bin\Debug\ADODay01.exe
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADODay01\bin\Debug\ADODay01.pdb
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADODay01\obj\Debug\ADODay01.csproj.AssemblyReference.cache
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADODay01\obj\Debug\ADODay01.Properties.Resources.resources
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADODay01\obj\Debug\ADODay01.csproj.GenerateResource.cache
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADODay01\obj\Debug\ADODay01.csproj.CoreCompileInputs.cache
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADODay01\obj\Debug\ADODay01.exe
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADODay01\obj\Debug\ADODay01.pdb
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADODay01\obj\Debug\ADODay01.Form1.resources

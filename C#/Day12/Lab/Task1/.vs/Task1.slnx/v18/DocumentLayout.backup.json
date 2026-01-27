@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentslist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -27,11 +27,11 @@
       "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:models\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -94,7 +94,7 @@
               "RelativeDocumentMoniker": "StudentsList.cs",
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.cs",
               "RelativeToolTip": "StudentsList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T21:51:55.195Z",
               "EditorCaption": ""
@@ -108,8 +108,7 @@
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentDetails.cs [Design]",
               "RelativeToolTip": "StudentDetails.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T22:27:21.318Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-12T22:27:21.318Z"
             },
             {
               "$type": "Document",
@@ -121,8 +120,7 @@
               "RelativeToolTip": "StudentDetails.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAlwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T22:19:50.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T22:19:50.58Z"
             },
             {
               "$type": "Document",
@@ -134,8 +132,7 @@
               "RelativeToolTip": "StudentsList.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T21:52:16.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T21:52:16.396Z"
             },
             {
               "$type": "Document",
@@ -146,8 +143,7 @@
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.cs [Design]",
               "RelativeToolTip": "StudentsList.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T21:49:35.005Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-12T21:49:35.005Z"
             },
             {
               "$type": "Document",
@@ -159,8 +155,7 @@
               "RelativeToolTip": "models\\StudentRepository.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T22:37:50.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T22:37:50.27Z"
             },
             {
               "$type": "Document",
@@ -171,8 +166,7 @@
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\AddStudent.cs [Design]",
               "RelativeToolTip": "AddStudent.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T23:00:16.771Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-12T23:00:16.771Z"
             },
             {
               "$type": "Document",
@@ -183,8 +177,7 @@
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\MainForm.cs [Design - English]",
               "RelativeToolTip": "MainForm.cs [Design - English]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T19:45:33.272Z",
-              "EditorCaption": " [Design - English]"
+              "WhenOpened": "2026-01-12T19:45:33.272Z"
             },
             {
               "$type": "Document",
@@ -196,8 +189,7 @@
               "RelativeToolTip": "MainForm.Designer.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T19:43:54.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T19:43:54.914Z"
             },
             {
               "$type": "Document",
@@ -209,8 +201,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T21:51:35.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T21:51:35.687Z"
             },
             {
               "$type": "Document",
@@ -222,8 +213,7 @@
               "RelativeToolTip": "StudentDetails.Designer.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAgwEoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T22:25:31.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T22:25:31.105Z"
             },
             {
               "$type": "Document",
@@ -235,8 +225,7 @@
               "RelativeToolTip": "models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T22:20:10.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T22:20:10.916Z"
             },
             {
               "$type": "Document",
@@ -248,8 +237,7 @@
               "RelativeToolTip": "AddStudent.Designer.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAEwFgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T18:46:37.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T18:46:37.811Z"
             },
             {
               "$type": "Document",
@@ -261,8 +249,7 @@
               "RelativeToolTip": "AddStudent.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwBQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T19:46:21.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T19:46:21.448Z"
             }
           ]
         }

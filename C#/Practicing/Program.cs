@@ -5,47 +5,50 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace Practicing
 {
-    sealed class Logger:Parent
-    {
-        public void Log(string message)
-        {
-            Console.WriteLine(message);
-        }
-    }
-    class Parent
-    {
-        public virtual void Show()
-        {
-            Console.WriteLine("Parent Show");
-        }
-    }
 
-    class Child : Parent
+
+    public class Parent
     {
-        public virtual new void Show()
+        //public Parent()
+        //{
+        //    Console.WriteLine("parent is here");
+        //}
+        public Parent()
         {
-            Console.WriteLine("Child Show");
+            Console.WriteLine($"parent prints height:");
         }
     }
-
-    class subChild : Child
+    public class Creature:Parent
     {
-        public override void Show()
+
+        int Height;
+        int Width;
+
+        public Creature():this(12,13)
         {
-            Console.WriteLine("sub child Show");   
+            Console.WriteLine("parameter less");
+        }
+        public Creature(int h):this()
+        {
+            Console.WriteLine($"base class si here,:{h}");
+        }
+
+        public Creature(int height, int width) :this(height)
+        {
+
+            Height = height;
+            Width = width;
+            Console.WriteLine("last order");
         }
     }
-
     class Program
     {
         static void Main()
         {
 
-            Child c = new subChild();
-            Parent p = c;
-
-            c.Show(); //sub child Show
-            p.Show(); //Parent Show
+            Creature c =new Creature(1,2);
         }
     }
 }
+
+
