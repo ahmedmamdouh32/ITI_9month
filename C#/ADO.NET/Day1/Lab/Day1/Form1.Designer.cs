@@ -32,11 +32,11 @@
             this.btn_update_instructor = new System.Windows.Forms.Button();
             this.tb_instructor_salary = new System.Windows.Forms.TextBox();
             this.tb_instructor_name = new System.Windows.Forms.TextBox();
-            this.tb_instructor_department_id = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btn_create_instructor = new System.Windows.Forms.Button();
+            this.cb_instructor_department_name = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_instructors)).BeginInit();
             this.SuspendLayout();
             // 
@@ -83,13 +83,6 @@
             this.tb_instructor_name.Size = new System.Drawing.Size(133, 22);
             this.tb_instructor_name.TabIndex = 4;
             // 
-            // tb_instructor_department_id
-            // 
-            this.tb_instructor_department_id.Location = new System.Drawing.Point(329, 349);
-            this.tb_instructor_department_id.Name = "tb_instructor_department_id";
-            this.tb_instructor_department_id.Size = new System.Drawing.Size(133, 22);
-            this.tb_instructor_department_id.TabIndex = 5;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -113,9 +106,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(326, 330);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(93, 16);
+            this.label3.Size = new System.Drawing.Size(77, 16);
             this.label3.TabIndex = 8;
-            this.label3.Text = "Department ID";
+            this.label3.Text = "Department";
             // 
             // btn_create_instructor
             // 
@@ -130,16 +123,24 @@
             this.btn_create_instructor.UseVisualStyleBackColor = false;
             this.btn_create_instructor.Click += new System.EventHandler(this.btn_create_instructor_Click);
             // 
+            // cb_instructor_department_name
+            // 
+            this.cb_instructor_department_name.FormattingEnabled = true;
+            this.cb_instructor_department_name.Location = new System.Drawing.Point(329, 347);
+            this.cb_instructor_department_name.Name = "cb_instructor_department_name";
+            this.cb_instructor_department_name.Size = new System.Drawing.Size(133, 24);
+            this.cb_instructor_department_name.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cb_instructor_department_name);
             this.Controls.Add(this.btn_create_instructor);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.tb_instructor_department_id);
             this.Controls.Add(this.tb_instructor_name);
             this.Controls.Add(this.tb_instructor_salary);
             this.Controls.Add(this.btn_update_instructor);
@@ -158,11 +159,11 @@
         private System.Windows.Forms.Button btn_update_instructor;
         private System.Windows.Forms.TextBox tb_instructor_salary;
         private System.Windows.Forms.TextBox tb_instructor_name;
-        private System.Windows.Forms.TextBox tb_instructor_department_id;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btn_create_instructor;
+        private System.Windows.Forms.ComboBox cb_instructor_department_name;
     }
 }
 

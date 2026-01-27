@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace Day1
 {
-    internal class Instructor
+    public class Department
     {
-        public int? ins_id {  get; set; }
-        public string ins_name { get; set; }
-        public double? salary { get; set; }
+        public int dept_id { set; get; }
         public string dept_name { set; get; }
     }
 }
