@@ -1,0 +1,10 @@
+C:\Users\adminstrator\Documents\ITI_9Months\C#\ADO.NET\Day2\Lab\Day2\bin\Debug\Day1.exe.config
+C:\Users\adminstrator\Documents\ITI_9Months\C#\ADO.NET\Day2\Lab\Day2\bin\Debug\Day1.exe
+C:\Users\adminstrator\Documents\ITI_9Months\C#\ADO.NET\Day2\Lab\Day2\bin\Debug\Day1.pdb
+C:\Users\adminstrator\Documents\ITI_9Months\C#\ADO.NET\Day2\Lab\Day2\obj\Debug\Day2.csproj.AssemblyReference.cache
+C:\Users\adminstrator\Documents\ITI_9Months\C#\ADO.NET\Day2\Lab\Day2\obj\Debug\Day1.Form1.resources
+C:\Users\adminstrator\Documents\ITI_9Months\C#\ADO.NET\Day2\Lab\Day2\obj\Debug\Day1.Properties.Resources.resources
+C:\Users\adminstrator\Documents\ITI_9Months\C#\ADO.NET\Day2\Lab\Day2\obj\Debug\Day2.csproj.GenerateResource.cache
+C:\Users\adminstrator\Documents\ITI_9Months\C#\ADO.NET\Day2\Lab\Day2\obj\Debug\Day2.csproj.CoreCompileInputs.cache
+C:\Users\adminstrator\Documents\ITI_9Months\C#\ADO.NET\Day2\Lab\Day2\obj\Debug\Day1.exe
+C:\Users\adminstrator\Documents\ITI_9Months\C#\ADO.NET\Day2\Lab\Day2\obj\Debug\Day1.pdb

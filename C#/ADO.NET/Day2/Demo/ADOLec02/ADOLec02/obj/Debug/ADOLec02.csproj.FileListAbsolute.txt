@@ -1,0 +1,11 @@
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADOLec02\bin\Debug\ADOLec02.exe.config
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADOLec02\bin\Debug\ADOLec02.exe
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADOLec02\bin\Debug\ADOLec02.pdb
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADOLec02\obj\Debug\ADOLec02.csproj.AssemblyReference.cache
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADOLec02\obj\Debug\ADOLec02.Form1.resources
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADOLec02\obj\Debug\ADOLec02.Properties.Resources.resources
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADOLec02\obj\Debug\ADOLec02.csproj.GenerateResource.cache
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADOLec02\obj\Debug\ADOLec02.csproj.CoreCompileInputs.cache
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADOLec02\obj\Debug\ADOLec02.exe
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADOLec02\obj\Debug\ADOLec02.pdb
+C:\Users\Mostafa Helal\Desktop\Q2-DotNet\ADOLec02\obj\Debug\ADOLec02.Form2.resources
