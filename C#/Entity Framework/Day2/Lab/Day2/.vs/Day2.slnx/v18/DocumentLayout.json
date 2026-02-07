@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day1\\Lab\\Day2\\",
+  "WorkspaceRootPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day2\\Lab\\Day2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A3F6F6F-4A32-39D8-F4E1-7FADB9647921}|Day2.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day1\\lab\\day2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A3F6F6F-4A32-39D8-F4E1-7FADB9647921}|Day2.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day2\\lab\\day2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A3F6F6F-4A32-39D8-F4E1-7FADB9647921}|Day2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A3F6F6F-4A32-39D8-F4E1-7FADB9647921}|Day2.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day1\\lab\\day2\\listgenerators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A3F6F6F-4A32-39D8-F4E1-7FADB9647921}|Day2.csproj|solutionrelative:listgenerators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A3F6F6F-4A32-39D8-F4E1-7FADB9647921}|Day2.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day2\\lab\\day2\\models\\comparercaseinsensitive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3F6F6F-4A32-39D8-F4E1-7FADB9647921}|Day2.csproj|solutionrelative:models\\comparercaseinsensitive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A3F6F6F-4A32-39D8-F4E1-7FADB9647921}|Day2.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day2\\lab\\day2\\models\\comparercaseinsensitivedescending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A3F6F6F-4A32-39D8-F4E1-7FADB9647921}|Day2.csproj|solutionrelative:models\\comparercaseinsensitivedescending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,27 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListGenerators.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day1\\Lab\\Day2\\ListGenerators.cs",
-              "RelativeDocumentMoniker": "ListGenerators.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day1\\Lab\\Day2\\ListGenerators.cs",
-              "RelativeToolTip": "ListGenerators.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAIA+wEQAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ComparerCaseInsensitiveDescending.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day2\\Lab\\Day2\\models\\ComparerCaseInsensitiveDescending.cs",
+              "RelativeDocumentMoniker": "models\\ComparerCaseInsensitiveDescending.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day2\\Lab\\Day2\\models\\ComparerCaseInsensitiveDescending.cs",
+              "RelativeToolTip": "models\\ComparerCaseInsensitiveDescending.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T14:37:23.335Z"
+              "WhenOpened": "2026-02-07T10:09:25.798Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day1\\Lab\\Day2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day2\\Lab\\Day2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day1\\Lab\\Day2\\Program.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day2\\Lab\\Day2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAUwEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANoAAAAAAAAAAAAYwPQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T14:35:38.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ComparerCaseInsensitive.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day2\\Lab\\Day2\\models\\ComparerCaseInsensitive.cs",
+              "RelativeDocumentMoniker": "models\\ComparerCaseInsensitive.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day2\\Lab\\Day2\\models\\ComparerCaseInsensitive.cs",
+              "RelativeToolTip": "models\\ComparerCaseInsensitive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T09:58:20.007Z",
               "EditorCaption": ""
             }
           ]
