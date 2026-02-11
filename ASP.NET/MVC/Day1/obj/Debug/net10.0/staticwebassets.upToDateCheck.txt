@@ -70,6 +70,17 @@ wwwroot\Images\Instructors\instructor4.png
 wwwroot\Images\Instructors\instructor3.png
 wwwroot\Images\Instructors\instructor2.png
 wwwroot\Images\Instructors\instructor1.png
+wwwroot\css\styles.css
+wwwroot\js\scripts.js
+wwwroot\assets\favicon.ico
+wwwroot\assets\img\bg-masthead.jpg
+wwwroot\assets\img\bg-showcase-1.jpg
+wwwroot\assets\img\bg-showcase-2.jpg
+wwwroot\assets\img\bg-showcase-3.jpg
+wwwroot\assets\img\testimonials-1.jpg
+wwwroot\assets\img\testimonials-2.jpg
+wwwroot\assets\img\testimonials-3.jpg
+wwwroot\Images\IconDelete.png
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\wwwroot\css\site.css
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\wwwroot\favicon.ico
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\wwwroot\js\site.js
@@ -132,3 +143,6 @@ C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\wwwroot\lib\jquery\
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\wwwroot\assets\favicon.ico
+C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\wwwroot\css\styles.css
+C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\wwwroot\js\scripts.js

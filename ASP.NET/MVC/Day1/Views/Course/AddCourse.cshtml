@@ -1,0 +1,42 @@
+﻿@using Day1.ViewModel;
+@model CourseDept;
+
+@{
+	ViewData["Title"] = "AddCourse";
+	Layout = "_LayoutUser";
+}
+
+<h1>Add Course</h1>
+
+<form asp-action="SaveCourse" asp-controller="Course" method="post">
+	<div class="mb-3">
+		<label asp-for="Name"></label>
+		<input asp-for="Name" class="form-control">
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="Degree" class="form-label"></label>
+		<input asp-for="Degree" class="form-control">
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="minDegree" class="form-label"></label>
+		<input asp-for="minDegree" class="form-control">
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="Duration" class="form-label"></label>
+		<input asp-for="Duration" class="form-control">
+	</div>
+
+	<div class="mb-3">
+		<div class="mb-3">
+			<label asp-for="DepartmentId"></label>
+			<select asp-for="DepartmentId" asp-items="Model.DepartmentList" class="form-select">
+			</select>
+		</div>
+	</div>
+
+	<button type="submit" value="Save" class="btn btn-primary">Add</button>
+</form>
+
