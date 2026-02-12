@@ -1,0 +1,225 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day4\\lab\\day4\\day4\\registerwindow2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|solutionrelative:day4\\registerwindow2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day4\\lab\\day4\\day4\\registerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|solutionrelative:day4\\registerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day4\\lab\\day4\\day4\\startwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|solutionrelative:day4\\startwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day4\\lab\\day4\\day4\\registerwindow2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|solutionrelative:day4\\registerwindow2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day4\\lab\\day4\\day4\\registerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|solutionrelative:day4\\registerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day4\\lab\\day4\\day4\\entites\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|solutionrelative:day4\\entites\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day4\\lab\\day4\\day4\\registerwindow2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|solutionrelative:day4\\registerwindow2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day4\\lab\\day4\\day4\\registerwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|solutionrelative:day4\\registerwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day4\\lab\\day4\\day4\\day4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|solutionrelative:day4\\day4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day4\\lab\\day4\\day4\\sharedauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|solutionrelative:day4\\sharedauthor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day4\\lab\\day4\\day4\\startwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|solutionrelative:day4\\startwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\entity framework\\day4\\lab\\day4\\day4\\startwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B9CBEA-649A-42D8-938D-0748B53F1DFE}|Day4\\Day4.csproj|solutionrelative:day4\\startwindow.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterWindow2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\RegisterWindow2.cs",
+              "RelativeDocumentMoniker": "Day4\\RegisterWindow2.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\RegisterWindow2.cs [Design]",
+              "RelativeToolTip": "Day4\\RegisterWindow2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T23:43:46.138Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterWindow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\RegisterWindow.cs",
+              "RelativeDocumentMoniker": "Day4\\RegisterWindow.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\RegisterWindow.cs [Design]",
+              "RelativeToolTip": "Day4\\RegisterWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T23:10:08.017Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterWindow.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\RegisterWindow.cs",
+              "RelativeDocumentMoniker": "Day4\\RegisterWindow.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\RegisterWindow.cs",
+              "RelativeToolTip": "Day4\\RegisterWindow.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAD4v0AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T22:30:59.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StartWindow.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\StartWindow.cs",
+              "RelativeDocumentMoniker": "Day4\\StartWindow.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\StartWindow.cs",
+              "RelativeToolTip": "Day4\\StartWindow.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T22:24:41.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterWindow2.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\RegisterWindow2.cs",
+              "RelativeDocumentMoniker": "Day4\\RegisterWindow2.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\RegisterWindow2.cs",
+              "RelativeToolTip": "Day4\\RegisterWindow2.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAMwEMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T23:06:30.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\Entites\\Context.cs",
+              "RelativeDocumentMoniker": "Day4\\Entites\\Context.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\Entites\\Context.cs",
+              "RelativeToolTip": "Day4\\Entites\\Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T21:48:57.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterWindow2.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\RegisterWindow2.Designer.cs",
+              "RelativeDocumentMoniker": "Day4\\RegisterWindow2.Designer.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\RegisterWindow2.Designer.cs",
+              "RelativeToolTip": "Day4\\RegisterWindow2.Designer.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAUwIkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T23:10:18.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterWindow.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\RegisterWindow.Designer.cs",
+              "RelativeDocumentMoniker": "Day4\\RegisterWindow.Designer.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\RegisterWindow.Designer.cs",
+              "RelativeToolTip": "Day4\\RegisterWindow.Designer.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAAAKsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T22:50:27.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Day4",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\Day4.csproj",
+              "RelativeDocumentMoniker": "Day4\\Day4.csproj",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\Day4.csproj",
+              "RelativeToolTip": "Day4\\Day4.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-11T23:04:52.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "sharedAuthor.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\sharedAuthor.cs",
+              "RelativeDocumentMoniker": "Day4\\sharedAuthor.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\sharedAuthor.cs",
+              "RelativeToolTip": "Day4\\sharedAuthor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T22:56:28.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StartWindow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\StartWindow.cs",
+              "RelativeDocumentMoniker": "Day4\\StartWindow.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\StartWindow.cs [Design]",
+              "RelativeToolTip": "Day4\\StartWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T20:56:23.853Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StartWindow.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\StartWindow.Designer.cs",
+              "RelativeDocumentMoniker": "Day4\\StartWindow.Designer.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\StartWindow.Designer.cs",
+              "RelativeToolTip": "Day4\\StartWindow.Designer.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T22:27:05.471Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
