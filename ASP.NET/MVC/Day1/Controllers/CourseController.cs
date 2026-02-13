@@ -61,8 +61,9 @@ namespace Day1.Controllers
 
         public IActionResult SaveCourse(CourseDept result)
         {
-            if(result.Name != default)
+            if(ModelState.IsValid == true)
             {
+                ModelState.AddModelError("Duration", "30");
                 Course c = new Course()
                 {
                     Name = result.Name,
@@ -74,6 +75,7 @@ namespace Day1.Controllers
                 MVCContext _dbContext = new MVCContext();
                 _dbContext.Add(c);
                 _dbContext.SaveChanges();
+
                 return View("Index");
             }
             else

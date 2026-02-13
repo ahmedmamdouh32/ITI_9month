@@ -19,7 +19,7 @@ namespace Day4
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_Register_Click(object sender, EventArgs e)
         {
             RegisterWindow registerWindow = new RegisterWindow(this);
             registerWindow.FormClosed += RegisterWindowClosed;
@@ -27,8 +27,12 @@ namespace Day4
             registerWindow.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btn_Login_Click(object sender, EventArgs e)
         {
+            LoginWindow loginWindow = new LoginWindow(this);
+            loginWindow.FormClosed += RegisterWindowClosed;
+            this.Hide();
+            loginWindow.Show();
 
         }
     }

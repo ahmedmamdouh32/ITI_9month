@@ -46,7 +46,7 @@
             btn_Register.TabIndex = 0;
             btn_Register.Text = "Register";
             btn_Register.UseVisualStyleBackColor = false;
-            btn_Register.Click += button1_Click;
+            btn_Register.Click += btn_Register_Click;
             // 
             // btn_Login
             // 
@@ -59,7 +59,7 @@
             btn_Login.TabIndex = 1;
             btn_Login.Text = "Login";
             btn_Login.UseVisualStyleBackColor = false;
-            btn_Login.Click += button2_Click;
+            btn_Login.Click += btn_Login_Click;
             // 
             // pictureBox1
             // 
