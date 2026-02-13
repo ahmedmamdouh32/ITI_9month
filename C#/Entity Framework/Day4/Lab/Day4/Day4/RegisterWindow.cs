@@ -67,7 +67,7 @@ namespace Day4
 
         private void tbx_YourExperience_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+
         }
 
         private void tbx_YourExperience_TextChanged(object sender, EventArgs e)
@@ -83,6 +83,11 @@ namespace Day4
                 lbl_YourExperienceLength.ForeColor = Color.Yellow;
                 lbl_YourExperienceLength.Text = $"{tbx_YourExperience.Text.Length}/3000";
             }
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
 
         }
     }

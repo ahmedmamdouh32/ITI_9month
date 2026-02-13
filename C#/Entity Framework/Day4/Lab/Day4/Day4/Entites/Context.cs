@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Day4.Entites
 {
-    internal class Context : DbContext
+    public class Context : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>    
             optionsBuilder.UseSqlServer("data source=AHMED\\SQLEXPRESS;initial catalog=BookStoreDB;integrated security=true;trust server certificate=true");

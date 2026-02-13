@@ -132,6 +132,7 @@
             label3.Size = new Size(174, 27);
             label3.TabIndex = 6;
             label3.Text = "Your Experience";
+            label3.Click += label3_Click;
             // 
             // lbl_YourExperienceLength
             // 

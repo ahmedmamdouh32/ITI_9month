@@ -13,6 +13,7 @@ namespace Day4
     {
         bool eyeImageOpen = false;
         StartWindow startWindow;
+        Context _dbContext;
         public LoginWindow(StartWindow startWindow)
         {
             InitializeComponent();
@@ -23,14 +24,13 @@ namespace Day4
         {
             if (eyeImageOpen == true)
             {
-                pbx_Eye.ImageLocation = "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\Properties\\resources\\eyeOpened.png";
+                pbx_Eye.Image = Properties.Resources.eyeOpened;
                 tbx_Password.UseSystemPasswordChar = true;
             }
             else
             {
-                pbx_Eye.ImageLocation = "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\Properties\\resources\\eyeColsed.png";
+                pbx_Eye.Image = Properties.Resources.eyeClosed;
                 tbx_Password.UseSystemPasswordChar = false;
-
             }
             eyeImageOpen = !eyeImageOpen;
         }
@@ -42,14 +42,19 @@ namespace Day4
 
         private void btn_Login_Click(object sender, EventArgs e)
         {
-            Context _dbContext = new Context();
-            if(_dbContext.Authors.Where(a=> a.Email==tbx_Email.Text && a.Password == tbx_Password.Text).Count() == 1)
+            _dbContext = new Context();
+            Author user = _dbContext.Authors.FirstOrDefault(a => a.Email == tbx_Email.Text && a.Password == tbx_Password.Text);
+            if(user == null)
             {
-                MessageBox.Show("user found");
+                MessageBox.Show("Email or Password is not true");
             }
             else
             {
-                MessageBox.Show("user not found");
+                this.FormClosed -= startWindow.RegisterWindowClosed;
+                HomeWindow homeWindow = new HomeWindow(startWindow, user,_dbContext);
+                homeWindow.FormClosed += startWindow.RegisterWindowClosed;
+                homeWindow.Show();
+                this.Close();
             }
         }
     }

@@ -29,6 +29,10 @@ namespace Day4.Entites
         [ForeignKey("Category")]
         public int CategoryId { set; get; }
 
+        [MaxLength(150)]
+        public string? ImagePath { set; get; }
+        [MaxLength(150)]
+        public string? PDF_Path { set; get; }
         public virtual Author author { get; set; }
 
         public virtual Category category { get; set; }  

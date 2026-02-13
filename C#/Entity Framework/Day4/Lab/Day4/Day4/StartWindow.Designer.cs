@@ -64,7 +64,8 @@
             // pictureBox1
             // 
             pictureBox1.BackgroundImageLayout = ImageLayout.None;
-            pictureBox1.ImageLocation = "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Entity Framework\\Day4\\Lab\\Day4\\Day4\\Properties\\resources\\book.png";
+            pictureBox1.Image = Properties.Resources.book;
+            pictureBox1.ImageLocation = "";
             pictureBox1.Location = new Point(23, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(93, 73);
@@ -95,7 +96,8 @@
             Controls.Add(btn_Login);
             Controls.Add(btn_Register);
             Name = "StartWindow";
-            Text = "Form1";
+            Text = "Start Window";
+            Load += StartWindow_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

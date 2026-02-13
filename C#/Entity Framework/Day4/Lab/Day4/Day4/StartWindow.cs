@@ -35,5 +35,10 @@ namespace Day4
             loginWindow.Show();
 
         }
+
+        private void StartWindow_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
