@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.Completion;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 namespace Day1.Controllers
 {
@@ -17,8 +18,6 @@ namespace Day1.Controllers
 
         public IActionResult ConfirmDelete(int id)
         {
-         
-            //MVCContext _dbContext = new MVCContext();
             Course course = new MVCContext().Courses.Include(c=>c.Dept).SingleOrDefault(c => c.Id == id);
             CrsIdNameDeparment CourseVM = new CrsIdNameDeparment()
             {
@@ -26,9 +25,7 @@ namespace Day1.Controllers
                 Name = course.Name ?? "not found",
                 department = course.Dept ?? new Department() { Name="not found"}
             };
-
             return View("ConfirmDelete",CourseVM);
-            
         }
 
         public IActionResult DeleteCourse(int id)
@@ -86,8 +83,6 @@ namespace Day1.Controllers
             }
         }
 
-
-
         public IActionResult ShowCourses()
         {
             MVCContext _dbContext = new MVCContext();
@@ -95,5 +90,9 @@ namespace Day1.Controllers
             courses = _dbContext.Courses.Include(c => c.Dept).ToList();
             return View(courses);
         }
+
+        public IActionResult DurationDivByThree(int Duration) => Duration %3 == 0 ? Json(false) : Json(true);
+        public IActionResult MinLessThanMax(int? Degree,int? minDegree) => minDegree >= Degree ? Json(false) : Json(true);
+        
     }
 }

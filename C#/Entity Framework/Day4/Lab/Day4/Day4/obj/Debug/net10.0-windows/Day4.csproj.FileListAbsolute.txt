@@ -156,3 +156,5 @@ C:\Users\adminstrator\Documents\ITI_9Months\C#\Entity Framework\Day4\Lab\Day4\Da
 C:\Users\adminstrator\Documents\ITI_9Months\C#\Entity Framework\Day4\Lab\Day4\Day4\obj\Debug\net10.0-windows\Day4.HomeWindow.resources
 C:\Users\adminstrator\Documents\ITI_9Months\C#\Entity Framework\Day4\Lab\Day4\Day4\obj\Debug\net10.0-windows\Day4.UserProfileWindow.resources
 C:\Users\adminstrator\Documents\ITI_9Months\C#\Entity Framework\Day4\Lab\Day4\Day4\obj\Debug\net10.0-windows\Day4.AddBookWindow.resources
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Entity Framework\Day4\Lab\Day4\Day4\obj\Debug\net10.0-windows\Day4.LibraryWindow.resources
+C:\Users\adminstrator\Documents\ITI_9Months\C#\Entity Framework\Day4\Lab\Day4\Day4\obj\Debug\net10.0-windows\Day4.EditBook.resources

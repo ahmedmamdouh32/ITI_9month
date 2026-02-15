@@ -46,6 +46,8 @@
             label7 = new Label();
             btn_AddBook = new Button();
             btn_Back = new Button();
+            btn_ChooseFile = new Button();
+            label6 = new Label();
             ((System.ComponentModel.ISupportInitialize)pbx_BookImage).BeginInit();
             SuspendLayout();
             // 
@@ -195,7 +197,7 @@
             // 
             pbx_BookImage.Cursor = Cursors.Hand;
             pbx_BookImage.Image = Properties.Resources.addImage;
-            pbx_BookImage.Location = new Point(862, 160);
+            pbx_BookImage.Location = new Point(806, 49);
             pbx_BookImage.Name = "pbx_BookImage";
             pbx_BookImage.Size = new Size(256, 256);
             pbx_BookImage.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -208,11 +210,12 @@
             label7.AutoSize = true;
             label7.Font = new Font("Microsoft YaHei", 12F, FontStyle.Bold);
             label7.ForeColor = Color.Transparent;
-            label7.Location = new Point(939, 435);
+            label7.Location = new Point(845, 308);
             label7.Name = "label7";
-            label7.Size = new Size(123, 27);
+            label7.Size = new Size(187, 27);
             label7.TabIndex = 25;
-            label7.Text = "Add Image";
+            label7.Text = "Add Cover Image";
+            label7.Click += label7_Click;
             // 
             // btn_AddBook
             // 
@@ -240,12 +243,38 @@
             btn_Back.UseVisualStyleBackColor = false;
             btn_Back.Click += btn_Back_Click;
             // 
+            // btn_ChooseFile
+            // 
+            btn_ChooseFile.BackColor = Color.Honeydew;
+            btn_ChooseFile.Font = new Font("Agency FB", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_ChooseFile.ForeColor = Color.Maroon;
+            btn_ChooseFile.Location = new Point(182, 550);
+            btn_ChooseFile.Name = "btn_ChooseFile";
+            btn_ChooseFile.Size = new Size(249, 42);
+            btn_ChooseFile.TabIndex = 29;
+            btn_ChooseFile.Text = "Choose File";
+            btn_ChooseFile.UseVisualStyleBackColor = false;
+            btn_ChooseFile.Click += btn_ChooseFile_Click;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Microsoft YaHei", 12F, FontStyle.Bold);
+            label6.ForeColor = Color.Transparent;
+            label6.Location = new Point(80, 554);
+            label6.Name = "label6";
+            label6.Size = new Size(93, 27);
+            label6.TabIndex = 30;
+            label6.Text = "PDF File";
+            // 
             // AddBookWindow
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(182, 64, 0);
-            ClientSize = new Size(1216, 946);
+            ClientSize = new Size(1307, 946);
+            Controls.Add(label6);
+            Controls.Add(btn_ChooseFile);
             Controls.Add(btn_Back);
             Controls.Add(btn_AddBook);
             Controls.Add(label7);
@@ -292,5 +321,7 @@
         private Label label7;
         private Button btn_AddBook;
         private Button btn_Back;
+        private Button btn_ChooseFile;
+        private Label label6;
     }
 }

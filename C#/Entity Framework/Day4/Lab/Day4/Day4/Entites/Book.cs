@@ -12,7 +12,7 @@ namespace Day4.Entites
         [Key]
         public int Id { get; set; }
 
-        [MaxLength(50)]
+        [MaxLength(150)]
         public string? Title { get; set; }
 
         [MaxLength(300)]

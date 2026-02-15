@@ -93,7 +93,7 @@ namespace Day4
             btnProfile.Click += UserProfile_Click;
 
             btnAddBook.Click += btnAddBook_Click;
-            //btnLogout.Click += (s, e) => Application.Exit();
+            btnLibrary.Click += btnLibrary_Click;
 
             mainLayout.Controls.Add(btnProfile, 0, 0);
             mainLayout.Controls.Add(btnAddBook, 1, 0);

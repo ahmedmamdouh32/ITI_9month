@@ -4,7 +4,13 @@
     <Compile Update="AddBookWindow.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="EditBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="HomeWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LibraryWindow.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="LoginWindow.cs">

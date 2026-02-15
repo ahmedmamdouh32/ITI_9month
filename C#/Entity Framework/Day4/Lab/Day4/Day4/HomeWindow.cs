@@ -42,6 +42,12 @@ namespace Day4
             this.Hide();
             AddBook.Show();
         }
-
+        private void btnLibrary_Click(object sender, EventArgs e)
+        {
+            LibraryWindow libraryWindow = new LibraryWindow(author, _dbContext);
+            libraryWindow.FormClosed += (e, args) => this.Show();
+            this.Hide();
+            libraryWindow.Show();
+        }
     }
 }

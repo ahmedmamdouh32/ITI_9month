@@ -6,7 +6,8 @@ namespace Day1.Entities
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("data source=AHMED\\SQLEXPRESS;Initial catalog=MVCdb;Integrated Security=true;trust server certificate=true");
+            //"data source=AHMED\\SQLEXPRESS;Initial catalog=MVCdb;Integrated Security=true;trust server certificate=true")
+            optionsBuilder.UseSqlServer("Server=db41385.public.databaseasp.net; Database=db41385; User Id=db41385; Password=4b-P?2Nn9Wd!; Encrypt=True; TrustServerCertificate=True; MultipleActiveResultSets=True;");
         }
 
         public virtual DbSet<Course> Courses{ get; set; }
