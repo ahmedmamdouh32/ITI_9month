@@ -1,3 +1,8 @@
+using Day1.Entities;
+using Day1.Repositories;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+
 namespace Day1
 {
     public class Program
@@ -8,6 +13,19 @@ namespace Day1
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddScoped<IinstructorRepository,InstructorRepository>();//register
+            builder.Services.AddScoped<ICourseRepository,CourseRepository>();//register
+            builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();//register
+
+            //This code says: "Whenever a controller needs MVCContext, create it automatically and inject it."
+            builder.Services.AddDbContext<MVCContext>(optionBuilder =>
+            {
+                optionBuilder.UseSqlServer(builder.Configuration.GetConnectionString("MVCDB"));
+            });
+
+
+
 
             var app = builder.Build();
 

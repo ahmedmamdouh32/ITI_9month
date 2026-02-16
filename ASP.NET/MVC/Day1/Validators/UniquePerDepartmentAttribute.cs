@@ -6,7 +6,7 @@ namespace Day1.Validators
 {
     public class UniquePerDepartmentAttribute: ValidationAttribute
     {
-
+        
         protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
         {
             CourseDept course = (CourseDept)validationContext.ObjectInstance;

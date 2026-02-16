@@ -1,0 +1,48 @@
+﻿@using Day1.Entities
+@model List<Course>
+@{
+    ViewData["Title"] = "ShowCourses";
+    Layout = "_LayoutUser";
+}
+
+<h1>Courses</h1>
+
+﻿
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Id</th>
+        <th>Course Name</th>
+        <th>Degree</th>
+        <th>Minimum Degree</th>
+        <th>Duration (Hour)</th>
+        <th>Department</th>
+        <th>Delete</th>
+    </tr>
+
+    @foreach (Course i in Model)
+    {
+        <tr>
+            <td>@i.Id</td>
+            <td>@i.Name</td>
+            <td>@i.Degree</td>
+            <td>@i.minDegree</td>
+            <td>@i.Duration</td>
+            <td>@(i.Dept?.Name ?? "Not Found")</td>
+            <td>
+                <a asp-controller="Course" asp-action="ConfirmDelete" asp-route-id="@i.Id">
+                    <img src="~/Images/IconDelete.png" style="width:25px" />
+                </a>
+
+                
+            </td>
+        </tr>
+    }
+</table>
+
+
+
+
+
+
+
+

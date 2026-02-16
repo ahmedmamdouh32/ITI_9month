@@ -1,24 +1,28 @@
 ﻿using Day1.Entities;
+using Day1.Repositories;
 using Day1.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.CodeAnalysis;
-using Microsoft.CodeAnalysis.Completion;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
-using Microsoft.EntityFrameworkCore;
 namespace Day1.Controllers
 {
     public class CourseController : Controller
     {       
+        ICourseRepository courseRepository;
+        IDepartmentRepository departmentRepository;
+        public CourseController(ICourseRepository CrsRepo,IDepartmentRepository DeptRepo) //Dependancy Injection
+        {
+            this.courseRepository = CrsRepo;
+            this.departmentRepository = DeptRepo;
+        }
+
         public IActionResult Index()
         {
-            
             return View();
         }
 
         public IActionResult ConfirmDelete(int id)
         {
-            Course course = new MVCContext().Courses.Include(c=>c.Dept).SingleOrDefault(c => c.Id == id);
+            Course course = courseRepository.GetById(id);
             CrsIdNameDeparment CourseVM = new CrsIdNameDeparment()
             {
                 Id = course.Id,
@@ -30,22 +34,19 @@ namespace Day1.Controllers
 
         public IActionResult DeleteCourse(int id)
         {
-            MVCContext _dbContext = new MVCContext();
-            var course = _dbContext.Courses.Find(id);
+            var course = courseRepository.GetById(id);
 
             if (course != null)
             {
-                _dbContext.Courses.Remove(course); // only remove if found
-                _dbContext.SaveChanges();
+                courseRepository.Delete(id); // only remove if found
+                courseRepository.Save();
             }
             return RedirectToAction("ShowCourses","Course");
         }
 
         public IActionResult AddCourse()
         {
-            MVCContext _dbContext = new MVCContext();
-
-            var departments = _dbContext.Departments.ToList();
+            var departments = departmentRepository.GetAll();
 
             CourseDept vm = new CourseDept()
             {
@@ -69,16 +70,13 @@ namespace Day1.Controllers
                     Duration = result.Duration,
                     DepartmentId = result.DepartmentId,
                 };
-                MVCContext _dbContext = new MVCContext();
-                _dbContext.Add(c);
-                _dbContext.SaveChanges();
-
+                courseRepository.Add(c);
+                courseRepository.Save();
                 return View("Index");
             }
             else
             {
-                MVCContext _dbContext = new MVCContext();
-                result.DepartmentList = new SelectList(_dbContext.Departments.ToList(), "Id","Name");
+                result.DepartmentList = new SelectList(departmentRepository.GetAll(), "Id","Name");
                 return View("AddCourse", result);
             }
         }
@@ -86,12 +84,11 @@ namespace Day1.Controllers
         public IActionResult ShowCourses()
         {
             MVCContext _dbContext = new MVCContext();
-            List<Course> courses = new List<Course>();
-            courses = _dbContext.Courses.Include(c => c.Dept).ToList();
+            List<Course> courses =  courseRepository.GetAll();
             return View(courses);
         }
 
-        public IActionResult DurationDivByThree(int Duration) => Duration %3 == 0 ? Json(false) : Json(true);
+        public IActionResult DurationDivByThree(int Duration) => Duration %3 == 0 ? Json(true) : Json(false);
         public IActionResult MinLessThanMax(int? Degree,int? minDegree) => minDegree >= Degree ? Json(false) : Json(true);
         
     }

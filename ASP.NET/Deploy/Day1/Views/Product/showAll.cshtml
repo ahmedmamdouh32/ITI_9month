@@ -1,0 +1,26 @@
+﻿﻿<table class="table table-bordered table-hover">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Description</th>
+        <th>Product Image</th>
+        <th>Info</th>
+    </tr>
+
+    @foreach (Product p in Model)
+    {
+        <tr>
+            <td>@p.ID</td>
+            <td>@p.Name</td>
+            <td>@p.Price</td>
+            <td>@p.Description</td>
+            <td>
+                <img src="~/Images/@p.ImagePath" style="width:100px;" />
+            </td>
+            <td>
+                <a href="getProductByIndex?index=@p.ID">Details</a>
+            </td>
+        </tr>
+    }
+</table>

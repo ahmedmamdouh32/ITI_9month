@@ -1,0 +1,35 @@
+﻿@using Day1.Entities
+@model List<Instructor>
+
+﻿
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Salary</th>
+        <th>Address</th>
+        <th>Department</th>
+        <th>Course Name</th>
+        <th>Profile Image</th>
+        <th>Info</th>
+    </tr>
+
+    @foreach (Instructor i in Model)
+    {
+        <tr>
+            <td>@i.Id</td>
+            <td>@i.Name</td>
+            <td>@(string.Format("{0:C}",i.Salary))</td>
+            <td>@i.Address</td>
+            <td>@(i.department?.Name ?? "Not Found")</td>
+            <td>@(i.course?.Name ?? "Not Found")</td>
+            <td>
+                <img src="~/Images/Instructors/@i.ImageSrc" style="width:100px;"/>
+            </td>
+            <td>
+                <a href="getInstructorByIndex?index=@i.Id">Details</a>
+            </td>
+        </tr>
+    }
+</table>
+

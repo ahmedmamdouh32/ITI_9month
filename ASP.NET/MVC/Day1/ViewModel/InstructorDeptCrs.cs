@@ -1,4 +1,5 @@
 ﻿using Day1.Entities;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Day1.ViewModel
@@ -17,5 +18,8 @@ namespace Day1.ViewModel
 
         public List<Department> department { set; get; }
         public List<Course> course { set; get; }
+
+        public SelectList? coursesList;
+        public SelectList? departmentList;
     }
 }

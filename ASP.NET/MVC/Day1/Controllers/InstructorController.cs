@@ -1,11 +1,23 @@
 ﻿using Day1.Entities;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using Day1.Repositories;
 using Day1.ViewModel;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 namespace Day1.Controllers
 {
     public class InstructorController : Controller
     {
+
+        IinstructorRepository instructorRepository;
+        ICourseRepository courseRepository;
+        IDepartmentRepository departmentRepository;
+        public InstructorController(IinstructorRepository InsRepo, ICourseRepository CrsRepo, IDepartmentRepository DeptRepo)
+        {
+            instructorRepository = InsRepo;
+            courseRepository = CrsRepo;
+            departmentRepository = DeptRepo;
+        }
         public IActionResult Index()
         {
             return View();
@@ -13,19 +25,24 @@ namespace Day1.Controllers
 
 
         //End Point : Instructor/getAll
-        public IActionResult getAll() => View("InstructorGetAll", new MVCContext().Instructors.Select(e=>e).Include(e=>e.course).Include(e => e.department).ToList());
+        public IActionResult getAll()
+        {
+           return View("InstructorGetAll", instructorRepository.GetAll());
+        }
 
 
         //End Point : Instructor/getInstructorByIndex/index
-        public IActionResult getInstructorByIndex(int index) => View("InstructorDetails", new MVCContext().Instructors.Where(i => i.Id == index).Include(i=>i.department).Include(i=>i.course).SingleOrDefault());
+        public IActionResult getInstructorByIndex(int index)
+        {
+            return View("InstructorDetails", instructorRepository.GetById(index));
+        }
 
 
         //End Point : Instructor/AddInstructor
         public IActionResult AddInstructor() {
-            MVCContext _dbContext = new MVCContext();
             InstructorDeptCrs instVM = new InstructorDeptCrs();
-            instVM.course = _dbContext.Courses.Select(c=>c).ToList();
-            instVM.department = _dbContext.Departments.Select(d=>d).ToList();
+            instVM.coursesList = new SelectList(courseRepository.GetAll(), "Id", "Name");
+            instVM.departmentList = new SelectList(departmentRepository.GetAll(), "Id", "Name");
             return View("AddInstructor", instVM);
         }
 
@@ -43,17 +60,14 @@ namespace Day1.Controllers
                 instructor.ImageSrc = instVM.ImageSrc ?? " Not Found";
                 instructor.CourseId = instVM.CourseId;
                 instructor.DepartmentId = instVM.DepartmentId;
-                MVCContext _dbContext =  new MVCContext();
-                _dbContext.Instructors.Add(instructor);
-                _dbContext.SaveChanges();
-                //return View("InstructorGetAll", new MVCContext().Instructors.Select(e => e).Include(e => e.course).Include(e => e.department).ToList());
+                instructorRepository.Add(instructor);
+                instructorRepository.Save();
                 return RedirectToAction("getAll", "Instructor");
             }
             else
             {
-                MVCContext _dbContext = new MVCContext();
-                instVM.course = _dbContext.Courses.ToList();
-                instVM.department = _dbContext.Departments.ToList();
+                instVM.coursesList = new SelectList(courseRepository.GetAll(), "Id", "Name");
+                instVM.departmentList = new SelectList(departmentRepository.GetAll(), "Id", "Name");
                 return View("AddInstructor", instVM);
             }
         }
