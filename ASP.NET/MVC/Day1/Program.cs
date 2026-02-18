@@ -1,4 +1,5 @@
 using Day1.Entities;
+using Day1.Filters;
 using Day1.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -12,12 +13,20 @@ namespace Day1
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            //builder.Services.AddControllersWithViews(options =>{
+            //    options.Filters.Add(new CustomExceptionFilter()); //now the filter is Global, any action made exception this filter will handle it
+            //});
             builder.Services.AddControllersWithViews();
-
             builder.Services.AddScoped<IinstructorRepository,InstructorRepository>();//register
             builder.Services.AddScoped<ITraineeRepository, TraineeRepository>();//register
             builder.Services.AddScoped<ICourseRepository,CourseRepository>();//register
             builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();//register
+
+
+            builder.Services.AddSession(change =>
+            {
+                change.IdleTimeout = TimeSpan.FromMinutes(30);
+            });
 
             //This code says: "Whenever a controller needs MVCContext, create it automatically and inject it."
             builder.Services.AddDbContext<MVCContext>(optionBuilder =>
@@ -40,6 +49,7 @@ namespace Day1
 
             app.UseHttpsRedirection();
             app.UseRouting();
+            app.UseSession();
 
             app.UseAuthorization();
 

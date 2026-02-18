@@ -1,6 +1,7 @@
 ﻿using Day1.Repositories;
 using Day1.ViewModel;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace Day1.Controllers
 {
@@ -29,5 +30,26 @@ namespace Day1.Controllers
                 return NotFound();
             }
         }
+
+
+        //url : Trainee/TraineeCoursesState?Tid=2
+        public IActionResult TraineeCoursesState(int Tid)
+        {
+           var traineeCourses= traineeRepository.getTraineeCoursesStates(Tid);
+            TraineeCoursesStatesVM result = new TraineeCoursesStatesVM();
+            if(traineeCourses != null)
+            {
+                result.TraineeName = traineeCourses[0].traineeName;
+                foreach(var course in traineeCourses)
+                {
+                    CrsNameState courseNameState = new CrsNameState();
+                    courseNameState.CrsName = course.courseName;
+                    courseNameState.Passed = course.passed;
+                    result.CoursesState.Add(courseNameState);
+                }
+            }
+            return View(result);
+        }
+
     }
 }

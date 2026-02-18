@@ -1,0 +1,23 @@
+﻿@using Day1.ViewModel;
+@model TraineeCoursesStatesVM
+
+<h2>@Model.TraineeName</h2>
+
+<ul>
+    @foreach (var course in Model.CoursesState)
+    {
+        if (course.Passed)
+        {
+            <li style="color: blue; font-weight: bold;">
+                @course.CrsName : Passed
+            </li>
+
+        }
+        else
+        {
+            <li style="color: red;">
+                @course.CrsName : Failed
+            </li>
+        }
+    }
+</ul>

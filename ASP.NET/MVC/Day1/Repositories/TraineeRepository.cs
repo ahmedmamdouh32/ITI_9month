@@ -31,6 +31,25 @@ namespace Day1.Repositories
             return DbContext.Trainees.Where(t => t.Id == Id).SingleOrDefault();
         }
 
+        public List<TraineeCourseDegree> getTraineeCoursesStates(int Tid)
+        {
+            List<TraineeCourseDegree> result = DbContext.crsResults.Where(c => c.TraineeId == Tid)
+                .Select(c => new TraineeCourseDegree
+                {
+                    traineeName = c.trainee.Name,
+                    courseName = c.course.Name,
+                    TraineeDegree = c.degree,
+                    courseMinDegree = c.course.minDegree
+                }).ToList();
+
+            foreach(var course in result)
+            {
+                course.passed = course.courseMinDegree > course.TraineeDegree ? false : true;
+
+            }
+            return result;
+        }
+
         public TraineeCourseDegree getTraineeDegree(int Tid, int Cid)
         {
             TraineeCourseDegree? result = DbContext.crsResults.Where(c => c.CourseId == Cid && c.TraineeId == Tid)

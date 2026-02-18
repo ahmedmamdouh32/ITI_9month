@@ -1,5 +1,4 @@
 ﻿using Day1.Entities;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Day1.ViewModel
 {
