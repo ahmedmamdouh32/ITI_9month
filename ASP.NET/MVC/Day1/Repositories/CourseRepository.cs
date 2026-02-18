@@ -21,15 +21,20 @@ namespace Day1.Repositories
             return DbContext.Courses.Where(c => c.Id == Id).Include(c => c.Dept).SingleOrDefault();
         }
 
+        public IQueryable<Course> GetByCrsName(string crsName)
+        {
+            return DbContext.Courses.Where(c => c.Name.ToLower().Contains(crsName.ToLower())).Include(c => c.Dept);
+        }
+
         public void Delete(int Id)
         {
             Course course = GetById(Id);
             DbContext.Courses.Remove(course);
         }
 
-        public List<Course> GetAll()
+        public IQueryable<Course> GetAll()
         {
-            return DbContext.Courses.Include(c=>c.Dept).ToList();
+            return DbContext.Courses.Include(c=>c.Dept);
         }
 
         public void Save()
@@ -46,5 +51,7 @@ namespace Day1.Repositories
             course.DepartmentId = t.DepartmentId;
             course.Name = t.Name;
         }
+
+       
     }
 }

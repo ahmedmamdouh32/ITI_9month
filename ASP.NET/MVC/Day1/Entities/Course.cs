@@ -15,11 +15,7 @@ namespace Day1.Entities
         [ForeignKey("Department")]
         public int DepartmentId { set; get; }
         public virtual Department? Dept{ get; set; }
-
         public virtual List<crsResult>? Results { set; get; }
         public virtual List<Instructor>? Instructors{ set; get; }
-
-
-
     }
 }

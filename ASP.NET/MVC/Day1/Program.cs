@@ -15,6 +15,7 @@ namespace Day1
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddScoped<IinstructorRepository,InstructorRepository>();//register
+            builder.Services.AddScoped<ITraineeRepository, TraineeRepository>();//register
             builder.Services.AddScoped<ICourseRepository,CourseRepository>();//register
             builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();//register
 

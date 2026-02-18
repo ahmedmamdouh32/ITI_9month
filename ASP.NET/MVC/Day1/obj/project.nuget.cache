@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "FBPhQ6JrqFk=",
+  "dgSpecHash": "MR/rvUGkRhU=",
   "success": true,
   "projectFilePath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\MVC\\Day1\\Day1.csproj",
   "expectedPackageFiles": [
@@ -129,15 +129,5 @@
     "C:\\Users\\adminstrator\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.4\\system.security.cryptography.pkcs.9.0.4.nupkg.sha512",
     "C:\\Users\\adminstrator\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.6\\system.security.cryptography.protecteddata.9.0.6.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
-      "projectPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\MVC\\Day1\\Day1.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\MVC\\Day1\\Day1.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

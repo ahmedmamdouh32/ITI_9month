@@ -3,6 +3,8 @@ using Day1.Repositories;
 using Day1.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Day1.HelperClasses;
+using Microsoft.EntityFrameworkCore;
 namespace Day1.Controllers
 {
     public class CourseController : Controller
@@ -56,7 +58,6 @@ namespace Day1.Controllers
             return View(vm);
         }
 
-
         public IActionResult SaveCourse(CourseDept result)
         {
             if(ModelState.IsValid == true)
@@ -81,15 +82,47 @@ namespace Day1.Controllers
             }
         }
 
-        public IActionResult ShowCourses()
-        {
-            MVCContext _dbContext = new MVCContext();
-            List<Course> courses =  courseRepository.GetAll();
-            return View(courses);
-        }
-
         public IActionResult DurationDivByThree(int Duration) => Duration %3 == 0 ? Json(true) : Json(false);
+
         public IActionResult MinLessThanMax(int? Degree,int? minDegree) => minDegree >= Degree ? Json(false) : Json(true);
+
+
+
+
         
+        public IActionResult ShowCourses(string searchText = "", int page = 1)
+        {
+            int pageSize = 3;
+
+            IQueryable<Course> query = courseRepository.GetAll().Include(c => c.Dept);
+
+            // Apply search filter
+            if (!string.IsNullOrEmpty(searchText))
+            {
+                query = query.Where(c => c.Name.Contains(searchText));
+            }
+
+            int totalItems = query.Count();
+
+            var vm = new CoursePage
+            {
+                Courses = query.Skip((page - 1) * pageSize).Take(pageSize).ToList(),
+                pageNumber = page,
+                PagesCount = (int)Math.Ceiling((double)totalItems / pageSize),
+                SearchText = searchText
+            };
+
+            return View(vm);
+        }
+        
+
+        //public IActionResult SearchCourses(string CourseName)
+        //{
+        //    CoursePage crsPageVM = new CoursePage();
+        //    var query = courseRepository.GetByCrsName(CourseName);
+        //    crsPageVM.PagesCount = query.Count()/5;
+        //    crsPageVM.Courses = query.ToList();
+        //    return View("ShowCourses", crsPageVM);
+        //}
     }
 }

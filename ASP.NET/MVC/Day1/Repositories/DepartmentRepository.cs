@@ -22,9 +22,9 @@ namespace Day1.Repositories
             }
         }
 
-        public List<Department> GetAll()
+        public IQueryable<Department> GetAll()
         {
-            return DbContext.Departments.ToList();
+            return DbContext.Departments;
         }
 
         //public Department GetById(int Id)
@@ -52,5 +52,7 @@ namespace Day1.Repositories
             dept.Trainees = t.Trainees;
             dept.Instructors = t.Instructors;
         }
+
+       
     }
 }

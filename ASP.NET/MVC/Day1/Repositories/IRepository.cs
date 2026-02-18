@@ -4,7 +4,7 @@
     {
         void Delete(int Id);
         T GetById(int Id);
-        List<T> GetAll();
+        IQueryable<T> GetAll();
         void Add(T t);
         void Update(T t);
         void Save();

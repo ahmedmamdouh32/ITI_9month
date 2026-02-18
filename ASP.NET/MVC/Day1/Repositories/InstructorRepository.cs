@@ -22,9 +22,9 @@ namespace Day1.Repositories
             DbContext.Instructors.Remove(instructor);
         }
 
-        public List<Instructor> GetAll()
+        public IQueryable<Instructor> GetAll()
         {
-            return DbContext.Instructors.ToList();
+            return DbContext.Instructors;
         }
 
         public Instructor GetById(int Id)

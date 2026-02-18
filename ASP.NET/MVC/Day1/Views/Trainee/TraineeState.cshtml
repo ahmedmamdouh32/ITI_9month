@@ -1,0 +1,36 @@
+﻿@using Day1.ViewModel
+@model TraineeCourseDegree
+
+<h2>Trainee Course State</h2>
+
+<div>
+    <p>
+        <strong>Trainee Name:</strong>
+        @Model.traineeName
+    </p>
+
+    ```
+    <p>
+        <strong>Course Name:</strong>
+        @Model.courseName
+    </p>
+
+    <p>
+        <strong>Status:</strong>
+
+        @if (Model.passed == true)
+        {
+            <span style="color:blue; font-weight:bold;">
+                Passed
+            </span>
+        }
+        else
+        {
+            <span style="color:red; font-weight:bold;">
+                Failed
+            </span>
+        }
+    </p>
+    ```
+
+</div>
