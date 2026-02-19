@@ -58,11 +58,57 @@ namespace Day1.Controllers
             return View(vm);
         }
 
-        public IActionResult SaveCourse(CourseDept result)
+        //public IActionResult SaveCourse(CourseDept result)
+        //{
+        //    if(ModelState.IsValid == true)
+        //    {
+        //        ModelState.AddModelError("Duration", "30");
+        //        Course c = new Course()
+        //        {
+        //            Name = result.Name,
+        //            Degree = result.Degree,
+        //            minDegree = result.minDegree,
+        //            Duration = result.Duration,
+        //            DepartmentId = result.DepartmentId,
+        //        };
+        //        courseRepository.Add(c);
+        //        courseRepository.Save();
+        //        return View("Index");
+        //    }
+        //    else
+        //    {
+        //        result.DepartmentList = new SelectList(departmentRepository.GetAll(), "Id","Name");
+        //        return View("AddCourse", result);
+        //    }
+        //}
+
+
+        [HttpPost]
+        public async Task<IActionResult> SaveCourse(CourseDept result)
         {
-            if(ModelState.IsValid == true)
+            if (ModelState.IsValid)
             {
-                ModelState.AddModelError("Duration", "30");
+                string imagePath = null;
+
+                // Upload image if exists
+                if (result.ImageFile != null)
+                {
+                    string fileName = Guid.NewGuid().ToString()
+                                      + Path.GetExtension(result.ImageFile.FileName);
+
+                    string filePath = Path.Combine(
+                        Directory.GetCurrentDirectory(),
+                        "wwwroot/images",
+                        fileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await result.ImageFile.CopyToAsync(stream);
+                    }
+
+                    imagePath = "/images/" + fileName;
+                }
+
                 Course c = new Course()
                 {
                     Name = result.Name,
@@ -70,16 +116,19 @@ namespace Day1.Controllers
                     minDegree = result.minDegree,
                     Duration = result.Duration,
                     DepartmentId = result.DepartmentId,
+                    ImageUrl = imagePath   // ← ADD THIS
                 };
+
                 courseRepository.Add(c);
                 courseRepository.Save();
-                return View("Index");
+
+                return RedirectToAction("Index"); // better than View("Index")
             }
-            else
-            {
-                result.DepartmentList = new SelectList(departmentRepository.GetAll(), "Id","Name");
-                return View("AddCourse", result);
-            }
+
+            result.DepartmentList =
+                new SelectList(departmentRepository.GetAll(), "Id", "Name");
+
+            return View("AddCourse", result);
         }
 
         public IActionResult DurationDivByThree(int Duration) => Duration %3 == 0 ? Json(true) : Json(false);

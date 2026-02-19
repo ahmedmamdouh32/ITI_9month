@@ -1,14 +1,22 @@
 ﻿using Day1.Entities;
+using Day1.Repositories;
 using Day1.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.CodeAnalysis;
-using Microsoft.CodeAnalysis.Completion;
+using Day1.HelperClasses;
 using Microsoft.EntityFrameworkCore;
 namespace Day1.Controllers
 {
     public class CourseController : Controller
     {       
+        ICourseRepository courseRepository;
+        IDepartmentRepository departmentRepository;
+        public CourseController(ICourseRepository CrsRepo,IDepartmentRepository DeptRepo) //Dependancy Injection
+        {
+            this.courseRepository = CrsRepo;
+            this.departmentRepository = DeptRepo;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -16,7 +24,7 @@ namespace Day1.Controllers
 
         public IActionResult ConfirmDelete(int id)
         {
-            Course course = new MVCContext().Courses.Include(c=>c.Dept).SingleOrDefault(c => c.Id == id);
+            Course course = courseRepository.GetById(id);
             CrsIdNameDeparment CourseVM = new CrsIdNameDeparment()
             {
                 Id = course.Id,
@@ -28,73 +36,142 @@ namespace Day1.Controllers
 
         public IActionResult DeleteCourse(int id)
         {
-            MVCContext _dbContext = new MVCContext();
-            var course = _dbContext.Courses.Find(id);
+            var course = courseRepository.GetById(id);
 
             if (course != null)
             {
-                _dbContext.Courses.Remove(course); // only remove if found
-                _dbContext.SaveChanges();
+                courseRepository.Delete(id); // only remove if found
+                courseRepository.Save();
             }
             return RedirectToAction("ShowCourses","Course");
         }
 
         public IActionResult AddCourse()
         {
-            MVCContext _dbContext = new MVCContext();
-            var departments = _dbContext.Departments.ToList();
+            var departments = departmentRepository.GetAll();
+
             CourseDept vm = new CourseDept()
             {
                 DepartmentList = new SelectList(departments, "Id", "Name")
             };
+            
             return View(vm);
         }
 
+        //public IActionResult SaveCourse(CourseDept result)
+        //{
+        //    if(ModelState.IsValid == true)
+        //    {
+        //        ModelState.AddModelError("Duration", "30");
+        //        Course c = new Course()
+        //        {
+        //            Name = result.Name,
+        //            Degree = result.Degree,
+        //            minDegree = result.minDegree,
+        //            Duration = result.Duration,
+        //            DepartmentId = result.DepartmentId,
+        //        };
+        //        courseRepository.Add(c);
+        //        courseRepository.Save();
+        //        return View("Index");
+        //    }
+        //    else
+        //    {
+        //        result.DepartmentList = new SelectList(departmentRepository.GetAll(), "Id","Name");
+        //        return View("AddCourse", result);
+        //    }
+        //}
 
-        public IActionResult SaveCourse(CourseDept result)
+
+        [HttpPost]
+        public async Task<IActionResult> SaveCourse(CourseDept result)
         {
-            if(ModelState.IsValid == true)
+            if (ModelState.IsValid)
             {
-                if (result.Duration == 30)
+                string imagePath = null;
+
+                // Upload image if exists
+                if (result.ImageFile != null)
                 {
-                    ModelState.AddModelError("Duration", "value can not be 30");
-                    //return View(result);
-                    MVCContext _dbContext = new MVCContext();
-                    result.DepartmentList = new SelectList(_dbContext.Departments.ToList(), "Id", "Name");
-                    return View("AddCourse", result);
-                }
-                else
-                {
-                    Course c = new Course()
+                    string fileName = Guid.NewGuid().ToString()
+                                      + Path.GetExtension(result.ImageFile.FileName);
+
+                    string filePath = Path.Combine(
+                        Directory.GetCurrentDirectory(),
+                        "wwwroot/images",
+                        fileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
                     {
-                        Name = result.Name,
-                        Degree = result.Degree,
-                        minDegree = result.minDegree,
-                        Duration = result.Duration,
-                        DepartmentId = result.DepartmentId,
-                    };
-                    MVCContext _dbContext = new MVCContext();
-                    _dbContext.Add(c);
-                    _dbContext.SaveChanges();
-                    return View("Index");
+                        await result.ImageFile.CopyToAsync(stream);
+                    }
+
+                    imagePath = "/images/" + fileName;
                 }
+
+                Course c = new Course()
+                {
+                    Name = result.Name,
+                    Degree = result.Degree,
+                    minDegree = result.minDegree,
+                    Duration = result.Duration,
+                    DepartmentId = result.DepartmentId,
+                    ImageUrl = imagePath   // ← ADD THIS
+                };
+
+                courseRepository.Add(c);
+                courseRepository.Save();
+
+                return RedirectToAction("Index"); // better than View("Index")
             }
-            else
-            {
-                MVCContext _dbContext = new MVCContext();
-                result.DepartmentList = new SelectList(_dbContext.Departments.ToList(), "Id","Name");
-                return View("AddCourse", result);
-            }
+
+            result.DepartmentList =
+                new SelectList(departmentRepository.GetAll(), "Id", "Name");
+
+            return View("AddCourse", result);
         }
 
+        public IActionResult DurationDivByThree(int Duration) => Duration %3 == 0 ? Json(true) : Json(false);
+
+        public IActionResult MinLessThanMax(int? Degree,int? minDegree) => minDegree >= Degree ? Json(false) : Json(true);
 
 
-        public IActionResult ShowCourses()
+
+
+        
+        public IActionResult ShowCourses(string searchText = "", int page = 1)
         {
-            MVCContext _dbContext = new MVCContext();
-            List<Course> courses = new List<Course>();
-            courses = _dbContext.Courses.Include(c => c.Dept).ToList();
-            return View(courses);
+            int pageSize = 3;
+
+            IQueryable<Course> query = courseRepository.GetAll().Include(c => c.Dept);
+
+            // Apply search filter
+            if (!string.IsNullOrEmpty(searchText))
+            {
+                query = query.Where(c => c.Name.Contains(searchText));
+            }
+
+            int totalItems = query.Count();
+
+            var vm = new CoursePage
+            {
+                Courses = query.Skip((page - 1) * pageSize).Take(pageSize).ToList(),
+                pageNumber = page,
+                PagesCount = (int)Math.Ceiling((double)totalItems / pageSize),
+                SearchText = searchText
+            };
+
+            return View(vm);
         }
+        
+
+        //public IActionResult SearchCourses(string CourseName)
+        //{
+        //    CoursePage crsPageVM = new CoursePage();
+        //    var query = courseRepository.GetByCrsName(CourseName);
+        //    crsPageVM.PagesCount = query.Count()/5;
+        //    crsPageVM.Courses = query.ToList();
+        //    return View("ShowCourses", crsPageVM);
+        //}
     }
 }

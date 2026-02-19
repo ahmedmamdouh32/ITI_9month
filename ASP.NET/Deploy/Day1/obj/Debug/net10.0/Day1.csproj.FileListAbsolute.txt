@@ -677,10 +677,11 @@ C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\obj\Debug\net10.
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\obj\Debug\net10.0\Day1.csproj.Up2Date
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\obj\Debug\net10.0\Day1.dll
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\obj\Debug\net10.0\refint\Day1.dll
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\obj\Debug\net10.0\Day1.pdb
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\obj\Debug\net10.0\Day1.genruntimeconfig.cache
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\obj\Debug\net10.0\ref\Day1.dll
+C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\bin\Debug\net10.0\dotnet-tools.json
+C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Http;
 
 namespace Day1.ViewModel
 {
@@ -27,7 +28,9 @@ namespace Day1.ViewModel
 
         [Remote(action:"DurationDivByThree",controller:"Course",ErrorMessage ="Value should be divisible by 3")]
         public int? Duration { set; get; }
-
+        [Display(Name ="Insert Image")]
+        public string? ImageUrl { set; get; }
+        public IFormFile? ImageFile { get; set; }
 
         public int DepartmentId { set; get; }
 

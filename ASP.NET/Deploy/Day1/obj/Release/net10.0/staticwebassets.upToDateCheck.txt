@@ -14,6 +14,7 @@ wwwroot\Images\11.webp
 wwwroot\Images\2.webp
 wwwroot\Images\3.webp
 wwwroot\Images\4.webp
+wwwroot\Images\b8de9f99-e01d-4827-8da8-408cb8570079.jpg
 wwwroot\Images\IconDelete.png
 wwwroot\Images\Instructors\instructor1.png
 wwwroot\Images\Instructors\instructor2.png

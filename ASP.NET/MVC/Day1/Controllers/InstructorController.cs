@@ -8,7 +8,6 @@ namespace Day1.Controllers
 {
     public class InstructorController : Controller
     {
-
         IinstructorRepository instructorRepository;
         ICourseRepository courseRepository;
         IDepartmentRepository departmentRepository;
@@ -27,7 +26,7 @@ namespace Day1.Controllers
         //End Point : Instructor/getAll
         public IActionResult getAll()
         {
-           return View("InstructorGetAll", instructorRepository.GetAll());
+           return View("InstructorGetAll", instructorRepository.GetAll().ToList());
         }
 
 

@@ -2,10 +2,36 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Courses Page</h1>
+<h2>Course Section</h2>
 <a asp-controller="Course" asp-action="ShowCourses" class="btn btn-primary">Show All Course</a>
 
 <div style="height:40px"></div>
-
 <a asp-controller="Course" asp-action="AddCourse" class="btn btn-primary">Add Course</a>
+<hr />
 
+<h2>Instructor Section</h2>
+@* <div style="height:40px"></div> *@
+<a asp-controller="Instructor" asp-action="getAll" class="btn btn-dark">Show All Instructors</a>
+
+<div style="height:40px"></div>
+<a asp-controller="Instructor" asp-action="AddInstructor" class="btn btn-dark">Add Instructor</a>
+
+<hr />
+
+<h2>Trainee Section</h2>
+<form asp-controller="Trainee" asp-action="TraineeCoursesState" method="get">
+    <div class="row">
+        <div class="col">
+            <input class="form-control form-control-lg"
+                   name="Tid"
+                   placeholder="Search By Trainee ID(enter 2 for testing)" 
+                   value="2"/>
+
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-primary btn-lg" type="submit">
+                Search
+            </button>
+        </div>
+    </div>
+</form>

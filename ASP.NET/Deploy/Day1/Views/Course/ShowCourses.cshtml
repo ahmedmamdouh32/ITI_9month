@@ -1,17 +1,33 @@
-﻿@using Day1.Entities
-@model List<Course>
+﻿@using Day1.ViewModel
+@using Day1.Entities
+@model CoursePage
+
 @{
     ViewData["Title"] = "ShowCourses";
     Layout = "_LayoutUser";
 }
 
+<style>
+    .courses-table td {
+        padding: 20px;
+        vertical-align: middle;
+    }
+
+    .course-img {
+        max-width: 200px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+</style>
+
 <h1>Courses</h1>
 
-﻿
-<table class="table table-bordered table-hover">
+<table class="table table-borderless text-white font-monospace courses-table">
     <tr>
         <th>Id</th>
         <th>Course Name</th>
+        <th>Image</th>
         <th>Degree</th>
         <th>Minimum Degree</th>
         <th>Duration (Hour)</th>
@@ -19,11 +35,23 @@
         <th>Delete</th>
     </tr>
 
-    @foreach (Course i in Model)
+    @foreach (Course i in Model.Courses)
     {
         <tr>
             <td>@i.Id</td>
             <td>@i.Name</td>
+
+            <td>
+                @if (!string.IsNullOrEmpty(i.ImageUrl))
+                {
+                    <img src="@i.ImageUrl" class="course-img" />
+                }
+                else
+                {
+                    <span>No Image</span>
+                }
+            </td>
+
             <td>@i.Degree</td>
             <td>@i.minDegree</td>
             <td>@i.Duration</td>
@@ -32,17 +60,56 @@
                 <a asp-controller="Course" asp-action="ConfirmDelete" asp-route-id="@i.Id">
                     <img src="~/Images/IconDelete.png" style="width:25px" />
                 </a>
-
-                
             </td>
         </tr>
     }
 </table>
 
+<div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
 
+            <li class="page-item">
+                <a class="page-link @(Model.pageNumber == 1 ? "disabled" : "")"
+                   asp-action="ShowCourses"
+                   asp-route-page="@(Model.pageNumber - 1)"
+                   asp-route-searchText="@Model.SearchText">
+                    Previous
+                </a>
+            </li>
 
+            <li class="page-item disabled">
+                <span class="page-link">
+                    @Model.pageNumber / @Model.PagesCount
+                </span>
+            </li>
 
+            <li class="page-item">
+                <a class="page-link @(Model.pageNumber == Model.PagesCount ? "disabled" : "")"
+                   asp-action="ShowCourses"
+                   asp-route-page="@(Model.pageNumber + 1)"
+                   asp-route-searchText="@Model.SearchText">
+                    Next
+                </a>
+            </li>
 
+        </ul>
+    </nav>
+</div>
 
+<form asp-controller="Course" asp-action="ShowCourses" method="get">
+    <div class="row">
+        <div class="col">
+            <input class="form-control form-control-lg"
+                   asp-for="SearchText"
+                   value="@Model.SearchText"
+                   placeholder="Search By Course Name" />
+        </div>
 
-
+        <div class="col-auto">
+            <button class="btn btn-primary btn-lg" type="submit">
+                Search
+            </button>
+        </div>
+    </div>
+</form>

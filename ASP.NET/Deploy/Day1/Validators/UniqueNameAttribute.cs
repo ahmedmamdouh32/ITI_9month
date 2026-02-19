@@ -5,19 +5,19 @@ namespace Day1.Validators
 {
     public class UniqueNameAttribute : ValidationAttribute
     {
-        //protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
-        //{
-        //    if (value is string)
-        //    {
-        //        string name =value.ToString();
-        //        MVCContext _dbContext = new MVCContext();
-        //        if (_dbContext.Courses.FirstOrDefault(c => c.Name == name) != null)
-        //        {
-        //            return new ValidationResult("Choose unique name");
-        //        }
-        //    }
-        //    return ValidationResult.Success;
-        //}
+        protected override ValidationResult? IsValid(object? value, ValidationContext validationContext)
+        {
+            if (value is string)
+            {
+                string name =value.ToString();
+                MVCContext _dbContext = new MVCContext();
+                if (_dbContext.Courses.FirstOrDefault(c => c.Name == name) != null)
+                {
+                    return new ValidationResult("Name is taken before");
+                }
+            }
+            return ValidationResult.Success;
+        }
 
         public override bool IsValid(object? value)
         {
@@ -26,10 +26,10 @@ namespace Day1.Validators
                 MVCContext _dbContext = new MVCContext();
                 if (_dbContext.Courses.FirstOrDefault(c => c.Name == name) == null)
                 {
-                    return true;
+                    return false;
                 }
             }
-            return false;
+            return true;
         }
     }
 }

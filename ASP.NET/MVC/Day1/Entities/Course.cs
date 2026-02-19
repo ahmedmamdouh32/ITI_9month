@@ -11,6 +11,8 @@ namespace Day1.Entities
         public int? Degree { set; get; }
         public int? minDegree {  set; get; }
         public int? Duration { set; get; }
+        [MaxLength(200)]
+        public string? ImageUrl { set; get; }
 
         [ForeignKey("Department")]
         public int DepartmentId { set; get; }

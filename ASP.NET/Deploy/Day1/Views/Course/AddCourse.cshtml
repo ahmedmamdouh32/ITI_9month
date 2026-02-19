@@ -8,7 +8,8 @@
 
 <h1>Add Course</h1>
 
-<form asp-action="SaveCourse" asp-controller="Course" method="post">
+<form asp-action="SaveCourse" asp-controller="Course"
+      method="post" enctype="multipart/form-data">
 	<div class="mb-3">
 		<label asp-for="Name"></label>
 		<input asp-for="Name" class="form-control">
@@ -33,6 +34,7 @@
 		<label asp-for="Duration" class="form-label"></label>
 		<input asp-for="Duration" class="form-control">
 		<span asp-validation-for="Duration" class="text-danger "></span>
+
 	</div>
 
 	<div class="mb-3">
@@ -43,5 +45,18 @@
 		</div>
 	</div>
 
+	<div class="mb-3">
+		<div class="mb-3">
+			<label asp-for="ImageUrl"></label>
+			<input asp-for="ImageFile" type="file" class="form-control" />
+		</div>
+	</div>
+
 	<button type="submit" value="Save" class="btn btn-primary">Add</button>
 </form>
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+

@@ -3,36 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\views\\course\\addcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:views\\course\\addcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\day1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:day1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\repositories\\instructorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:repositories\\instructorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\views\\course\\showcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:views\\course\\showcourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\viewmodel\\coursedept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:viewmodel\\coursedept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\viewmodel\\instructordeptcrs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:viewmodel\\instructordeptcrs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\validators\\uniquenameattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:validators\\uniquenameattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\controllers\\traineecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:controllers\\traineecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\views\\course\\addcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:views\\course\\addcourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\viewmodel\\coursepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:viewmodel\\coursepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:controllers\\sessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\migrations\\20260219191851_v4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:migrations\\20260219191851_v4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\migrations\\20260219191512_v3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:migrations\\20260219191512_v3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,112 +69,184 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LayoutUser.cshtml",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Shared\\_LayoutUser.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutUser.cshtml",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Shared\\_LayoutUser.cshtml*",
-              "RelativeToolTip": "Views\\Shared\\_LayoutUser.cshtml*",
-              "ViewState": "AgIAAOoAAAAAAAAAAAAAAPQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-15T18:59:49.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-15T18:59:41.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-15T18:59:37.562Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InstructorDeptCrs.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\ViewModel\\InstructorDeptCrs.cs",
-              "RelativeDocumentMoniker": "ViewModel\\InstructorDeptCrs.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\ViewModel\\InstructorDeptCrs.cs",
-              "RelativeToolTip": "ViewModel\\InstructorDeptCrs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "InstructorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Repositories\\InstructorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\InstructorRepository.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Repositories\\InstructorRepository.cs",
+              "RelativeToolTip": "Repositories\\InstructorRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T12:55:55.123Z",
+              "WhenOpened": "2026-02-19T21:10:28.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowCourses.cshtml",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Course\\ShowCourses.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\ShowCourses.cshtml",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Course\\ShowCourses.cshtml",
+              "RelativeToolTip": "Views\\Course\\ShowCourses.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAG4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-19T20:59:47.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TraineeController.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Controllers\\TraineeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TraineeController.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Controllers\\TraineeController.cs",
+              "RelativeToolTip": "Controllers\\TraineeController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T20:55:52.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InstructorController.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "Controllers\\InstructorController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T19:44:20.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UniqueNameAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Validators\\UniqueNameAttribute.cs",
-              "RelativeDocumentMoniker": "Validators\\UniqueNameAttribute.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Validators\\UniqueNameAttribute.cs",
-              "RelativeToolTip": "Validators\\UniqueNameAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T12:49:33.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddCourse.cshtml",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Course\\AddCourse.cshtml",
-              "RelativeDocumentMoniker": "Views\\Course\\AddCourse.cshtml",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Course\\AddCourse.cshtml",
-              "RelativeToolTip": "Views\\Course\\AddCourse.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADEAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-15T12:48:48.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CourseDept.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\ViewModel\\CourseDept.cs",
-              "RelativeDocumentMoniker": "ViewModel\\CourseDept.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\ViewModel\\CourseDept.cs",
-              "RelativeToolTip": "ViewModel\\CourseDept.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T12:47:31.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "CourseController.cs",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Controllers\\CourseController.cs",
               "RelativeToolTip": "Controllers\\CourseController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAowE8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T12:38:56.702Z",
+              "WhenOpened": "2026-02-19T19:13:04.606Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Day1.csproj",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Day1.csproj",
+              "RelativeDocumentMoniker": "Day1.csproj",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Day1.csproj",
+              "RelativeToolTip": "Day1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-18T20:24:09.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Entities\\Course.cs",
+              "RelativeDocumentMoniker": "Entities\\Course.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Entities\\Course.cs",
+              "RelativeToolTip": "Entities\\Course.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T19:13:46.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\Index.cshtml",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAWwB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-19T19:44:06.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddCourse.cshtml",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Course\\AddCourse.cshtml",
+              "RelativeDocumentMoniker": "Views\\Course\\AddCourse.cshtml",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Course\\AddCourse.cshtml",
+              "RelativeToolTip": "Views\\Course\\AddCourse.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-19T19:19:34.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20260219191851_v4.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Migrations\\20260219191851_v4.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260219191851_v4.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Migrations\\20260219191851_v4.cs",
+              "RelativeToolTip": "Migrations\\20260219191851_v4.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T19:18:51.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CoursePage.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\ViewModel\\CoursePage.cs",
+              "RelativeDocumentMoniker": "ViewModel\\CoursePage.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\ViewModel\\CoursePage.cs",
+              "RelativeToolTip": "ViewModel\\CoursePage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T22:35:09.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20260219191512_v3.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Migrations\\20260219191512_v3.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260219191512_v3.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Migrations\\20260219191512_v3.cs",
+              "RelativeToolTip": "Migrations\\20260219191512_v3.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T19:15:12.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T11:43:34.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SessionController.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Controllers\\SessionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SessionController.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Controllers\\SessionController.cs",
+              "RelativeToolTip": "Controllers\\SessionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T11:37:29.374Z"
             }
           ]
         }

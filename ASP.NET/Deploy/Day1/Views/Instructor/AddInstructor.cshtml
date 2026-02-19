@@ -4,31 +4,32 @@
 
 <h1>Add Instructor</h1>
 
-<form action="/Instructor/SaveInstructor/instVM" method="post">
+<form asp-action="SaveInstructor" asp-controller="Instructor" method="post">
 	<div class="mb-3">
-		<label for="Name" class="form-label">Name</label>
-		<input type="text" class="form-control" id="Name" value="@Model?.Name" name="Name">
+		<label asp-for="Name" class="form-label"></label>
+		<input asp-for="Name" class="form-control">
 	</div>
 
 	<div class="mb-3">
-		<label for="ImageSource" class="form-label">Image Source</label>
-		<input type="text" class="form-control" id="" value="@Model?.ImageSrc" name="ImageSrc">
+		<label asp-for="ImageSrc" class="form-label"></label>
+		<input asp-for="ImageSrc" class="form-control">
+
 	</div>
 	
 	<div class="mb-3">
-		<label for="Salary" class="form-label">Salary</label>
-		<input type="number" class="form-control" id="" value="@Model?.Salary" name="Salary">
+		<label asp-for="Salary" class="form-label"></label>
+		<input asp-for="Salary" class="form-control">
 	</div>
 
 	<div class="mb-3">
-		<label for="Address" class="form-label">Address</label>
-		<input type="text" class="form-control" id="" value="@Model?.Address" name="Address">
+		<label asp-for="Address" class="form-label"></label>
+		<input asp-for="Address" class="form-control">
 	</div>
 
 	<div class="mb-3">
 		<label for="Department">Department</label>
-		<select class="form-select" aria-label="Default select example" name="DepartmentId">
-			@foreach (var department in Model?.department)
+		<select class="form-select" aria-label="Default select example" asp-for="DepartmentId" asp-items="Model.departmentList">
+			@* @foreach (var department in Model?.department)
 			{
 					if(Model.DepartmentId == department.Id)
 					{
@@ -38,14 +39,14 @@
 					{
 						<option value="@department.Id">@department.Name</option>
 					}
-			}
+			} *@
 		</select>
 	</div>
 
 	<div class="mb-3">
-		<label for="Course">Course</label>
-		<select class="form-select" aria-label="Default select example" name="CourseId">
-			@foreach (var crs in Model?.course)
+		<label asp-for="CourseId"></label>
+		<select asp-for="CourseId" class="form-select" aria-label="Default select example" asp-items="Model.coursesList">
+			@* @foreach (var crs in Model?.course)
 			{
 				if (Model.CourseId == crs.Id)
 				{
@@ -55,9 +56,17 @@
 				{
 					<option value="@crs.Id">@crs.Name</option>
 				}
-			}
+			} *@
 		</select>
 	</div>
+
+	@* <div class="mb-3">
+		<div class="mb-3">
+			<label asp-for="DepartmentId"></label>
+			<select asp-for="DepartmentId" asp-items="Model.DepartmentList" class="form-select">
+			</select>
+		</div>
+	</div> *@
 
 	<button type="submit" value="Save" class="btn btn-primary">Submit</button>
 </form>

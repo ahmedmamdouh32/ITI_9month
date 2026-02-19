@@ -11,15 +11,13 @@ namespace Day1.Entities
         public int? Degree { set; get; }
         public int? minDegree {  set; get; }
         public int? Duration { set; get; }
+        [MaxLength(200)]
+        public string? ImageUrl { set; get; }
 
         [ForeignKey("Department")]
         public int DepartmentId { set; get; }
         public virtual Department? Dept{ get; set; }
-
         public virtual List<crsResult>? Results { set; get; }
         public virtual List<Instructor>? Instructors{ set; get; }
-
-
-
     }
 }

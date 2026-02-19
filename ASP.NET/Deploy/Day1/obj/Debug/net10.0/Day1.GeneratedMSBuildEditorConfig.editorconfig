@@ -78,12 +78,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/adminstrator/Documents/ITI_9Months/ASP.NET/Deploy/Day1/Views/Shared/UserExceptionView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVzZXJFeGNlcHRpb25WaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/adminstrator/Documents/ITI_9Months/ASP.NET/Deploy/Day1/Views/Shared/_LayoutUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/adminstrator/Documents/ITI_9Months/ASP.NET/Deploy/Day1/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adminstrator/Documents/ITI_9Months/ASP.NET/Deploy/Day1/Views/Trainee/TraineeCoursesState.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxUcmFpbmVlQ291cnNlc1N0YXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adminstrator/Documents/ITI_9Months/ASP.NET/Deploy/Day1/Views/Trainee/TraineeState.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhaW5lZVxUcmFpbmVlU3RhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/adminstrator/Documents/ITI_9Months/ASP.NET/Deploy/Day1/Views/_ViewImports.cshtml]
