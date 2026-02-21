@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
 namespace Day1.Entities
 {
-    public class MVCContext:DbContext
+    public class MVCContext:IdentityDbContext<ApplicationUser>
     {
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -13,6 +14,11 @@ namespace Day1.Entities
                 optionsBuilder.UseSqlServer("Server=db41385.public.databaseasp.net; Database=db41385; User Id=db41385; Password=4b-P?2Nn9Wd!; Encrypt=True; TrustServerCertificate=True; MultipleActiveResultSets=True;");
                 base.OnConfiguring(optionsBuilder);
             }
+        }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder); //Identity update database
         }
 
         public MVCContext(DbContextOptions<MVCContext> options) : base(options){

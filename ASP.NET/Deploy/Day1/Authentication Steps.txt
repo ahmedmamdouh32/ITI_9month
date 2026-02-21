@@ -1,0 +1,7 @@
+﻿1- Install Package: Microsoft.AspNetCore.Identity.EntityFrameworkCore
+2- Create ApplicationUser Class
+3- Modifiy MVCContext : IdentityDbContext
+4- Migration
+5- Authorization : Controller : Employee , Action : getAll
+6- Create AccountController that contains [Creating, Deleting, Updating] accounts, Sign in , sign up , sign out
+

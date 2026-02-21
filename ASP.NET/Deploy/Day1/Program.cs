@@ -1,8 +1,10 @@
 using Day1.Entities;
 using Day1.Filters;
 using Day1.Repositories;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+
 
 namespace Day1
 {
@@ -35,10 +37,19 @@ namespace Day1
             });
 
 
+            // 2. Add Identity
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(
+                options =>
+                {
+                    options.Password.RequiredLength = 4;
+                    options.Password.RequireNonAlphanumeric = false;
+                } //minimum length
+            )
+            .AddEntityFrameworkStores<MVCContext>()
+            .AddDefaultTokenProviders();
 
 
             var app = builder.Build();
-
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
@@ -51,6 +62,7 @@ namespace Day1
             app.UseRouting();
             app.UseSession();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapStaticAssets();

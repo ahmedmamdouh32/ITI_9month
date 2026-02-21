@@ -1,6 +1,7 @@
 ﻿using Day1.Entities;
 using Day1.Repositories;
 using Day1.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -24,6 +25,7 @@ namespace Day1.Controllers
 
 
         //End Point : Instructor/getAll
+        [Authorize]
         public IActionResult getAll()
         {
            return View("InstructorGetAll", instructorRepository.GetAll().ToList());
