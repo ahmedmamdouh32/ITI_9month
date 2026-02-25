@@ -1,0 +1,13 @@
+#mydiv{
+    /* position: relative; */
+    top: 50px; 
+    width: 200px;
+    height: 200px; 
+    margin: auto;
+    background-color: rgb(71, 71, 239);
+}
+
+#buttonsDiv{
+    margin-top: 50px;
+    text-align: center ;
+}

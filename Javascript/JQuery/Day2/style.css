@@ -1,0 +1,14 @@
+.gallery img {
+    width: 200px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#preview {
+    position: absolute;
+    width: 350px;
+    display: none;
+    pointer-events: none;
+    border: 3px solid black;
+    border-radius: 10px;
+}
