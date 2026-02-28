@@ -14,6 +14,17 @@ namespace Day1
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // Add CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    policy =>
+                    {
+                        policy.AllowAnyOrigin()
+                              .AllowAnyHeader()
+                              .AllowAnyMethod();
+                    });
+            });
             // Add services to the container.
             //builder.Services.AddControllersWithViews(options =>{
             //    options.Filters.Add(new CustomExceptionFilter()); //now the filter is Global, any action made exception this filter will handle it
@@ -61,7 +72,7 @@ namespace Day1
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseSession();
-
+            app.UseCors("AllowAll");
             app.UseAuthentication();
             app.UseAuthorization();
 

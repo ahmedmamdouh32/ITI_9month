@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\viewmodel\\usertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:viewmodel\\usertask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\viewmodel\\rolevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:viewmodel\\rolevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -55,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:viewmodel\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\asp.net\\deploy\\day1\\authentication steps.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{8C8DB59F-DF26-6263-249E-6129DA337F87}|Day1.csproj|solutionrelative:authentication steps.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -74,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,7 +90,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "UserTask.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\ViewModel\\UserTask.cs",
+              "RelativeDocumentMoniker": "ViewModel\\UserTask.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\ViewModel\\UserTask.cs",
+              "RelativeToolTip": "ViewModel\\UserTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:35:59.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T11:34:38.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Role\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Role\\Create.cshtml",
@@ -90,12 +123,11 @@
               "RelativeToolTip": "Views\\Role\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-21T22:25:10.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T22:25:10.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "RoleVM.cs",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\ViewModel\\RoleVM.cs",
               "RelativeDocumentMoniker": "ViewModel\\RoleVM.cs",
@@ -103,12 +135,11 @@
               "RelativeToolTip": "ViewModel\\RoleVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T22:22:01.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T22:22:01.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "RoleController.cs",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Controllers\\RoleController.cs",
               "RelativeDocumentMoniker": "Controllers\\RoleController.cs",
@@ -116,12 +147,11 @@
               "RelativeToolTip": "Controllers\\RoleController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T22:20:52.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T22:20:52.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "WelcomeMessage.cs",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Controllers\\WelcomeMessage.cs",
               "RelativeDocumentMoniker": "Controllers\\WelcomeMessage.cs",
@@ -129,21 +159,19 @@
               "RelativeToolTip": "Controllers\\WelcomeMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T21:45:08.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T21:45:08.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAswCoAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswCcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-21T21:27:44.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T21:27:44.68Z"
             },
             {
               "$type": "Document",
@@ -155,12 +183,11 @@
               "RelativeToolTip": "Controllers\\RegisterController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAAADEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T11:53:04.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T11:53:04.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "InstructorDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Instructor\\InstructorDetails.cshtml",
               "RelativeDocumentMoniker": "Views\\Instructor\\InstructorDetails.cshtml",
@@ -168,12 +195,11 @@
               "RelativeToolTip": "Views\\Instructor\\InstructorDetails.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-21T21:26:49.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T21:26:49.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "AddInstructor.cshtml",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Instructor\\AddInstructor.cshtml",
               "RelativeDocumentMoniker": "Views\\Instructor\\AddInstructor.cshtml",
@@ -181,12 +207,11 @@
               "RelativeToolTip": "Views\\Instructor\\AddInstructor.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-21T21:26:44.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T21:26:44.046Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ConfirmDelete.cshtml",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Course\\ConfirmDelete.cshtml",
               "RelativeDocumentMoniker": "Views\\Course\\ConfirmDelete.cshtml",
@@ -194,12 +219,11 @@
               "RelativeToolTip": "Views\\Course\\ConfirmDelete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-21T21:26:23.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T21:26:23.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "AddCourse.cshtml",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Course\\AddCourse.cshtml",
               "RelativeDocumentMoniker": "Views\\Course\\AddCourse.cshtml",
@@ -207,12 +231,11 @@
               "RelativeToolTip": "Views\\Course\\AddCourse.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-21T21:26:15.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T21:26:15.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Register\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Register\\Login.cshtml",
@@ -220,12 +243,11 @@
               "RelativeToolTip": "Views\\Register\\Login.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-21T20:36:31.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T20:36:31.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "UserLogin.cs",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\ViewModel\\UserLogin.cs",
               "RelativeDocumentMoniker": "ViewModel\\UserLogin.cs",
@@ -233,12 +255,11 @@
               "RelativeToolTip": "ViewModel\\UserLogin.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T20:31:51.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T20:31:51.401Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Views\\Course\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Course\\Index.cshtml",
@@ -246,12 +267,11 @@
               "RelativeToolTip": "Views\\Course\\Index.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-21T15:32:25.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T15:32:25.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Entities\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Entities\\ApplicationUser.cs",
@@ -259,12 +279,11 @@
               "RelativeToolTip": "Entities\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-20T21:29:07.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T21:29:07.883Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Authentication Steps.txt",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Authentication Steps.txt",
               "RelativeDocumentMoniker": "Authentication Steps.txt",
@@ -272,18 +291,17 @@
               "RelativeToolTip": "Authentication Steps.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-02-20T21:23:57.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-20T21:23:57.641Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\ASP.NET\\Deploy\\Day1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T11:43:34.89Z",
               "EditorCaption": ""
