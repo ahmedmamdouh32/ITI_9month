@@ -82,6 +82,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\Images\flowerBloom\whiteFlower.jpg
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\wwwroot\assets\favicon.ico
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\wwwroot\css\site.css
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\Deploy\Day1\wwwroot\css\styles.css
