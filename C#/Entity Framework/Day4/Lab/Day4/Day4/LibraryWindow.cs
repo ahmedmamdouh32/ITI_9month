@@ -234,7 +234,7 @@ namespace Day4
                 currentPage += 5;
                 flowBooks.Controls.Clear();
                 lblPaging.Text = $"{currentPage / 5 + 1}/{totalBooks / 5 + 1}";
-                var books = _dbContext.Books.Where(b => b.AuthorId == author.Id).Skip(currentPage).Take(5).Include(b => b.category);
+                var books = _dbContext.Books.Where(b => b.AuthorId == author.Id && b.CategoryId == (int)cmbCategories.SelectedValue).Skip(currentPage).Take(5).Include(b => b.category);
                 flowBooks.Controls.Clear();
                 foreach (Book b in books)
                 {
@@ -249,7 +249,9 @@ namespace Day4
             {
                 currentPage -= 5;
                 lblPaging.Text = $"{currentPage / 5 + 1}/{totalBooks / 5 + 1}";
-                var books = _dbContext.Books.Where(b => b.AuthorId == author.Id).Skip(currentPage).Take(5).Include(b=>b.category);
+                //var books = _dbContext.Books.Where(b => b.AuthorId == author.Id).Skip(currentPage).Take(5).Include(b=>b.category);
+                var books = _dbContext.Books.Where(b => b.AuthorId == author.Id && b.CategoryId == (int)cmbCategories.SelectedValue).Skip(currentPage).Take(5).Include(b => b.category);
+
                 flowBooks.Controls.Clear();
                 foreach (Book b in books)
                 {

@@ -1,0 +1,11 @@
+100,HTML,20,Web
+700,Web Service,20,Web
+1100,Win XP,20,Operating System
+600,C#,80,Programming
+200,C Programming,60,Programming
+300,OOP,80,Programming
+800,Java,60,Programming
+500,SQL Server,60,DB
+900,Oracle,50,DB
+1000,ASP.Net,60,Web
+400,Unix,50,Operating System

@@ -1,0 +1,40 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SQL BI\\Day3\\Lab\\Day3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56049846-18E3-1469-96F4-9152C17DB912}|Day3\\Day3.rptproj|C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SQL BI\\Day3\\Lab\\Day3\\Day3\\Task10.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}",
+      "RelativeMoniker": "D:0:0:{56049846-18E3-1469-96F4-9152C17DB912}|Day3\\Day3.rptproj|solutionrelative:Day3\\Task10.rdl||{420F4200-DD61-4785-81F3-52669CBC208E}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task10.rdl [Design]",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SQL BI\\Day3\\Lab\\Day3\\Day3\\Task10.rdl",
+              "RelativeDocumentMoniker": "Day3\\Task10.rdl",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SQL BI\\Day3\\Lab\\Day3\\Day3\\Task10.rdl [Design]",
+              "RelativeToolTip": "Day3\\Task10.rdl [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-15T11:13:32.919Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

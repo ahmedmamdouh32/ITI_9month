@@ -1,0 +1,13 @@
+<Solution>
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="DebugLocal" />
+    <BuildType Name="Release" />
+    <Platform Name="Default" />
+  </Configurations>
+  <Project Path="Day3/Day3.rptproj">
+    <BuildType Solution="Debug|*" Project="Release" />
+    <Deploy Solution="Debug|*" />
+    <Deploy Solution="Release|*" />
+  </Project>
+</Solution>
