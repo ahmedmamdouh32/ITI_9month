@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>ModernWear | Premium Fashion</title>
+    <!-- Bootstrap 5 CSS + Icons + Core JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons (alternative to lucide/iconify, but we keep universal style) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Google Fonts for clean typography -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* Custom overrides to keep Bootstrap aligned with original design colors, spacing, and hover effects */
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            background-color: #ffffff;
+            line-height: 1.5;
+        }
+
+        /* brand color: #2C5F2D (green), neutral grays */
+        :root {
+            --brand-green: #2C5F2D;
+            --brand-dark: #1a1a1a;
+            --brand-gray: #4a4a4a;
+            --brand-light-gray: #707070;
+            --bg-warm: #faf8f5;
+            --card-bg: #ffffff;
+            --footer-bg: #F7F4EF;
+            --border-light: #e8e3dc;
+        }
+
+        .text-brand-green {
+            color: var(--brand-green);
+        }
+
+        .bg-brand-green {
+            background-color: var(--brand-green);
+        }
+
+        .btn-brand-green {
+            background-color: var(--brand-green);
+            color: white;
+            transition: all 0.2s ease;
+        }
+
+        .btn-brand-green:hover {
+            background-color: #1d4620;
+            color: white;
+        }
+
+        .hero-overlay {
+            background-color: rgba(44, 95, 45, 0.2);
+        }
+
+        .category-card img,
+        .product-card img {
+            transition: opacity 0.25s ease;
+        }
+
+        .category-card:hover img {
+            opacity: 0.9;
+        }
+
+        .product-card {
+            transition: box-shadow 0.2s ease;
+            border-radius: 1rem;
+            background: white;
+            overflow: hidden;
+        }
+
+        .product-card:hover {
+            box-shadow: 0 8px 20px rgba(44, 95, 45, 0.08);
+        }
+
+        .heart-icon {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(4px);
+            transition: background 0.2s;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .heart-icon:hover {
+            background: white;
+        }
+
+        .footer-link {
+            color: var(--brand-gray);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-link:hover {
+            color: var(--brand-green);
+        }
+
+        .social-icon {
+            color: var(--brand-gray);
+            font-size: 1.4rem;
+            transition: color 0.2s;
+        }
+
+        .social-icon:hover {
+            color: var(--brand-green);
+        }
+
+        .cart-badge {
+            background-color: var(--brand-green);
+            color: white;
+            width: 20px;
+            height: 20px;
+            font-size: 0.7rem;
+            top: -8px;
+            right: -12px;
+        }
+
+        .nav-link-custom {
+            font-weight: 500;
+            color: var(--brand-gray);
+            transition: color 0.2s;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .nav-link-custom:hover,
+        .nav-link-custom.active {
+            color: var(--brand-green);
+        }
+
+        .btn-icon-hover {
+            transition: color 0.2s;
+            cursor: pointer;
+        }
+
+        .btn-icon-hover:hover {
+            color: var(--brand-green);
+        }
+
+        .img-cover {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* responsive adjustments for section padding */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+
+            .hero-sub {
+                font-size: 1rem;
+            }
+
+            .section-pad {
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .hero-title {
+                font-size: 1.75rem;
+            }
+        }
+
+        .section-pad {
+            padding: 4rem 3rem;
+        }
+
+        @media (max-width: 992px) {
+            .section-pad {
+                padding: 3rem 2rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .section-pad {
+                padding: 2.5rem 1.5rem;
+            }
+        }
+
+        /* Navbar custom styling to match original design */
+        .navbar-custom {
+            background-color: #faf8f5;
+            padding: 1rem 3rem;
+        }
+
+        @media (max-width: 991.98px) {
+            .navbar-custom {
+                padding: 1rem 1.5rem;
+            }
+        }
+
+        .navbar-brand-custom {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 1.75rem;
+            font-weight: bold;
+            color: #1a1a1a;
+            text-decoration: none;
+        }
+
+        .navbar-brand-custom i {
+            color: var(--brand-green);
+            font-size: 1.75rem;
+        }
+
+        .navbar-nav .nav-link {
+            font-weight: 500;
+            color: #4a4a4a;
+            padding: 0.5rem 0;
+            transition: color 0.2s;
+        }
+
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link.active {
+            color: var(--brand-green);
+        }
+
+        /* Desktop: nav links always visible, but Bootstrap collapse handles mobile. 
+       We want navbar to be normal on desktop (expanded) and collapsed on mobile with toggler.
+       Bootstrap default behavior: navbar-expand-lg shows links horizontally on lg+ and collapses on <lg.
+       Perfect for our requirement */
+        .navbar-toggler {
+            border: none;
+            padding: 0;
+        }
+
+        .navbar-toggler:focus {
+            box-shadow: none;
+        }
+
+        .navbar-toggler-icon-custom {
+            font-size: 1.8rem;
+            color: var(--brand-green);
+        }
+
+        /* Right icons wrapper */
+        .nav-icons {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+        }
+
+        @media (max-width: 991.98px) {
+            .navbar-custom {
+                padding: 0.875rem 1.25rem;
+            }
+
+            .navbar-brand-custom {
+                font-size: 1.5rem;
+            }
+
+            .navbar-brand-custom i {
+                font-size: 1.5rem;
+            }
+
+            .nav-icons {
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 
+  Navbar with Bootstrap responsive behavior:
+  - On desktop (lg and above): navbar expands, links visible horizontally, no toggler needed.
+  - On mobile/tablet (< lg): navbar collapses, hamburger button appears to toggle menu.
+  This matches exactly the requirement: "navbar to be shown normally and when the screen is for mobile phones then start showing the navbar using the button"
+-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid p-0">
+                <!-- Brand Logo -->
+                <a class="navbar-brand-custom" href="#">
+                    <i class="bi bi-handbag"></i>
+                    <span>ModernWear</span>
+                </a>
+
+                <!-- Navbar toggler (hamburger button) - visible only on mobile/tablet -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list fs-1" style="color: #2C5F2D;"></i>
+                </button>
+
+                <!-- Collapsible navbar content: links and icons (icons also reposition on collapse) -->
+                <div class="collapse navbar-collapse justify-content-between" id="mainNavbar">
+
+                    <div class="d-none d-lg-block" style="width: 120px;"></div>
+
+                    <!-- Centered navigation links on desktop, left on collapse -->
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4 gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-semibold" href="#" style="color: #2C5F2D;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cart</a>
+                        </li>
+                    </ul>
+
+                    <!-- Right side icons: search & shopping bag with badge -->
+                    <div class="nav-icons ms-auto mt-3 mt-lg-0">
+                        <i class="bi bi-search fs-5 btn-icon-hover" style="color: #4a4a4a;"></i>
+                        <div class="position-relative d-inline-flex">
+                            <i class="bi bi-bag fs-5 btn-icon-hover" style="color: #4a4a4a;"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-brand-green cart-badge">3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section with background image and green overlay -->
+        <section class="position-relative w-100"
+            style="min-height: 600px; background-image: url('https://static.paraflowcontent.com/public/resource/image/a74d214f-191f-445a-be1c-9409bee812e2.jpeg'); background-size: cover; background-position: center;">
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(44, 95, 45, 0.2);">
+            </div>
+            <div class="container h-100 d-flex align-items-center justify-content-center position-relative py-5"
+                style="min-height: 600px;">
+                <div class="text-center text-white px-3" style="max-width: 720px;">
+                    <h1 class="display-4 fw-bold mb-3 hero-title">Discover Your Perfect Style with Premium Fashion</h1>
+                    <p class="fs-5 mb-4 opacity-90 hero-sub">Quality craftsmanship meets modern design. Shop our curated
+                        collection of premium apparel designed for the contemporary lifestyle.</p>
+                    <button
+                        class="btn btn-light btn-lg rounded-pill px-5 py-3 fw-semibold d-inline-flex align-items-center gap-2"
+                        style="color: #2C5F2D; background: white;">
+                        Shop Collection <i class="bi bi-arrow-right-short fs-4"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Shop by Category section -->
+        <section class="section-pad">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-semibold fs-1" style="color: #1a1a1a;">Shop by Category</h2>
+                    <p class="text-secondary fs-5">Discover our carefully curated collections for every occasion</p>
+                </div>
+                <div class="row g-4">
+                    <!-- Category 1: T-Shirts -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="category-card">
+                            <div class="rounded-4 overflow-hidden mb-3" style="aspect-ratio: 1 / 1;">
+                                <img src="https://static.paraflowcontent.com/public/resource/image/ae2c9e3f-8315-4bd7-a6d4-127aab6cfd67.jpeg"
+                                    class="w-100 h-100 img-cover" alt="Premium cotton t-shirts collection">
+                            </div>
+                            <h3 class="fw-semibold fs-5 mb-0" style="color: #1a1a1a;">T-Shirts</h3>
+                            <p class="text-secondary-emphasis" style="color: #707070;">24 items</p>
+                        </div>
+                    </div>
+                    <!-- Category 2: Shorts -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="category-card">
+                            <div class="rounded-4 overflow-hidden mb-3" style="aspect-ratio: 1 / 1;">
+                                <img src="https://static.paraflowcontent.com/public/resource/image/b7608e39-6a38-4a4c-96ec-7ed634ce9120.jpeg"
+                                    class="w-100 h-100 img-cover" alt="Contemporary shorts collection">
+                            </div>
+                            <h3 class="fw-semibold fs-5 mb-0">Shorts</h3>
+                            <p class="text-secondary-emphasis" style="color: #707070;">18 items</p>
+                        </div>
+                    </div>
+                    <!-- Category 3: Shirts -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="category-card">
+                            <div class="rounded-4 overflow-hidden mb-3" style="aspect-ratio: 1 / 1;">
+                                <img src="https://static.paraflowcontent.com/public/resource/image/f9c5b1fc-cf08-4550-a4e1-898ebedafe36.jpeg"
+                                    class="w-100 h-100 img-cover" alt="Professional dress shirts">
+                            </div>
+                            <h3 class="fw-semibold fs-5 mb-0">Shirts</h3>
+                            <p class="text-secondary-emphasis" style="color: #707070;">32 items</p>
+                        </div>
+                    </div>
+                    <!-- Category 4: Hoodies -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="category-card">
+                            <div class="rounded-4 overflow-hidden mb-3" style="aspect-ratio: 1 / 1;">
+                                <img src="https://static.paraflowcontent.com/public/resource/image/0d8dbdb2-20f8-4ef2-a52f-b35d293071a5.jpeg"
+                                    class="w-100 h-100 img-cover" alt="Comfortable hoodies and sweatshirts">
+                            </div>
+                            <h3 class="fw-semibold fs-5 mb-0">Hoodies</h3>
+                            <p class="text-secondary-emphasis" style="color: #707070;">15 items</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Products section with light background -->
+        <section style="background-color: #FDFCFA;" class="section-pad">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="fw-semibold fs-1" style="color: #1a1a1a;">Featured Products</h2>
+                    <p class="text-secondary fs-5">Hand-picked favorites from our latest collection</p>
+                </div>
+                <div class="row g-4">
+                    <!-- Product 1: Organic Cotton Tee -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="product-card h-100 d-flex flex-column">
+                            <div class="position-relative" style="aspect-ratio: 1 / 1;">
+                                <img src="https://static.paraflowcontent.com/public/resource/image/ecbae9fe-0522-428c-91b4-a52a64fbe9ae.jpeg"
+                                    class="w-100 h-100 img-cover" alt="Organic cotton t-shirt">
+                                <div class="position-absolute top-0 end-0 m-3">
+                                    <div class="heart-icon"><i class="bi bi-heart" style="color: #4a4a4a;"></i></div>
+                                </div>
+                            </div>
+                            <div class="p-3 d-flex flex-column flex-grow-1">
+                                <p class="text-uppercase small mb-1" style="color: #707070;">Essentials</p>
+                                <h3 class="fw-semibold fs-6 mb-2">Organic Cotton Tee</h3>
+                                <div class="mt-auto">
+                                    <span class="fw-bold fs-5 text-brand-green">$29.99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product 2: Classic Denim Shorts -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="product-card h-100 d-flex flex-column">
+                            <div class="position-relative" style="aspect-ratio: 1 / 1;">
+                                <img src="https://static.paraflowcontent.com/public/resource/image/9b5d90de-73d2-477f-9a89-85d5de17ade3.jpeg"
+                                    class="w-100 h-100 img-cover" alt="Classic Denim Shorts">
+                                <div class="position-absolute top-0 end-0 m-3">
+                                    <div class="heart-icon"><i class="bi bi-heart" style="color: #4a4a4a;"></i></div>
+                                </div>
+                            </div>
+                            <div class="p-3 d-flex flex-column flex-grow-1">
+                                <p class="text-uppercase small mb-1" style="color: #707070;">Denim</p>
+                                <h3 class="fw-semibold fs-6 mb-2">Classic Denim Shorts</h3>
+                                <div class="mt-auto">
+                                    <span class="fw-bold fs-5 text-brand-green">$45.99</span>
+                                    <span class="text-decoration-line-through text-secondary ms-2 small">$59.99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product 3: Classic Button-Up -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="product-card h-100 d-flex flex-column">
+                            <div class="position-relative" style="aspect-ratio: 1 / 1;">
+                                <img src="https://static.paraflowcontent.com/public/resource/image/969fe72a-a588-4102-b567-2a6bd096e9eb.jpeg"
+                                    class="w-100 h-100 img-cover" alt="Classic Button-Up Shirt">
+                                <div class="position-absolute top-0 end-0 m-3">
+                                    <div class="heart-icon"><i class="bi bi-heart" style="color: #4a4a4a;"></i></div>
+                                </div>
+                            </div>
+                            <div class="p-3 d-flex flex-column flex-grow-1">
+                                <p class="text-uppercase small mb-1" style="color: #707070;">Formal</p>
+                                <h3 class="fw-semibold fs-6 mb-2">Classic Button-Up</h3>
+                                <div class="mt-auto">
+                                    <span class="fw-bold fs-5 text-brand-green">$65.99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product 4: Premium Hoodie -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="product-card h-100 d-flex flex-column">
+                            <div class="position-relative" style="aspect-ratio: 1 / 1;">
+                                <img src="https://static.paraflowcontent.com/public/resource/image/a85341c2-d9ad-4aac-b56b-eb78c297fcbb.jpeg"
+                                    class="w-100 h-100 img-cover" alt="Premium Hoodie">
+                                <div class="position-absolute top-0 end-0 m-3">
+                                    <div class="heart-icon"><i class="bi bi-heart" style="color: #4a4a4a;"></i></div>
+                                </div>
+                            </div>
+                            <div class="p-3 d-flex flex-column flex-grow-1">
+                                <p class="text-uppercase small mb-1" style="color: #707070;">Comfort</p>
+                                <h3 class="fw-semibold fs-6 mb-2">Premium Hoodie</h3>
+                                <div class="mt-auto">
+                                    <span class="fw-bold fs-5 text-brand-green">$89.99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <button
+                        class="btn btn-brand-green rounded-pill px-5 py-2 fw-semibold d-inline-flex align-items-center gap-2">
+                        View All Products <i class="bi bi-arrow-right-short fs-5"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer style="background-color: #F7F4EF; border-top: 1px solid #e8e3dc;" class="section-pad">
+            <div class="container">
+                <div class="row g-4 pb-5 mb-2">
+                    <!-- Brand column -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="d-flex align-items-center gap-2 mb-3">
+                            <i class="bi bi-handbag fs-4 text-brand-green"></i>
+                            <span class="fw-bold fs-4" style="color: #1a1a1a;">ModernWear</span>
+                        </div>
+                        <p class="small text-secondary">Premium fashion for the modern lifestyle. Quality craftsmanship
+                            meets contemporary design.</p>
+                    </div>
+                    <!-- Company Links -->
+                    <div class="col-6 col-md-3 col-lg-3">
+                        <h5 class="fw-semibold mb-3" style="color: #1a1a1a;">Company</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#" class="footer-link text-decoration-none">About Us</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link text-decoration-none">Careers</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link text-decoration-none">Press</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link text-decoration-none">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- Support Links -->
+                    <div class="col-6 col-md-3 col-lg-3">
+                        <h5 class="fw-semibold mb-3" style="color: #1a1a1a;">Support</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="#" class="footer-link text-decoration-none">Size Guide</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link text-decoration-none">Shipping Info</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link text-decoration-none">Returns</a></li>
+                            <li class="mb-2"><a href="#" class="footer-link text-decoration-none">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <!-- Social Links -->
+                    <div class="col-md-6 col-lg-3">
+                        <h5 class="fw-semibold mb-3" style="color: #1a1a1a;">Follow Us</h5>
+                        <div class="d-flex gap-3">
+                            <a href="#" class="social-icon"><i class="bi bi-instagram fs-4"></i></a>
+                            <a href="#" class="social-icon"><i class="bi bi-facebook fs-4"></i></a>
+                            <a href="#" class="social-icon"><i class="bi bi-twitter-x fs-4"></i></a>
+                            <a href="#" class="social-icon"><i class="bi bi-pinterest fs-4"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-top pt-4 mt-2 d-flex flex-column flex-md-row justify-content-between align-items-center"
+                    style="border-color: #e8e3dc;">
+                    <p class="small mb-2 mb-md-0" style="color: #707070;">© 2024 ModernWear. All rights reserved.</p>
+                    <div class="d-flex gap-4">
+                        <a href="#" class="footer-link small text-decoration-none">Privacy Policy</a>
+                        <a href="#" class="footer-link small text-decoration-none">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Bootstrap JS Bundle for responsive navbar toggler -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Heart icon toggle interactive (enhancement) -->
+    <script>
+        document.querySelectorAll('.heart-icon').forEach(heart => {
+            heart.addEventListener('click', function (e) {
+                e.preventDefault();
+                const icon = this.querySelector('i');
+                if (icon.classList.contains('bi-heart')) {
+                    icon.classList.remove('bi-heart');
+                    icon.classList.add('bi-heart-fill');
+                    icon.style.color = '#e83e8c';
+                } else {
+                    icon.classList.remove('bi-heart-fill');
+                    icon.classList.add('bi-heart');
+                    icon.style.color = '#4a4a4a';
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
