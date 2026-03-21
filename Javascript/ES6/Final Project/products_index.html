@@ -352,20 +352,20 @@
                     <h4 class="fs-6 fw-semibold mb-3" style="color: #1a1a1a;">Category</h4>
                     <div class="d-flex flex-column gap-2">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="T-shirts" id="catTshirts">
+                            <input class="form-check-input categories" type="checkbox" value="T-shirts" id="catTshirts">
                             <label class="form-check-label small" for="catTshirts"
                                 style="color: #1a1a1a;">T-shirts</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Shoes" id="catShorts">
+                            <input class="form-check-input categories" type="checkbox" value="Shoes" id="catShorts">
                             <label class="form-check-label small" for="catShorts" style="color: #1a1a1a;">Shoes</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Shirts" id="catShirts">
+                            <input class="form-check-input categories" type="checkbox" value="Shirts" id="catShirts">
                             <label class="form-check-label small" for="catShirts" style="color: #1a1a1a;">Shirts</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Hoodies" id="catHoodies">
+                            <input class="form-check-input categories" type="checkbox" value="Hoodies" id="catHoodies">
                             <label class="form-check-label small" for="catHoodies"
                                 style="color: #1a1a1a;">Hoodies</label>
                         </div>
@@ -377,21 +377,16 @@
                     <h4 class="fs-6 fw-semibold mb-3" style="color: #1a1a1a;">Price</h4>
                     <div class="d-flex flex-column gap-2">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="under 25$" id="priceUnder25">
-                            <label class="form-check-label small" for="priceUnder25">Under $25</label>
+                            <input class="form-check-input" id="priceLowToHigh" type="radio" name="priceOrder"
+                                value="under 25$" id="priceUnder25">
+                            <label class="form-check-label small" for="priceUnder25">Low to High</label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="$25 - $50" id="price25to50">
-                            <label class="form-check-label small" for="price25to50">$25 - $50</label>
+                            <input class="form-check-input" id="priceHighToLow" type="radio" name="priceOrder"
+                                value="$25 - $50" id="price25to50">
+                            <label class="form-check-label small" for="price25to50">High to Low</label>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="$50 - $100" id="price50to100">
-                            <label class="form-check-label small" for="price50to100">$50 - $100</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Over $100" id="priceOver100">
-                            <label class="form-check-label small" for="priceOver100">Over $100</label>
-                        </div>
+
                     </div>
                 </div>
 
@@ -459,21 +454,6 @@
                 <!-- Load More Button -->
 
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-4"></div>
-                    <button
-                        class="btn btn-success rounded-3 px-5 col-12 col-lg-4 py-2 fw-semibold d-flex align-items-center justify-content-center gap-2"
-                        style="background-color: #2C5F2D; border: none;" id="loadMoreProductsBtn">
-                        Load More Products <i class="bi bi-arrow-down-short fs-5"></i>
-                    </button>
-                    <div class="col-4"></div>
-
-                </div>
-
-
-            </div>
-
         </main>
     </div>
 
@@ -522,9 +502,9 @@
     const loadMoreProductsBtn = document.getElementById('loadMoreProductsBtn');
     const showingProductsOutOf = document.getElementById('showingProductsOutOf');
     const clearAll = document.getElementById('clearAll');
+
     checkboxes.forEach((box) => {
         box.addEventListener('click', () => {
-            console.log(box.value);
 
             if (box.checked) {
                 const badge = document.createElement('span');
@@ -552,22 +532,23 @@
     let maxRange = 8;
     let minRange = 0;
     let products_data;
+    let currentShownData;
     fetch('https://69bea7ae17c3d7d977929e89.mockapi.io/TownTeen/products')
         .then(res => res.json())
         .then(data => {
             products_data = data;
             renderProducts(data);
         });
-
+    let currentProductsCounter = 0;
     function renderProducts(products) {
+        currentShownData = products;
         const container = document.getElementById('products_grid');
-
         // container.innerHTML = ""; // clear old content
         products.forEach(product => {
-            if (product.id >= minRange && product.id <= maxRange) {
-                const card = document.createElement('div');
-                card.className = "col-sm-6 col-lg-4 col-xl-3";
-                card.innerHTML = `
+
+            const card = document.createElement('div');
+            card.className = "col-sm-6 col-lg-4 col-xl-3";
+            card.innerHTML = `
                 <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
                     <div class="position-relative" style="aspect-ratio: 1/1;">
                         <img src=${product.image}
@@ -583,40 +564,40 @@
                     </div>
                 </div>
                 `;
-                container.appendChild(card);
+            container.appendChild(card);
 
-                const heartIcon = card.querySelector('.heart-icon');
-                heartIcon.addEventListener('click', function (e) {
-                    e.preventDefault();
-                    const icon = this.querySelector('i');
-                    if (icon.classList.contains('bi-heart')) {
-                        icon.classList.remove('bi-heart');
-                        icon.classList.add('bi-heart-fill');
-                        icon.style.color = '#e83e8c';
-                    } else {
-                        icon.classList.remove('bi-heart-fill');
-                        icon.classList.add('bi-heart');
-                        icon.style.color = '#4a4a4a';
-                    }
-                });
-            }
-            if (maxRange < products_data.length) {
-                showingProductsOutOf.innerText = `Showing ${maxRange} of ${products_data.length} results`;
-            }
-            else {
-                showingProductsOutOf.innerText = `Showing ${products_data.length} of ${products_data.length} results`;
-            }
+            const heartIcon = card.querySelector('.heart-icon');
+            heartIcon.addEventListener('click', function (e) {
+                e.preventDefault();
+                const icon = this.querySelector('i');
+                if (icon.classList.contains('bi-heart')) {
+                    icon.classList.remove('bi-heart');
+                    icon.classList.add('bi-heart-fill');
+                    icon.style.color = '#e83e8c';
+                } else {
+                    icon.classList.remove('bi-heart-fill');
+                    icon.classList.add('bi-heart');
+                    icon.style.color = '#4a4a4a';
+                }
+            });
         });
     }
 
-    loadMoreProductsBtn.addEventListener('click', () => {
-        minRange = maxRange;
-        maxRange += 8;
-        renderProducts(products_data);
-    })
 
 
-
+    function filterByCategory(categories) {
+        let filteredProducts = products_data.filter(product => selectedCategories.includes(product.category));
+        if (priceHighToLow.checked) {
+            filteredProducts.sort((a, b) => b.price - a.price);
+        }
+        else if (priceLowToHigh.checked) {
+            filteredProducts.sort((a, b) => a.price - b.price);
+        }
+        console.log(filteredProducts);
+        const container = document.getElementById('products_grid');
+        container.innerHTML = ""; // clear old content
+        renderProducts(filteredProducts);
+    }
 
     clearAll.addEventListener('click', () => {
         checkboxes.forEach((box) => {
@@ -626,8 +607,63 @@
         items.forEach((item) => {
             filter_bar_items.removeChild(item);
         })
+        const container = document.getElementById('products_grid');
+        container.innerHTML = ""; // clear old content
+        renderProducts(products_data);
+        selectedCategories = [];
+        priceHighToLow.checked = false;
+        priceLowToHigh.checked = false;
 
     })
+
+    let selectedCategories = [];
+    const categories = Array.from(document.getElementsByClassName('categories'));
+    categories.forEach((category) => {
+        category.addEventListener('click', () => {
+            if (category.checked) {
+                selectedCategories.push(category.value);
+            }
+            else {
+                const index = selectedCategories.indexOf(category.value);
+                if (index !== -1) {
+                    selectedCategories.splice(index, 1);
+                }
+
+            }
+            if (selectedCategories.length === 0) {
+                renderProducts(products_data);
+            }
+            else {
+                filterByCategory(selectedCategories);
+            }
+            console.log(selectedCategories);
+        })
+    })
+
+
+    const priceLowToHigh = document.getElementById('priceLowToHigh');
+    const priceHighToLow = document.getElementById('priceHighToLow');
+
+
+
+
+    priceLowToHigh.addEventListener('click', () => {
+        const container = document.getElementById('products_grid');
+        container.innerHTML = ""; // clear old content
+        renderProducts(currentShownData.sort((a, b) => a.price - b.price));
+    })
+
+
+    priceHighToLow.addEventListener('click', () => {
+        const container = document.getElementById('products_grid');
+        container.innerHTML = ""; // clear old content
+        renderProducts(currentShownData.sort((a, b) => b.price - a.price));
+    })
+    // priceHighToLow
+
+
+
+
 </script>
 
 </html>
