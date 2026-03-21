@@ -304,13 +304,13 @@
                     <!-- Centered navigation links on desktop, left on collapse -->
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4 gap-2">
                         <li class="nav-item">
-                            <a class="nav-link active fw-semibold" href="#" style="color: #2C5F2D;">Home</a>
+                            <a class="nav-link active fw-semibold" href="home.html" style="color: #2C5F2D;">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Products</a>
+                            <a class="nav-link" href="products_index.html">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Cart</a>
+                            <a class="nav-link" href="cart-modern-clean.html">Cart</a>
                         </li>
                     </ul>
 
@@ -340,11 +340,11 @@
                     <h1 class="display-4 fw-bold mb-3 hero-title">Discover Your Perfect Style with Premium Fashion</h1>
                     <p class="fs-5 mb-4 opacity-90 hero-sub">Quality craftsmanship meets modern design. Shop our curated
                         collection of premium apparel designed for the contemporary lifestyle.</p>
-                    <button
+                    <a href="products_index.html"
                         class="btn btn-light btn-lg rounded-pill px-5 py-3 fw-semibold d-inline-flex align-items-center gap-2"
-                        style="color: #2C5F2D; background: white;">
+                        style="color: #2C5F2D; background: white;" id="shopCollection">
                         Shop Collection <i class="bi bi-arrow-right-short fs-4"></i>
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
@@ -412,90 +412,22 @@
                     <h2 class="fw-semibold fs-1" style="color: #1a1a1a;">Featured Products</h2>
                     <p class="text-secondary fs-5">Hand-picked favorites from our latest collection</p>
                 </div>
-                <div class="row g-4">
-                    <!-- Product 1: Organic Cotton Tee -->
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="product-card h-100 d-flex flex-column">
-                            <div class="position-relative" style="aspect-ratio: 1 / 1;">
-                                <img src="https://static.paraflowcontent.com/public/resource/image/ecbae9fe-0522-428c-91b4-a52a64fbe9ae.jpeg"
-                                    class="w-100 h-100 img-cover" alt="Organic cotton t-shirt">
-                                <div class="position-absolute top-0 end-0 m-3">
-                                    <div class="heart-icon"><i class="bi bi-heart" style="color: #4a4a4a;"></i></div>
-                                </div>
-                            </div>
-                            <div class="p-3 d-flex flex-column flex-grow-1">
-                                <p class="text-uppercase small mb-1" style="color: #707070;">Essentials</p>
-                                <h3 class="fw-semibold fs-6 mb-2">Organic Cotton Tee</h3>
-                                <div class="mt-auto">
-                                    <span class="fw-bold fs-5 text-brand-green">$29.99</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Product 2: Classic Denim Shorts -->
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="product-card h-100 d-flex flex-column">
-                            <div class="position-relative" style="aspect-ratio: 1 / 1;">
-                                <img src="https://static.paraflowcontent.com/public/resource/image/9b5d90de-73d2-477f-9a89-85d5de17ade3.jpeg"
-                                    class="w-100 h-100 img-cover" alt="Classic Denim Shorts">
-                                <div class="position-absolute top-0 end-0 m-3">
-                                    <div class="heart-icon"><i class="bi bi-heart" style="color: #4a4a4a;"></i></div>
-                                </div>
-                            </div>
-                            <div class="p-3 d-flex flex-column flex-grow-1">
-                                <p class="text-uppercase small mb-1" style="color: #707070;">Denim</p>
-                                <h3 class="fw-semibold fs-6 mb-2">Classic Denim Shorts</h3>
-                                <div class="mt-auto">
-                                    <span class="fw-bold fs-5 text-brand-green">$45.99</span>
-                                    <span class="text-decoration-line-through text-secondary ms-2 small">$59.99</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Product 3: Classic Button-Up -->
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="product-card h-100 d-flex flex-column">
-                            <div class="position-relative" style="aspect-ratio: 1 / 1;">
-                                <img src="https://static.paraflowcontent.com/public/resource/image/969fe72a-a588-4102-b567-2a6bd096e9eb.jpeg"
-                                    class="w-100 h-100 img-cover" alt="Classic Button-Up Shirt">
-                                <div class="position-absolute top-0 end-0 m-3">
-                                    <div class="heart-icon"><i class="bi bi-heart" style="color: #4a4a4a;"></i></div>
-                                </div>
-                            </div>
-                            <div class="p-3 d-flex flex-column flex-grow-1">
-                                <p class="text-uppercase small mb-1" style="color: #707070;">Formal</p>
-                                <h3 class="fw-semibold fs-6 mb-2">Classic Button-Up</h3>
-                                <div class="mt-auto">
-                                    <span class="fw-bold fs-5 text-brand-green">$65.99</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Product 4: Premium Hoodie -->
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="product-card h-100 d-flex flex-column">
-                            <div class="position-relative" style="aspect-ratio: 1 / 1;">
-                                <img src="https://static.paraflowcontent.com/public/resource/image/a85341c2-d9ad-4aac-b56b-eb78c297fcbb.jpeg"
-                                    class="w-100 h-100 img-cover" alt="Premium Hoodie">
-                                <div class="position-absolute top-0 end-0 m-3">
-                                    <div class="heart-icon"><i class="bi bi-heart" style="color: #4a4a4a;"></i></div>
-                                </div>
-                            </div>
-                            <div class="p-3 d-flex flex-column flex-grow-1">
-                                <p class="text-uppercase small mb-1" style="color: #707070;">Comfort</p>
-                                <h3 class="fw-semibold fs-6 mb-2">Premium Hoodie</h3>
-                                <div class="mt-auto">
-                                    <span class="fw-bold fs-5 text-brand-green">$89.99</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+                <div class="row g-4 pb-5" id="products_grid">
+
+
+                    <!-- Load More Button -->
+
                 </div>
+
+
+
+
                 <div class="text-center mt-5">
-                    <button
+                    <a href="products_index.html"
                         class="btn btn-brand-green rounded-pill px-5 py-2 fw-semibold d-inline-flex align-items-center gap-2">
                         View All Products <i class="bi bi-arrow-right-short fs-5"></i>
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>
@@ -575,6 +507,68 @@
                 }
             });
         });
+
+
+        let maxRange = 4;
+        let minRange = 0;
+        let products_data;
+        fetch('https://69bea7ae17c3d7d977929e89.mockapi.io/TownTeen/products')
+            .then(res => res.json())
+            .then(data => {
+                products_data = data;
+                renderProducts(data);
+            });
+
+        function renderProducts(products) {
+            const container = document.getElementById('products_grid');
+
+            // container.innerHTML = ""; // clear old content
+            products.forEach(product => {
+                if (product.id >= minRange && product.id <= maxRange) {
+                    const card = document.createElement('div');
+                    card.className = "col-sm-6 col-lg-4 col-xl-3";
+                    card.innerHTML = `
+                <div class="card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
+                    <div class="position-relative" style="aspect-ratio: 1/1;">
+                        <img src=${product.image}
+                            class="card-img-top w-100 h-100 object-fit-cover" alt="Performance Athletic">
+                            <div class="position-absolute top-0 end-0 m-3">
+                                <div class="heart-icon"><i class="bi bi-heart" style="color: #4a4a4a;"></i></div>
+                            </div>
+                    </div>
+                    <div class="card-body p-3">
+                        <span class="small text-secondary-emphasis">${product.category}</span>
+                        <h3 class="h6 fw-semibold mt-1 mb-2">${product.name}</h3>
+                        <div class="fw-bold fs-5" style="color: #2C5F2D;">$${product.price}</div>
+                    </div>
+                </div>
+        `;
+                    container.append(card);
+                }
+            });
+
+            document.querySelectorAll('.heart-icon').forEach(heart => {
+                heart.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const icon = this.querySelector('i');
+                    if (icon.classList.contains('bi-heart')) {
+                        icon.classList.remove('bi-heart');
+                        icon.classList.add('bi-heart-fill');
+                        icon.style.color = '#e83e8c';
+                    } else {
+                        icon.classList.remove('bi-heart-fill');
+                        icon.classList.add('bi-heart');
+                        icon.style.color = '#4a4a4a';
+                    }
+                });
+            });
+        }
+
+        loadMoreProductsBtn.addEventListener('click', () => {
+            minRange = maxRange;
+            maxRange += 8;
+            renderProducts(products_data);
+        })
     </script>
 </body>
 

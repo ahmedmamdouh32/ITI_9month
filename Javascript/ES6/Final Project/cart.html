@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>StyleShop | Shopping Cart</title>
+    <!-- Bootstrap 5 CSS (no custom CSS, only Bootstrap utilities) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- No custom CSS - all styling uses Bootstrap classes only -->
+</head>
+
+<body class="bg-white" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+
+    <!-- Header -->
+    <header class="bg-light w-100" style="background-color: #faf8f5 !important;">
+        <div class="container-fluid px-4 px-lg-5 py-3 d-flex flex-wrap align-items-center justify-content-between">
+            <!-- Logo -->
+            <div class="d-flex align-items-center gap-2">
+                <div class="bg-success rounded d-flex align-items-center justify-content-center"
+                    style="width: 32px; height: 32px; background-color: #2C5F2D !important;">
+                    <i class="bi bi-handbag text-white fs-6"></i>
+                </div>
+                <span class="fw-bold fs-4" style="color: #1a1a1a;">StyleShop</span>
+            </div>
+
+            <!-- Navigation links (centered on desktop, collapsed on mobile) -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarMain">
+                <ul class="navbar-nav gap-3 gap-lg-4">
+                    <li class="nav-item"><a href="#" class="nav-link fw-medium" style="color: #1a1a1a;">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link fw-medium" style="color: #1a1a1a;">Products</a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link fw-medium active" style="color: #2C5F2D;">Cart</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Right icons + search + mobile toggler -->
+            <div class="d-flex align-items-center gap-3">
+                <!-- Search input (desktop style) -->
+                <div class="d-none d-md-flex align-items-center gap-2 border rounded-3 px-3 py-2"
+                    style="background-color: #fdfcfa; border-color: #e8e3dc !important;">
+                    <i class="bi bi-search text-secondary-emphasis" style="color: #707070;"></i>
+                    <span class="small text-secondary-emphasis" style="color: #707070;">Search products...</span>
+                </div>
+                <!-- Shopping bag with badge -->
+                <div class="position-relative">
+                    <i class="bi bi-bag fs-5" style="color: #1a1a1a;"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"
+                        style="background-color: #2C5F2D !important; font-size: 0.65rem; margin-top: -4px;">3</span>
+                </div>
+                <!-- Mobile menu toggler -->
+                <button class="navbar-toggler border-0 p-0 d-md-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarMain" aria-label="Toggle navigation">
+                    <i class="bi bi-list fs-2" style="color: #2C5F2D;"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content: Cart Page -->
+    <main class="container-fluid px-4 px-lg-5 py-4">
+        <!-- Cart Header -->
+        <div class="d-flex flex-wrap justify-content-between align-items-center mb-4 pt-3">
+            <h1 class="fs-2 fw-semibold mb-0" style="color: #1a1a1a;">Shopping Cart</h1>
+            <span class="text-secondary-emphasis small" style="color: #707070;">3 items</span>
+        </div>
+
+        <!-- Cart Items and Order Summary Row -->
+        <div class="row g-4 pb-5">
+            <!-- Left Column: Cart Items -->
+            <div class="col-lg-8">
+
+                <!-- Cart Item 1: Classic Cotton Tee -->
+                <div class="card border-0 mb-4 rounded-4 overflow-hidden" style="background-color: #fdfcfa;">
+                    <div class="card-body p-4">
+                        <div class="row g-3 align-items-start">
+                            <div class="col-auto">
+                                <img src="https://static.paraflowcontent.com/public/resource/image/a638ec78-7baf-4caf-9501-bf9ff01fd3f8.jpeg"
+                                    class="rounded-3 object-fit-cover" style="width: 80px; height: 80px;"
+                                    alt="Classic Cotton Tee">
+                            </div>
+                            <div class="col">
+                                <div class="d-flex flex-wrap justify-content-between align-items-start">
+                                    <div class="mb-2">
+                                        <h3 class="h6 fw-semibold mb-1" style="color: #1a1a1a;">Classic Cotton Tee</h3>
+                                        <div class="d-flex gap-3 small" style="color: #707070;">
+                                            <span>Color: White</span>
+                                            <span>Size: M</span>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-link p-0 text-secondary-emphasis border-0"
+                                        style="color: #a0a0a0;">
+                                        <i class="bi bi-trash3 fs-6"></i>
+                                    </button>
+                                </div>
+                                <div class="d-flex flex-wrap justify-content-between align-items-center mt-3">
+                                    <span class="fw-bold fs-5" style="color: #2C5F2D;">$29.99</span>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button
+                                            class="btn btn-sm rounded-3 d-flex align-items-center justify-content-center"
+                                            style="background-color: #f7f4ef; width: 32px; height: 32px; padding: 0;">
+                                            <i class="bi bi-dash" style="color: #4a4a4a;"></i>
+                                        </button>
+                                        <span class="fw-semibold text-center"
+                                            style="width: 32px; color: #1a1a1a;">1</span>
+                                        <button
+                                            class="btn btn-sm rounded-3 d-flex align-items-center justify-content-center"
+                                            style="background-color: #f7f4ef; width: 32px; height: 32px; padding: 0;">
+                                            <i class="bi bi-plus" style="color: #4a4a4a;"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cart Item 2: V-Neck Essential -->
+                <div class="card border-0 mb-4 rounded-4 overflow-hidden" style="background-color: #fdfcfa;">
+                    <div class="card-body p-4">
+                        <div class="row g-3 align-items-start">
+                            <div class="col-auto">
+                                <img src="https://static.paraflowcontent.com/public/resource/image/0b3169ea-6bfb-462b-85b1-74d34dc967d1.jpeg"
+                                    class="rounded-3 object-fit-cover" style="width: 80px; height: 80px;"
+                                    alt="V-Neck Essential">
+                            </div>
+                            <div class="col">
+                                <div class="d-flex flex-wrap justify-content-between align-items-start">
+                                    <div class="mb-2">
+                                        <h3 class="h6 fw-semibold mb-1" style="color: #1a1a1a;">V-Neck Essential</h3>
+                                        <div class="d-flex gap-3 small" style="color: #707070;">
+                                            <span>Color: Navy</span>
+                                            <span>Size: L</span>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-link p-0 text-secondary-emphasis border-0"
+                                        style="color: #a0a0a0;">
+                                        <i class="bi bi-trash3 fs-6"></i>
+                                    </button>
+                                </div>
+                                <div class="d-flex flex-wrap justify-content-between align-items-center mt-3">
+                                    <span class="fw-bold fs-5" style="color: #2C5F2D;">$32.99</span>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button
+                                            class="btn btn-sm rounded-3 d-flex align-items-center justify-content-center"
+                                            style="background-color: #f7f4ef; width: 32px; height: 32px; padding: 0;">
+                                            <i class="bi bi-dash" style="color: #4a4a4a;"></i>
+                                        </button>
+                                        <span class="fw-semibold text-center"
+                                            style="width: 32px; color: #1a1a1a;">2</span>
+                                        <button
+                                            class="btn btn-sm rounded-3 d-flex align-items-center justify-content-center"
+                                            style="background-color: #f7f4ef; width: 32px; height: 32px; padding: 0;">
+                                            <i class="bi bi-plus" style="color: #4a4a4a;"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cart Item 3: Vintage Graphic Tee (with sale) -->
+                <div class="card border-0 mb-4 rounded-4 overflow-hidden" style="background-color: #fdfcfa;">
+                    <div class="card-body p-4">
+                        <div class="row g-3 align-items-start">
+                            <div class="col-auto">
+                                <img src="https://static.paraflowcontent.com/public/resource/image/6ca0f822-6749-458a-ba36-ee3a0e6cad80.jpeg"
+                                    class="rounded-3 object-fit-cover" style="width: 80px; height: 80px;"
+                                    alt="Vintage Graphic Tee">
+                            </div>
+                            <div class="col">
+                                <div class="d-flex flex-wrap justify-content-between align-items-start">
+                                    <div class="mb-2">
+                                        <h3 class="h6 fw-semibold mb-1" style="color: #1a1a1a;">Vintage Graphic Tee</h3>
+                                        <div class="d-flex gap-3 small" style="color: #707070;">
+                                            <span>Color: Gray</span>
+                                            <span>Size: S</span>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-link p-0 text-secondary-emphasis border-0"
+                                        style="color: #a0a0a0;">
+                                        <i class="bi bi-trash3 fs-6"></i>
+                                    </button>
+                                </div>
+                                <div class="d-flex flex-wrap justify-content-between align-items-center mt-3">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <span class="fw-bold fs-5" style="color: #2C5F2D;">$24.99</span>
+                                        <span class="small text-decoration-line-through text-secondary-emphasis"
+                                            style="color: #a0a0a0;">$34.99</span>
+                                    </div>
+                                    <div class="d-flex align-items-center gap-2">
+                                        <button
+                                            class="btn btn-sm rounded-3 d-flex align-items-center justify-content-center"
+                                            style="background-color: #f7f4ef; width: 32px; height: 32px; padding: 0;">
+                                            <i class="bi bi-dash" style="color: #4a4a4a;"></i>
+                                        </button>
+                                        <span class="fw-semibold text-center"
+                                            style="width: 32px; color: #1a1a1a;">1</span>
+                                        <button
+                                            class="btn btn-sm rounded-3 d-flex align-items-center justify-content-center"
+                                            style="background-color: #f7f4ef; width: 32px; height: 32px; padding: 0;">
+                                            <i class="bi bi-plus" style="color: #4a4a4a;"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Continue Shopping Link -->
+                <a href="products_index.html" class="d-inline-flex align-items-center gap-2 text-decoration-none mt-2"
+                    style="color: #2C5F2D;">
+                    <i class="bi bi-arrow-left"></i>
+                    <span>Continue Shopping</span>
+                </a>
+            </div>
+
+            <!-- Right Column: Order Summary -->
+            <div class="col-lg-4">
+                <div class="card border-0 rounded-4 position-sticky top-0" style="background-color: #fdfcfa;">
+                    <div class="card-body p-4">
+                        <h2 class="h5 fw-semibold mb-4" style="color: #1a1a1a;">Order Summary</h2>
+
+                        <!-- Subtotal -->
+                        <div class="d-flex justify-content-between mb-3">
+                            <span class="text-secondary-emphasis" style="color: #4a4a4a;">Subtotal (4 items)</span>
+                            <span class="fw-semibold" style="color: #1a1a1a;">$122.97</span>
+                        </div>
+
+                        <!-- Shipping -->
+                        <div class="d-flex justify-content-between mb-3">
+                            <span class="text-secondary-emphasis" style="color: #4a4a4a;">Shipping</span>
+                            <span class="text-secondary-emphasis" style="color: #4a4a4a;">Free</span>
+                        </div>
+
+                        <!-- Tax -->
+                        <div class="d-flex justify-content-between mb-3">
+                            <span class="text-secondary-emphasis" style="color: #4a4a4a;">Tax</span>
+                            <span class="fw-semibold" style="color: #1a1a1a;">$9.84</span>
+                        </div>
+
+                        <!-- Divider -->
+                        <hr class="my-3" style="border-color: #e8e3dc;">
+
+                        <!-- Total -->
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <span class="fw-semibold fs-6" style="color: #1a1a1a;">Total</span>
+                            <span class="fw-bold fs-5" style="color: #2C5F2D;">$132.81</span>
+                        </div>
+
+                        <!-- Checkout Button -->
+                        <button class="btn btn-success w-100 py-2 mb-3 fw-semibold rounded-3"
+                            style="background-color: #2C5F2D; border: none;">
+                            Proceed to Checkout
+                        </button>
+
+                        <!-- Free shipping message -->
+                        <p class="small text-center mb-0" style="color: #707070;">Free shipping on orders over $75</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="w-100 border-top mt-2" style="background-color: #F7F4EF; border-color: #e8e3dc !important;">
+        <div class="container-fluid px-4 px-lg-5 py-4">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+                <div class="d-flex flex-wrap align-items-center gap-4">
+                    <div class="d-flex align-items-center gap-2">
+                        <div class="bg-success rounded d-flex align-items-center justify-content-center"
+                            style="width: 28px; height: 28px; background-color: #2C5F2D !important;">
+                            <i class="bi bi-handbag text-white small"></i>
+                        </div>
+                        <span class="fw-semibold" style="color: #1a1a1a;">StyleShop</span>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-decoration-none small" style="color: #4a4a4a;">About Us</a>
+                        <a href="#" class="text-decoration-none small" style="color: #4a4a4a;">Contact</a>
+                        <a href="#" class="text-decoration-none small" style="color: #4a4a4a;">Privacy Policy</a>
+                        <a href="#" class="text-decoration-none small" style="color: #4a4a4a;">Terms</a>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-4">
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-decoration-none" style="color: #4a4a4a;"><i
+                                class="bi bi-facebook fs-5"></i></a>
+                        <a href="#" class="text-decoration-none" style="color: #4a4a4a;"><i
+                                class="bi bi-twitter-x fs-5"></i></a>
+                        <a href="#" class="text-decoration-none" style="color: #4a4a4a;"><i
+                                class="bi bi-instagram fs-5"></i></a>
+                    </div>
+                    <span class="small" style="color: #707070;">© 2024 StyleShop. All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS for responsive navbar toggler -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
