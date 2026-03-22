@@ -4,60 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>StyleShop | Shopping Cart</title>
-    <!-- Bootstrap 5 CSS (no custom CSS, only Bootstrap utilities) -->
+    <title>ModernWear | Premium Fashion</title>
+    <!-- Bootstrap 5 CSS + Icons + Core JS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
+    <!-- Bootstrap Icons (alternative to lucide/iconify, but we keep universal style) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- No custom CSS - all styling uses Bootstrap classes only -->
+    <!-- Google Fonts for clean typography -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-white" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+<body>
 
     <!-- Header -->
-    <header class="bg-light w-100" style="background-color: #faf8f5 !important;">
-        <div class="container-fluid px-4 px-lg-5 py-3 d-flex flex-wrap align-items-center justify-content-between">
-            <!-- Logo -->
-            <div class="d-flex align-items-center gap-2">
-                <div class="bg-success rounded d-flex align-items-center justify-content-center"
-                    style="width: 32px; height: 32px; background-color: #2C5F2D !important;">
-                    <i class="bi bi-handbag text-white fs-6"></i>
-                </div>
-                <span class="fw-bold fs-4" style="color: #1a1a1a;">StyleShop</span>
-            </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid p-0">
+                <!-- Brand Logo -->
+                <a class="navbar-brand-custom" href="#">
+                    <i class="bi bi-handbag"></i>
+                    <span>ModernWear</span>
+                </a>
 
-            <!-- Navigation links (centered on desktop, collapsed on mobile) -->
-            <div class="collapse navbar-collapse justify-content-center" id="navbarMain">
-                <ul class="navbar-nav gap-3 gap-lg-4">
-                    <li class="nav-item"><a href="#" class="nav-link fw-medium" style="color: #1a1a1a;">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link fw-medium" style="color: #1a1a1a;">Products</a>
-                    </li>
-                    <li class="nav-item"><a href="#" class="nav-link fw-medium active" style="color: #2C5F2D;">Cart</a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Right icons + search + mobile toggler -->
-            <div class="d-flex align-items-center gap-3">
-                <!-- Search input (desktop style) -->
-                <div class="d-none d-md-flex align-items-center gap-2 border rounded-3 px-3 py-2"
-                    style="background-color: #fdfcfa; border-color: #e8e3dc !important;">
-                    <i class="bi bi-search text-secondary-emphasis" style="color: #707070;"></i>
-                    <span class="small text-secondary-emphasis" style="color: #707070;">Search products...</span>
-                </div>
-                <!-- Shopping bag with badge -->
-                <div class="position-relative">
-                    <i class="bi bi-bag fs-5" style="color: #1a1a1a;"></i>
-                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"
-                        style="background-color: #2C5F2D !important; font-size: 0.65rem; margin-top: -4px;">3</span>
-                </div>
-                <!-- Mobile menu toggler -->
-                <button class="navbar-toggler border-0 p-0 d-md-none" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarMain" aria-label="Toggle navigation">
-                    <i class="bi bi-list fs-2" style="color: #2C5F2D;"></i>
+                <!-- Navbar toggler (hamburger button) - visible only on mobile/tablet -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+                    aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list fs-1" style="color: #2C5F2D;"></i>
                 </button>
+
+                <!-- Collapsible navbar content: links and icons (icons also reposition on collapse) -->
+                <div class="collapse navbar-collapse justify-content-between" id="mainNavbar">
+
+                    <div class="d-none d-lg-block" style="width: 120px;"></div>
+
+                    <!-- Centered navigation links on desktop, left on collapse -->
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-4 gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link " href="home.html" ">Home</a>
+                        </li>
+                        <li class=" nav-item">
+                                <a class="nav-link" href="products_index.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-semibold" href="cart.html" style="color: #2C5F2D;">Cart</a>
+                        </li>
+                    </ul>
+
+                    <!-- Right side icons: search & shopping bag with badge -->
+                    <div class="nav-icons ms-auto mt-3 mt-lg-0">
+                        <i class="bi bi-search fs-5 btn-icon-hover" style="color: #4a4a4a;"></i>
+                        <div class="position-relative d-inline-flex">
+                            <i class="bi bi-bag fs-5 btn-icon-hover" style="color: #4a4a4a;"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-brand-green cart-badge">3</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
 
     <!-- Main Content: Cart Page -->
