@@ -21,7 +21,7 @@
                 <!-- Brand Logo -->
                 <a class="navbar-brand-custom" href="#">
                     <i class="bi bi-handbag"></i>
-                    <span>ModernWear</span>
+                    <span>TownTeen</span>
                 </a>
 
                 <!-- Navbar toggler (hamburger button) - visible only on mobile/tablet -->
@@ -50,11 +50,10 @@
 
                     <!-- Right side icons: search & shopping bag with badge -->
                     <div class="nav-icons ms-auto mt-3 mt-lg-0">
-                        <i class="bi bi-search fs-5 btn-icon-hover" style="color: #4a4a4a;"></i>
                         <div class="position-relative d-inline-flex">
-                            <i class="bi bi-bag fs-5 btn-icon-hover" style="color: #4a4a4a;"></i>
-                            <span
-                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-brand-green cart-badge">3</span>
+                            <a href="cart.html" class="bi bi-bag fs-5 btn-icon-hover" style="color: #4a4a4a;"></a>
+                            <span class="position-absolute top-0 start-100 translate-middle badge" id="cartItemsSpan"
+                                style="border-radius: 24px; background-color: #2C5F2D;">0</span>
                         </div>
                     </div>
                 </div>
@@ -135,10 +134,14 @@
                     <!-- Add to Cart Button -->
                     <div>
                         <button
-                            class="btn w-100 py-3 rounded-3 fw-semibold d-flex align-items-center justify-content-center gap-2"
-                            style="background-color: #2C5F2D; color: white; border: none;">
-                            <i class="bi bi-bag"></i>
+                            class="hover-color btn w-100 py-3 rounded-3 fw-semibold d-flex align-items-center justify-content-center gap-2"
+                            style="background-color: #2C5F2D; color: white; border: none;" id="addToCartBtn">
+                            <i class="bi bi-bag" id="cartBtnBag"></i>
+                            <span class="spinner-border spinner-border-sm" role="status" id="cartBtnLoadingSpinner"
+                                style="display:none"></span>
                             <span>Add to Cart</span>
+
+
                         </button>
                     </div>
 
@@ -219,6 +222,14 @@
     const params = new URLSearchParams(window.location.search);
     const productId = params.get('id');
     let relatedProducts;
+    let totalCartQuantity = localStorage.getItem("totalCartQuantity");
+    const cartItemsSpan = document.getElementById('cartItemsSpan');
+
+    if (totalCartQuantity !== null) {
+        cartItemsSpan.innerText = totalCartQuantity;
+    }
+
+
 
     fetch(`https://69bea7ae17c3d7d977929e89.mockapi.io/TownTeen/products/${productId}`)
         .then(res => res.json())
@@ -272,7 +283,6 @@
         `;
         details_container.prepend(details_div);
     }
-
 
     function renderProductsRelated(products) {
         currentShownData = products;
@@ -340,5 +350,49 @@
         if (quantityCounterSpan.innerText > 1) {
             quantityCounterSpan.innerText = --quantityCounterSpan.innerText;
         }
+    });
+
+
+
+
+    const addToCartBtn = document.getElementById('addToCartBtn');
+    const cartBtnBag = document.getElementById('cartBtnBag');
+    const cartBtnLoadingSpinner = document.getElementById('cartBtnLoadingSpinner');
+
+    addToCartBtn.addEventListener('click', () => {
+        addToCartBtn.disabled = true;
+        cartBtnBag.style.display = "none";
+        cartBtnLoadingSpinner.style.display = "inline";
+
+        const storedProductQuantity = localStorage.getItem(productId);
+
+        if (storedProductQuantity === null) {
+            localStorage.setItem(productId, quantityCounterSpan.innerText);
+        }
+        else {
+            localStorage.setItem(productId, Number(storedProductQuantity) + Number(quantityCounterSpan.innerText));
+        }
+
+        setTimeout(() => {
+            addToCartBtn.disabled = false;
+            cartBtnLoadingSpinner.style.display = "none";
+            cartBtnBag.style.display = "inline";
+            const totalCartQuantity = localStorage.getItem("totalCartQuantity");
+            if (totalCartQuantity === null) {
+                localStorage.setItem("totalCartQuantity", quantityCounterSpan.innerText);
+            }
+            else {
+                localStorage.setItem("totalCartQuantity", Number(totalCartQuantity) + Number(quantityCounterSpan.innerText));
+            }
+            cartItemsSpan.innerText = localStorage.getItem("totalCartQuantity");
+            quantityCounterSpan.innerText = 1;
+        }, 1000);
+
+
+
+
+
+
+
     })
 </script>

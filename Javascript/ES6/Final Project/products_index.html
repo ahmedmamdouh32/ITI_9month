@@ -56,11 +56,10 @@
 
                     <!-- Right side icons: search & shopping bag with badge -->
                     <div class="nav-icons ms-auto mt-3 mt-lg-0">
-                        <i class="bi bi-search fs-5 btn-icon-hover" style="color: #4a4a4a;"></i>
                         <div class="position-relative d-inline-flex">
-                            <i class="bi bi-bag fs-5 btn-icon-hover" style="color: #4a4a4a;"></i>
-                            <span
-                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-brand-green cart-badge">3</span>
+                            <a href="cart.html" class="bi bi-bag fs-5 btn-icon-hover" style="color: #4a4a4a;"></a>
+                            <span class="position-absolute top-0 start-100 translate-middle badge" id="cartItemsSpan"
+                                style="border-radius: 24px; background-color: #2C5F2D;">0</span>
                         </div>
                     </div>
                 </div>
@@ -237,7 +236,12 @@
     const checkboxes = document.querySelectorAll('input[type="checkbox"]');
     const showingProductsOutOf = document.getElementById('showingProductsOutOf');
     const clearAll = document.getElementById('clearAll');
+    let totalCartQuantity = localStorage.getItem("totalCartQuantity");
+    const cartItemsSpan = document.getElementById('cartItemsSpan');
 
+    if (totalCartQuantity !== null) {
+        cartItemsSpan.innerText = totalCartQuantity;
+    }
     checkboxes.forEach((box) => {
         box.addEventListener('click', () => {
             if (box.checked) {

@@ -26,6 +26,17 @@
             /* zoom 10% */
         }
 
+        .hover-color{
+            transition: background 0.5s ease;
+            background-color: #2C5F2D !important;
+
+        }
+
+        .hover-color:hover{
+            background-color: #308932 !important;
+
+        }
+
         .text-brand-green {
             color: var(--brand-green);
         }
