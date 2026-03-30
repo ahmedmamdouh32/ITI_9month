@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "Day1",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-YVFzXy3QmLKPFgotLwnPLEGeuomQsP8mp7WbY1nGDTg=",
+    "hash": "sha256-wLjphDWtDAg/0YVIJSXjQQjZnHdDXCnqXnRdAji8new=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.ykrnppwhq2.js"
@@ -1242,16 +1242,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "Day1.wasm",
-        "name": "Day1.3bhlzm5hg7.wasm",
-        "integrity": "sha256-IQpMMEANSt28dbK/mev5F3+0dJIeKaoaGmQFokiYzds=",
+        "name": "Day1.c43ey7sat3.wasm",
+        "integrity": "sha256-tNqGMOB6TC7YfVxG21JCAbHRB3v1hbYsepGCsrBGnJY=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "Day1.pdb",
-        "name": "Day1.2nanzc39qt.pdb",
-        "integrity": "sha256-nrjcqLwZ2UMjiCiBJQ8E3y1NsZ99X99wwHY2EItHoqY=",
+        "name": "Day1.2hzbk4d600.pdb",
+        "integrity": "sha256-qgNjv5ZBiGm7iStbN0VlpluQqaXJh14oaO9zUUUjpJ4=",
         "cache": "force-cache"
       }
     ],

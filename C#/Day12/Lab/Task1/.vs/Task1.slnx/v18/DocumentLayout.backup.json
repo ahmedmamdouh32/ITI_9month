@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\models\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:models\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,16 +15,20 @@
       "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\studentslist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentslist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentslist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\models\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:models\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\studentslist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:studentslist.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\addstudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F07C78CD-5909-B56A-A5D7-0113F5D67902}|Task1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\c#\\day12\\lab\\task1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,31 +70,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAIA7wBIAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T09:13:59.127Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "StudentsList.cs",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.cs",
               "RelativeDocumentMoniker": "StudentsList.cs",
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.cs",
               "RelativeToolTip": "StudentsList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwBYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T21:51:55.195Z",
               "EditorCaption": ""
@@ -118,21 +122,22 @@
               "RelativeDocumentMoniker": "StudentDetails.cs",
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentDetails.cs",
               "RelativeToolTip": "StudentDetails.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAlwBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAApwCIAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T22:19:50.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentsList.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.Designer.cs",
-              "RelativeDocumentMoniker": "StudentsList.Designer.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.Designer.cs",
-              "RelativeToolTip": "StudentsList.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\models\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "models\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\models\\StudentRepository.cs",
+              "RelativeToolTip": "models\\StudentRepository.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwB4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T21:52:16.396Z"
+              "WhenOpened": "2026-01-12T22:37:50.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -147,19 +152,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\models\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "models\\StudentRepository.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\models\\StudentRepository.cs",
-              "RelativeToolTip": "models\\StudentRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBgAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "StudentsList.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.Designer.cs",
+              "RelativeDocumentMoniker": "StudentsList.Designer.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.Designer.cs",
+              "RelativeToolTip": "StudentsList.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T22:37:50.27Z"
+              "WhenOpened": "2026-01-12T21:52:16.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AddStudent.cs [Design]",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\AddStudent.cs",
               "RelativeDocumentMoniker": "AddStudent.cs",
@@ -170,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MainForm.cs [Design - English]",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",

@@ -1,0 +1,65 @@
+﻿<h3>Product Details</h3>
+
+@page "/Product/Edit/{id:int}"
+
+@if(product != null)
+{
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
+        </div>
+        <input type="text" @bind="product.Name" @bind:event="oninput" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+    </div>
+
+
+     <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Price</span>
+        </div>
+            <input type="text" class="form-control" @bind="product.Price" @bind:event="oninput" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+    </div>
+  
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Quantity</span>
+        </div>
+                <input type="text" class="form-control" @bind="product.Quantity" @bind:event="oninput" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+    </div>
+
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Image Url</span>
+        </div>
+                    <input type="text" class="form-control" @bind="product.ImageUrl" @bind:event="oninput" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+    </div>
+}
+
+<h4>Product Overview :</h4>
+
+<div class="col-3">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src=@product.ImageUrl alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">@product.Name</h5>
+            <p class="text-success">Price : @product.Price</p>
+        </div>
+    </div>
+</div>
+
+
+@code{
+    [Inject]
+    public IService<Product> ProductService{ set; get; }
+
+    [Parameter]
+    public int Id { set; get; }
+
+    public Product product;
+    protected override void OnInitialized()
+    {
+        product = ProductService.GetById(Id);
+        base.OnInitialized();
+    }
+}

@@ -1,0 +1,55 @@
+﻿@page "/Products/all";
+
+<h3>ProductCRUD</h3>
+
+
+    @if (ProductsList.Count() > 0)
+    {
+        <div class="container">
+        <div class="row">
+        @foreach (var p in ProductsList)
+        {
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src=@p.ImageUrl alt="Card image cap">
+                    <div class="card-body">
+                            <h5 class="card-title">@p.Name</h5>
+                            <p class="text-success">Price : @p.Price</p>
+                            <a href="/Product/Edit/@p.Id" class="btn btn-primary">Edit</a>
+                            <button @onclick="()=>deleteProduct(p.Id)" class="btn btn-danger">Delete</button>
+                    </div>
+                </div>
+            </div>
+        }
+        </div>
+    </div>
+    }
+    else
+    {
+        <p class="text-warning">
+            List is Empty
+        </p>
+    }
+
+@code {
+    [Inject]
+    public IService<Product> productsService { set; get; }
+
+    public List<Product> ProductsList { set; get; }
+
+    protected override void OnInitialized()
+    {
+        ProductsList = productsService.GetAll();
+        base.OnInitialized();
+    }
+
+
+
+    void deleteProduct(int id)
+    {
+        productsService.Delete(id);
+    }
+
+
+
+}

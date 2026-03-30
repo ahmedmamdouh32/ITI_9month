@@ -70,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -85,6 +85,10 @@
               "WhenOpened": "2026-01-12T09:13:59.127Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -108,8 +112,7 @@
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentDetails.cs [Design]",
               "RelativeToolTip": "StudentDetails.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T22:27:21.318Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-12T22:27:21.318Z"
             },
             {
               "$type": "Document",
@@ -121,8 +124,7 @@
               "RelativeToolTip": "StudentDetails.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAApwCIAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T22:19:50.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T22:19:50.58Z"
             },
             {
               "$type": "Document",
@@ -132,7 +134,7 @@
               "RelativeDocumentMoniker": "models\\StudentRepository.cs",
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\models\\StudentRepository.cs",
               "RelativeToolTip": "models\\StudentRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA0wCMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwB4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T22:37:50.27Z",
               "EditorCaption": ""
@@ -146,8 +148,7 @@
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\C#\\Day12\\Lab\\Task1\\StudentsList.cs [Design]",
               "RelativeToolTip": "StudentsList.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T21:49:35.005Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-01-12T21:49:35.005Z"
             },
             {
               "$type": "Document",
@@ -159,8 +160,7 @@
               "RelativeToolTip": "StudentsList.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T21:52:16.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T21:52:16.396Z"
             },
             {
               "$type": "Document",
@@ -218,8 +218,7 @@
               "RelativeToolTip": "StudentDetails.Designer.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAgwEoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T22:25:31.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T22:25:31.105Z"
             },
             {
               "$type": "Document",
