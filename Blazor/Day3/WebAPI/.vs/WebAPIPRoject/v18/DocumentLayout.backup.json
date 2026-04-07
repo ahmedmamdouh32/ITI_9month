@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\onedrive_1_4-6-2026\\webapi\\webapi\\webapiproject\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\onedrive_1_4-6-2026\\webapi\\webapi\\webapiproject\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\onedrive_1_4-6-2026\\webapi\\webapi\\webapiproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\onedrive_1_4-6-2026\\webapi\\webapi\\webapiproject\\webapiproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\webapiproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\onedrive_1_4-6-2026\\webapi\\webapi\\webapiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\onedrive_1_4-6-2026\\webapi\\webapi\\webapiproject\\webapiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\webapiproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\onedrive_1_4-6-2026\\webapi\\webapi\\webapiproject\\migrations\\20250324080743_emptableadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\migrations\\20250324080743_emptableadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\onedrive_1_4-6-2026\\webapi\\webapi\\webapiproject\\migrations\\20250325091042_authtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\migrations\\20250325091042_authtables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\onedrive_1_4-6-2026\\webapi\\webapi\\webapiproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\onedrive_1_4-6-2026\\webapi\\webapi\\webapiproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5da8d69b-058a-4294-a87a-f4f7ae2983b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Models\\Department.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\Models\\Department.cs",
+              "RelativeToolTip": "WebAPIPRoject\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T17:27:49.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\Models\\Employee.cs",
+              "RelativeToolTip": "WebAPIPRoject\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T17:27:21.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebAPIPRoject",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\WebAPIPRoject.csproj",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\WebAPIPRoject.csproj",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\WebAPIPRoject.csproj",
+              "RelativeToolTip": "WebAPIPRoject\\WebAPIPRoject.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-07T16:34:50.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WebAPIPRoject",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\WebAPIPRoject.csproj",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\WebAPIPRoject.csproj",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\WebAPIPRoject.csproj",
+              "RelativeToolTip": "WebAPIPRoject\\WebAPIPRoject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-07T16:34:43.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250324080743_EmpTableAdded.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\Migrations\\20250324080743_EmpTableAdded.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Migrations\\20250324080743_EmpTableAdded.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\Migrations\\20250324080743_EmpTableAdded.cs",
+              "RelativeToolTip": "WebAPIPRoject\\Migrations\\20250324080743_EmpTableAdded.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:27:15.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250325091042_AuthTables.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\Migrations\\20250325091042_AuthTables.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Migrations\\20250325091042_AuthTables.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\Migrations\\20250325091042_AuthTables.cs",
+              "RelativeToolTip": "WebAPIPRoject\\Migrations\\20250325091042_AuthTables.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:27:09.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebAPIPRoject\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-06T12:24:43.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmpController.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\Controllers\\EmpController.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Controllers\\EmpController.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\Controllers\\EmpController.cs",
+              "RelativeToolTip": "WebAPIPRoject\\Controllers\\EmpController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAmwGcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T12:23:39.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\appsettings.json",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\appsettings.json",
+              "RelativeToolTip": "WebAPIPRoject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-06T12:23:39.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\OneDrive_1_4-6-2026\\WebAPI\\WebAPI\\WebAPIPRoject\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebAPIPRoject\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T12:23:39.598Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <!-- Exclude test and tooling projects under the testing folder from the web project's compilation
+       so they can be built as separate projects with their own entry points. -->
+  <ItemGroup>
+    <Compile Remove="testing\**\*.cs" />
+    <None Include="testing\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TestPlatform.TestHost" Version="18.3.0" />
+    <PackageReference Include="StopWatch" Version="1.0.6" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+  </ItemGroup>
+
+</Project>

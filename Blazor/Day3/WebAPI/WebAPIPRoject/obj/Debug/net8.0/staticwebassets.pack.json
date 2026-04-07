@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\wwwroot\\Page1.html",
+      "PackagePath": "staticwebassets\\Page1.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebAPIPRoject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebAPIPRoject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebAPIPRoject.props",
+      "PackagePath": "build\\WebAPIPRoject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebAPIPRoject.props",
+      "PackagePath": "buildMultiTargeting\\WebAPIPRoject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebAPIPRoject.props",
+      "PackagePath": "buildTransitive\\WebAPIPRoject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

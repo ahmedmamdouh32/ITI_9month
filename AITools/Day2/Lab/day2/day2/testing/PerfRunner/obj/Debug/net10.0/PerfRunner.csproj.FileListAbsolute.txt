@@ -1,0 +1,5 @@
+C:\Users\adminstrator\Documents\ITI_9Months\AITools\Day2\Lab\day2\day2\testing\PerfRunner\obj\Debug\net10.0\PerfRunner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adminstrator\Documents\ITI_9Months\AITools\Day2\Lab\day2\day2\testing\PerfRunner\obj\Debug\net10.0\PerfRunner.AssemblyInfoInputs.cache
+C:\Users\adminstrator\Documents\ITI_9Months\AITools\Day2\Lab\day2\day2\testing\PerfRunner\obj\Debug\net10.0\PerfRunner.AssemblyInfo.cs
+C:\Users\adminstrator\Documents\ITI_9Months\AITools\Day2\Lab\day2\day2\testing\PerfRunner\obj\Debug\net10.0\PerfRunner.csproj.CoreCompileInputs.cache
+C:\Users\adminstrator\Documents\ITI_9Months\AITools\Day2\Lab\day2\day2\testing\PerfRunner\obj\Debug\net10.0\PerfRunner.sourcelink.json

@@ -1,0 +1,74 @@
+using System;
+using Xunit;
+
+namespace day2.Tests
+{
+    public class QuickSortTests
+    {
+        [Fact]
+        public void QuickSort_SortsArrayAscending()
+        {
+            int[] input = new[] { 3, 1, 4, 1, 5, 9, 2 };
+            int[] expected = (int[])input.Clone();
+            Array.Sort(expected);
+
+            // call QuickSort via reflection on HomeController's private method
+            var controllerType = typeof(day2.Controllers.HomeController);
+            var method = controllerType.GetMethod("QuickSort", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
+            Assert.NotNull(method);
+
+            var arr = (int[])input.Clone();
+            method.Invoke(null, new object[] { arr, 0, arr.Length - 1 });
+
+            Assert.Equal(expected, arr);
+        }
+
+        [Fact]
+        public void QuickSort_HandlesEmptyAndSingleElement()
+        {
+            var controllerType = typeof(day2.Controllers.HomeController);
+            var method = controllerType.GetMethod("QuickSort", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
+            Assert.NotNull(method);
+
+            int[] empty = new int[0];
+            method.Invoke(null, new object[] { empty, 0, -1 });
+            Assert.Empty(empty);
+
+            int[] single = new[] { 42 };
+            method.Invoke(null, new object[] { single, 0, 0 });
+            Assert.Single(single);
+            Assert.Equal(42, single[0]);
+        }
+
+        [Fact]
+        public void QuickSort_SortsAlreadySorted()
+        {
+            int[] input = new[] { 1, 2, 3, 4, 5 };
+            var controllerType = typeof(day2.Controllers.HomeController);
+            var method = controllerType.GetMethod("QuickSort", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
+            Assert.NotNull(method);
+
+            var arr = (int[])input.Clone();
+            method.Invoke(null, new object[] { arr, 0, arr.Length - 1 });
+
+            Assert.Equal(input, arr);
+        }
+
+        [Fact]
+        public void QuickSort_SortsWithDuplicates()
+        {
+            int[] input = new[] { 5, 3, 5, 3, 5 };
+            int[] expected = (int[])input.Clone();
+            Array.Sort(expected);
+
+            var controllerType = typeof(day2.Controllers.HomeController);
+            var method = controllerType.GetMethod("QuickSort", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Static);
+            Assert.NotNull(method);
+
+            var arr = (int[])input.Clone();
+            method.Invoke(null, new object[] { arr, 0, arr.Length - 1 });
+
+            Assert.Equal(expected, arr);
+        }
+    }
+}

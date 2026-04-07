@@ -1,0 +1,66 @@
+﻿using day2.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
+
+namespace day2.Controllers
+{
+    public class HomeController : Controller
+    {
+        public IActionResult Index()
+        {
+            return View(new Models.SortViewModel());
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Index(Models.SortViewModel model)
+        {
+            if (model == null)
+            {
+                return View(new Models.SortViewModel { ErrorMessage = "Invalid request." });
+            }
+
+            if (string.IsNullOrWhiteSpace(model.Input))
+            {
+                model.ErrorMessage = "Please enter a sequence of numbers (e.g. 1 2 3 12 32 45).";
+                return View(model);
+            }
+
+            // Parse numbers: allow spaces, commas, or semicolons as separators
+            var parts = model.Input.Split(new[] { ' ', ',', ';', '\t', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+            var nums = new List<int>();
+            foreach (var p in parts)
+            {
+                if (int.TryParse(p, out var v))
+                {
+                    nums.Add(v);
+                }
+                else
+                {
+                    model.ErrorMessage = $"Unable to parse '{p}' as an integer.";
+                    return View(model);
+                }
+            }
+
+            model.Original = nums.ToArray();
+
+            // Perform quick sort on a copy using the service
+            var arr = (int[])model.Original.Clone();
+            day2.Services.QuickSortService.QuickSort(arr);
+            model.Sorted = arr;
+
+            return View(model);
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+    }
+}

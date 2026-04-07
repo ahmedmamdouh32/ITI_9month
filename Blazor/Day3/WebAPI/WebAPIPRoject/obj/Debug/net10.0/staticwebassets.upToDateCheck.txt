@@ -1,0 +1,2 @@
+wwwroot\Page1.html
+C:\Users\adminstrator\Documents\ITI_9Months\Blazor\Day3\OneDrive_1_4-6-2026\WebAPI\WebAPI\WebAPIPRoject\wwwroot\Page1.html

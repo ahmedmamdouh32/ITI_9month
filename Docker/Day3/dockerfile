@@ -1,0 +1,25 @@
+from node:22.15.0-alpine as builder
+
+workdir /app
+
+copy package*.json ./
+
+run npm install -g @angular/cli
+
+run npm install
+
+copy . .
+
+run ng build
+
+
+from nginx:latest as runner
+
+run rm -rf /usr/share/nginx/html/*
+
+COPY --from=builder /app/dist/first-angular-app/browser/ /usr/share/nginx/html
+
+expose 80
+
+cmd ["nginx", "-g", "daemon off;"]
+

@@ -1,0 +1,329 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|e:\\teaching\\blazor 45\\new folder (2)\\webapiproject\\webapiproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|e:\\teaching\\blazor 45\\new folder (2)\\webapiproject\\webapiproject\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|e:\\teaching\\blazor 45\\new folder (2)\\webapiproject\\webapiproject\\models\\iticontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\models\\iticontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|e:\\teaching\\blazor 45\\new folder (2)\\webapiproject\\webapiproject\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|e:\\teaching\\blazor 45\\new folder (2)\\webapiproject\\webapiproject\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|e:\\teaching\\blazor 45\\new folder (2)\\webapiproject\\webapiproject\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|e:\\teaching\\blazor 45\\new folder (2)\\webapiproject\\webapiproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|e:\\teaching\\blazor 45\\new folder (2)\\webapiproject\\webapiproject\\dto\\empdept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\dto\\empdept.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|e:\\teaching\\blazor 45\\new folder (2)\\webapiproject\\webapiproject\\dto\\deprtmentwithcountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\dto\\deprtmentwithcountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|e:\\teaching\\blazor 45\\new folder (2)\\webapiproject\\webapiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|e:\\teaching\\blazor 45\\new folder (2)\\webapiproject\\webapiproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D659072B-4C85-495E-9ED9-56E0695F389E}|WebAPIPRoject\\WebAPIPRoject.csproj|solutionrelative:webapiproject\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 36,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Controllers\\DepartmentController.cs",
+              "ToolTip": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "WebAPIPRoject\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAwG4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T15:49:29.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmpController.cs",
+              "DocumentMoniker": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Controllers\\EmpController.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Controllers\\EmpController.cs",
+              "ToolTip": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Controllers\\EmpController.cs",
+              "RelativeToolTip": "WebAPIPRoject\\Controllers\\EmpController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T15:38:24.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Location.cs",
+              "DocumentMoniker": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Models\\Location.cs",
+              "ToolTip": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Models\\Location.cs",
+              "RelativeToolTip": "WebAPIPRoject\\Models\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T10:48:19.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Models\\Employee.cs",
+              "ToolTip": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Models\\Employee.cs",
+              "RelativeToolTip": "WebAPIPRoject\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T10:48:10.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Models\\Department.cs",
+              "ToolTip": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Models\\Department.cs",
+              "RelativeToolTip": "WebAPIPRoject\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T10:48:08.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmpDept.cs",
+              "DocumentMoniker": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\DTO\\EmpDept.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\DTO\\EmpDept.cs",
+              "ToolTip": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\DTO\\EmpDept.cs",
+              "RelativeToolTip": "WebAPIPRoject\\DTO\\EmpDept.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T10:48:05.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeprtmentWithCountDTO.cs",
+              "DocumentMoniker": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\DTO\\DeprtmentWithCountDTO.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\DTO\\DeprtmentWithCountDTO.cs",
+              "ToolTip": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\DTO\\DeprtmentWithCountDTO.cs",
+              "RelativeToolTip": "WebAPIPRoject\\DTO\\DeprtmentWithCountDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T10:48:02.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\appsettings.json",
+              "ToolTip": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\appsettings.json",
+              "RelativeToolTip": "WebAPIPRoject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-27T19:18:26.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Models\\ApplicationUser.cs",
+              "ToolTip": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "WebAPIPRoject\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T19:18:25.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITIContext.cs",
+              "DocumentMoniker": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Models\\ITIContext.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Models\\ITIContext.cs",
+              "ToolTip": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Models\\ITIContext.cs",
+              "RelativeToolTip": "WebAPIPRoject\\Models\\ITIContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T19:18:19.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "WebAPIPRoject\\Controllers\\AccountController.cs",
+              "ToolTip": "E:\\Teaching\\Blazor 45\\New folder (2)\\WebAPIPRoject\\WebAPIPRoject\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "WebAPIPRoject\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T19:18:02.536Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

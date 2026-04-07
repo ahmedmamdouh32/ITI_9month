@@ -1,0 +1,79 @@
+﻿@page "/employee/edit/{id:int}"
+
+<h3>EmpEdit</h3>
+
+<p>Employee Id @id</p>
+
+@if (employee == null || departments == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <EditForm Model="@employee" OnValidSubmit="submit" FormName="EditEmployeeData">
+       
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            <InputText id="name" class="form-control"  @bind-Value="employee.Name"/>
+            <ValidationMessage For="@(() => employee.Name)" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <InputText id="email" class="form-control" @bind-Value="employee.Email"/>
+            <ValidationMessage For="@(() => employee.Email)" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Department</label>
+            <InputSelect class="form-select"
+                         @bind-Value="employee.departmentID">
+                <option value="0">Select Department</option>
+                @foreach (var dept in departments)
+                {
+                    <option value="@dept.Id">@dept.name</option>
+                }
+            </InputSelect>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+        <button type="button" @onclick="cancel" class="btn btn-primary">Cancel</button>
+    </EditForm>
+}
+@code {
+
+    [Parameter]
+    public int id { get; set; }
+
+    public Employee? employee;
+    public List<Department>? departments;
+
+    [Inject]
+    public IServices<Employee> _empService { get; set; }
+
+    [Inject]
+    public IServices<Department> _deptService { get; set; }
+
+    [Inject]
+    public NavigationManager navigationManager { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        employee = await _empService.GetById(id);
+        departments = await _deptService.GetAll();
+    }
+
+    public async Task submit()
+    {
+        Console.WriteLine($"Submitting ID: {id}, Model ID: {employee.Id}");
+
+        await _empService.Update(id, employee);
+
+        navigationManager.NavigateTo("/employees");
+    }
+
+    public void cancel()
+    {
+        navigationManager.NavigateTo("/employees");
+    }
+}

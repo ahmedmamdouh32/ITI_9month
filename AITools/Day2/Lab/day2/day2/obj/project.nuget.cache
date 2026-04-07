@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "goi3BrNW6Qo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\AITools\\Day2\\Lab\\day2\\day2\\day2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adminstrator\\.nuget\\packages\\microsoft.testplatform.objectmodel\\18.3.0\\microsoft.testplatform.objectmodel.18.3.0.nupkg.sha512",
+    "C:\\Users\\adminstrator\\.nuget\\packages\\microsoft.testplatform.testhost\\18.3.0\\microsoft.testplatform.testhost.18.3.0.nupkg.sha512",
+    "C:\\Users\\adminstrator\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\adminstrator\\.nuget\\packages\\stopwatch\\1.0.6\\stopwatch.1.0.6.nupkg.sha512",
+    "C:\\Users\\adminstrator\\.nuget\\packages\\xunit\\2.9.3\\xunit.2.9.3.nupkg.sha512",
+    "C:\\Users\\adminstrator\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\adminstrator\\.nuget\\packages\\xunit.analyzers\\1.18.0\\xunit.analyzers.1.18.0.nupkg.sha512",
+    "C:\\Users\\adminstrator\\.nuget\\packages\\xunit.assert\\2.9.3\\xunit.assert.2.9.3.nupkg.sha512",
+    "C:\\Users\\adminstrator\\.nuget\\packages\\xunit.core\\2.9.3\\xunit.core.2.9.3.nupkg.sha512",
+    "C:\\Users\\adminstrator\\.nuget\\packages\\xunit.extensibility.core\\2.9.3\\xunit.extensibility.core.2.9.3.nupkg.sha512",
+    "C:\\Users\\adminstrator\\.nuget\\packages\\xunit.extensibility.execution\\2.9.3\\xunit.extensibility.execution.2.9.3.nupkg.sha512"
+  ],
+  "logs": []
+}

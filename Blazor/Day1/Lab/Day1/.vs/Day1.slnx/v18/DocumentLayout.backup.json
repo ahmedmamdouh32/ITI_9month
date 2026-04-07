@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day1\\lab\\day1\\day1\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|solutionrelative:day1\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day1\\lab\\day1\\day1\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|solutionrelative:day1\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day1\\lab\\day1\\day1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|solutionrelative:day1\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day1\\lab\\day1\\day1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|solutionrelative:day1\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day1\\lab\\day1\\day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|solutionrelative:day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day1\\lab\\day1\\day1\\pages\\productpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|solutionrelative:day1\\pages\\productpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -19,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|solutionrelative:day1\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day1\\lab\\day1\\day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|solutionrelative:day1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day1\\lab\\day1\\day1\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66801BA3-C76F-D404-9B01-79D62F8A46FC}|Day1\\Day1.csproj|solutionrelative:day1\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -34,15 +50,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\Day1\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Day1\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\Day1\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Day1\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T19:19:25.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\Day1\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Day1\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\Day1\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Day1\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T19:19:16.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\Day1\\_Imports.razor",
+              "RelativeDocumentMoniker": "Day1\\_Imports.razor",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\Day1\\_Imports.razor",
+              "RelativeToolTip": "Day1\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T19:19:09.996Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\Day1\\App.razor",
+              "RelativeDocumentMoniker": "Day1\\App.razor",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\Day1\\App.razor",
+              "RelativeToolTip": "Day1\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-30T19:18:57.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ProductsGallary.razor",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\Day1\\Pages\\ProductsGallary.razor",
               "RelativeDocumentMoniker": "Day1\\Pages\\ProductsGallary.razor",
@@ -55,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ProductEdit.razor",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\Day1\\Pages\\ProductEdit.razor",
               "RelativeDocumentMoniker": "Day1\\Pages\\ProductEdit.razor",
@@ -68,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\Day1\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Day1\\Services\\ProductService.cs",
@@ -94,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "IService.cs",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\Day1\\Services\\IService.cs",
               "RelativeDocumentMoniker": "Day1\\Services\\IService.cs",
@@ -107,13 +175,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ProductPage.razor",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\Day1\\Pages\\ProductPage.razor",
               "RelativeDocumentMoniker": "Day1\\Pages\\ProductPage.razor",
               "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day1\\Lab\\Day1\\Day1\\Pages\\ProductPage.razor",
               "RelativeToolTip": "Day1\\Pages\\ProductPage.razor",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-29T16:42:14.223Z",
               "EditorCaption": ""
