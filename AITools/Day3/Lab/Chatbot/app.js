@@ -24,8 +24,8 @@ let state = {
     activeChatId: null,
     settings: {
         responseMode: 'text',
-        openAIKey: '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',
-    },
+        openAIKey:
+		},
     loading: false,
 };
 
