@@ -1,0 +1,59 @@
+﻿@page "/employee/{id:int}";
+
+<h3>Employee Details</h3>
+
+<p>Current ID: @id</p>
+
+@if(employee == null)
+{
+    <p><em>Not Found</em></p>
+}
+else if(userDeleted == true)
+{
+    <p><em>User Deleted Successfully</em></p>
+}
+else
+{
+    <div class="card w-100 mb-3">
+        <div class="card-body">
+            <div class="d-flex align-items-center justify-content-between">
+                <div>
+                    <h5 class="card-title">Name : @employee.Name</h5>
+                    <p class="card-text">Email : @employee.Email</p>
+                    <p class="card-text">Department : @department.name</p>
+                    
+                </div>
+
+                <div>
+                    <img src="resources/emp.png" class="w-50" />
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+}
+
+@code {
+    [Parameter]
+    public int id { set; get; }
+
+    public bool userDeleted { set; get; } = false;
+    public Employee employee { set; get; }
+
+    public Department department { set; get; }
+
+    [Inject]
+    public IServices<Employee> _empService { set; get; }
+
+    [Inject]
+    public IServices<Department> _deptService { set; get; }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        employee = await _empService.GetById(id);
+        department = await _deptService.GetById(employee.departmentID);
+    }
+}

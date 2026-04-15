@@ -1,0 +1,82 @@
+﻿@page "/employee/edit/{id:int}"
+
+<h3>EmpEdit</h3>
+
+<p>Employee Id @id</p>
+
+@if (employeeData == null || departments == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <EditForm Model="@employeeData" OnValidSubmit="submit" FormName="EditEmployeeData">
+        
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            <InputText id="name"
+                       class="form-control"
+                       @bind-Value="employeeData.Name"
+                       @bind-Value:event="oninput" />
+            <ValidationMessage For="@(() => employeeData.Name)" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <InputText id="email"
+                       class="form-control"
+                       @bind-Value="employeeData.Email"
+                       @bind-Value:event="oninput" />
+            <ValidationMessage For="@(() => employeeData.Email)" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Department</label>
+            <InputSelect class="form-select"
+                         @bind-Value="employeeData.departmentID">
+                <option value="0">Select Department</option>
+                @foreach (var dept in departments)
+                {
+                    <option value="@dept.Id">@dept.name</option>
+                }
+            </InputSelect>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Save</button>
+    </EditForm>
+}
+@code {
+
+    [Parameter]
+    public int id { get; set; }
+
+    public Employee? employeeData;
+    public List<Department>? departments;
+
+    [Inject]
+    public IServices<Employee> _empService { get; set; }
+
+    [Inject]
+    public IServices<Department> _deptService { get; set; }
+
+    [Inject]
+    public NavigationManager navigationManager { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        employeeData = await _empService.GetById(id);
+        departments = await _deptService.GetAll();
+    }
+
+    public async Task submit()
+    {
+        Console.WriteLine($"Submitting ID: {id}, Model ID: {employeeData.Id}");
+
+        await _empService.Update(id, employeeData);
+
+        navigationManager.NavigateTo("/employees");
+    }
+}

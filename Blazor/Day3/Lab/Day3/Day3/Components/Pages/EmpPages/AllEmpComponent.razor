@@ -1,0 +1,64 @@
+﻿@page "/employees";
+
+
+<h3>Employees Data</h3>
+
+
+    
+    @if(employees == null)
+    {
+        <p><em>No Employees yet</em></p>
+    }
+    
+    else
+    {
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var emp in employees)
+                {
+                    <tr>
+                        <td>@emp.Id</td>
+                        <td>@emp.Name</td>
+                        <td>@departments.FirstOrDefault(d =>d.Id == emp.departmentID).name</td>
+                        <td> <a href="/employee/@emp.Id" class="btn btn-primary">Details</a></td>
+                        <td> <a href="employee/edit/@emp.Id" class="btn btn-warning">Edit</a></td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+    <div class="container justify-content-center">
+        <a  href="/emp/add" class="btn btn-dark mt-2">Add New Employee</a>
+    </div>
+    
+
+@code {
+    public List<Employee> employees { set; get; }
+    public List<Department> departments { set; get; }
+
+
+
+
+    [Inject]
+    public IServices<Employee> _empService { set; get; }
+
+    [Inject]
+    public IServices<Department> _deptService { set; get; }
+
+   
+    protected override async Task OnInitializedAsync()
+    {
+        employees = await _empService.GetAll();
+        departments = await _deptService.GetAll();
+    }
+
+
+}

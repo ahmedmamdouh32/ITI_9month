@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "p137nWH5Nh8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\Lab\\Day3\\Day3\\Day3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adminstrator\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.5\\microsoft.aspnetcore.app.internal.assets.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

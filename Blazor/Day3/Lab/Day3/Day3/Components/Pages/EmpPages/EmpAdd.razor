@@ -1,0 +1,73 @@
+﻿@page "/emp/add"
+<h3>Add Employee</h3>
+
+<EditForm Model="@employee" OnValidSubmit="@HandleValidSubmit" FormName="anything">
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" @bind="employee.Name" @bind:event="oninput" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" @bind="employee.Email" @bind:event="oninput" />
+    </div>
+
+    @if (departments != null)
+    {
+        <div class="mb-3">
+            <label class="form-label">Department</label>
+            <select class="form-select" @bind="employee.departmentID">
+                <option value="0">-- Select Department --</option>
+                @foreach (var dept in departments)
+                {
+                    <option value="@dept.Id">@dept.name</option>
+                }
+            </select>
+        </div>
+    }
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
+
+<button type="button" @onclick="ShowValues" class="btn btn-warning">Test Binding</button>
+
+
+@code {
+    public Employee employee { get; set; } = new Employee();
+
+    [Inject]
+    public IServices<Department> _deptService { get; set; }
+
+    [Inject]
+    public IServices<Employee> _empService { get; set; }
+
+    [Inject]
+    public NavigationManager _navManager { get; set; }
+
+    public List<Department> departments { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        departments = await _deptService.GetAll();
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        // This WILL work with regular inputs
+        Console.WriteLine($"Name: {employee.Name}");
+        Console.WriteLine($"Email: {employee.Email}");
+        Console.WriteLine($"DeptID: {employee.departmentID}");
+        
+        await _empService.Add(employee);
+        _navManager.NavigateTo("/employees");
+    }
+
+
+    
+        private void ShowValues()
+        {
+            Console.WriteLine($"Name: '{employee.Name}'");
+            Console.WriteLine($"Email: '{employee.Email}'");
+        }
+    
+}
