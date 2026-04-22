@@ -91,7 +91,6 @@ C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\obj\Debug\net10.0\s
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\obj\Debug\net10.0\staticwebassets.development.json
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\obj\Debug\net10.0\swae.build.ex.cache
-C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\obj\Debug\net10.0\Day1.dll
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\obj\Debug\net10.0\refint\Day1.dll
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\obj\Debug\net10.0\Day1.pdb
@@ -341,3 +340,4 @@ C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\bin\Debug\net10.0\z
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\obj\Debug\net10.0\compressed\qoafy1zijo-{0}-devepoo3hg-devepoo3hg.gz
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\obj\Debug\net10.0\compressed\f1g81472jc-{0}-90nsqryvln-90nsqryvln.gz
 C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\obj\Debug\net10.0\compressed\pkp5bcku5u-{0}-22fxxb244o-22fxxb244o.gz
+C:\Users\adminstrator\Documents\ITI_9Months\ASP.NET\MVC\Day1\bin\Debug\net10.0\dotnet-tools.json

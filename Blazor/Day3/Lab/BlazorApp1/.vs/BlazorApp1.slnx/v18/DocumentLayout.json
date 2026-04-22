@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\Lab\\BlazorApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{39E0AC96-0995-4588-90EB-C303748AF1E2}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\lab\\blazorapp1\\blazorapp1\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39E0AC96-0995-4588-90EB-C303748AF1E2}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\lab\\blazorapp1\\blazorapp1\\pages\\employee\\empadd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\pages\\employee\\empadd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\lab\\blazorapp1\\blazorapp1\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\lab\\blazorapp1\\blazorapp1\\services\\iservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\services\\iservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\lab\\blazorapp1\\blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\blazor\\day3\\lab\\blazorapp1\\blazorapp1\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48EFF821-2F4D-60CC-AA44-BE0F1D6E5F35}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,11 +42,67 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{5da8d69b-058a-4294-a87a-f4f7ae2983b3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EmpAdd.razor",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\Lab\\BlazorApp1\\BlazorApp1\\Pages\\Employee\\EmpAdd.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Pages\\Employee\\EmpAdd.razor",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\Lab\\BlazorApp1\\BlazorApp1\\Pages\\Employee\\EmpAdd.razor",
+              "RelativeToolTip": "BlazorApp1\\Pages\\Employee\\EmpAdd.razor",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T17:50:13.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\Lab\\BlazorApp1\\BlazorApp1\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\Lab\\BlazorApp1\\BlazorApp1\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "BlazorApp1\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T17:49:41.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IServices.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\Lab\\BlazorApp1\\BlazorApp1\\Services\\IServices.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Services\\IServices.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\Lab\\BlazorApp1\\BlazorApp1\\Services\\IServices.cs",
+              "RelativeToolTip": "BlazorApp1\\Services\\IServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T17:49:37.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\Lab\\BlazorApp1\\BlazorApp1\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\Lab\\BlazorApp1\\BlazorApp1\\Program.cs",
+              "RelativeToolTip": "BlazorApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T17:49:16.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DepartmentService.cs",
               "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\Blazor\\Day3\\Lab\\BlazorApp1\\BlazorApp1\\Services\\DepartmentService.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Services\\DepartmentService.cs",
