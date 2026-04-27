@@ -62,6 +62,7 @@
     <Compile Include="SOLID_Case\Case_2_OCP\Shape.cs" />
     <Compile Include="SOLID_Case\Case_2_OCP\Shapes.cs" />
     <Compile Include="SOLID_Case\Case_3_LSP\Document.cs" />
+    <Compile Include="SOLID_Case\Case_3_LSP\Interfaces\IPrintable.cs" />
     <Compile Include="SOLID_Case\Case_3_LSP\Rectangle.cs" />
     <Compile Include="SOLID_Case\Case_4_ISP\Activity.cs" />
     <Compile Include="SOLID_Case\Case_4_ISP\MultiFunctionDevice.cs" />

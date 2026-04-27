@@ -11,8 +11,12 @@ namespace SOLID.SOLID_Case_Answer.Case_Answer_4_ISP
     {
         void LogMessage(string message);
         void LogWarning(string message);
-        void LogError(string message); // Not all loggers might implement error logging
     }
+
+     public interface IErrorLoger
+     {
+        void LogError(string message); // Not all loggers might implement error logging
+     }
 
     public class FileLogger : ILogger
     {
@@ -25,14 +29,9 @@ namespace SOLID.SOLID_Case_Answer.Case_Answer_4_ISP
         {
             // Log warning to file
         }
-
-        public void LogError(string message) // Might not be implemented
-        {
-            throw new NotImplementedException();
-        }
     }
 
-    public class DatabaseLogger : ILogger
+    public class DatabaseLogger : ILogger, IErrorLoger
     {
         public void LogMessage(string message)
         {

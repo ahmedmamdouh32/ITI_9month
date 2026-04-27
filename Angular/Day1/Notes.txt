@@ -1,0 +1,68 @@
+Angular -> Js framework
+
+
+Structue 
+
+Html - Css - Basic Js - Typescript
+
+HttpClient
+
+
+-- Reusabla Code 
+--SPA (Single Page Application)
+
+(Dashbord )
+
+
+--------- SEO (search engine optimization )
+
+-- Google 
+2010 -> AngularJs (pure js)
+2014 -> rewrite (ts) -> Angular 
+Angular 2 - Angular 13 (ts - component -angular cli - Routing)
+Angullar 14 - 16 (standalone component - Angular Signals)
+Angular 17 - 21 (control flow - improve in signals - ssr - change detection)
+
+
+
+
+CSR -> Client Side Rendering
+
+SSR -> Server Side Rendering 
+
+
+
+
+Component  Based Architecture
+
+-- Reusability
+-- Performance
+
+
+build 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

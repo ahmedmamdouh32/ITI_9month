@@ -5,3 +5,10 @@ F:\Mohamed\SOLID\Project\SOLID_Cases\obj\Debug\SOLID.pdb
 F:\Mohamed\SOLID\Project\SOLID_Cases\bin\Debug\SOLID.exe.config
 F:\Mohamed\SOLID\Project\SOLID_Cases\bin\Debug\SOLID.exe
 F:\Mohamed\SOLID\Project\SOLID_Cases\bin\Debug\SOLID.pdb
+C:\Users\adminstrator\Documents\ITI_9Months\SOLID Principles\Day1\Lab\bin\Debug\SOLID.exe.config
+C:\Users\adminstrator\Documents\ITI_9Months\SOLID Principles\Day1\Lab\bin\Debug\SOLID.exe
+C:\Users\adminstrator\Documents\ITI_9Months\SOLID Principles\Day1\Lab\bin\Debug\SOLID.pdb
+C:\Users\adminstrator\Documents\ITI_9Months\SOLID Principles\Day1\Lab\obj\Debug\SOLID_Cases.csproj.AssemblyReference.cache
+C:\Users\adminstrator\Documents\ITI_9Months\SOLID Principles\Day1\Lab\obj\Debug\SOLID_Cases.csproj.CoreCompileInputs.cache
+C:\Users\adminstrator\Documents\ITI_9Months\SOLID Principles\Day1\Lab\obj\Debug\SOLID.exe
+C:\Users\adminstrator\Documents\ITI_9Months\SOLID Principles\Day1\Lab\obj\Debug\SOLID.pdb

@@ -3,64 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_2_ocp\\paymentprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_2_ocp\\paymentprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_5_dip\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_5_dip\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_2_ocp\\interfaces\\ipayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_2_ocp\\interfaces\\ipayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_4_isp\\multifunctiondevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_4_isp\\multifunctiondevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\solid_case\\case_2_ocp\\drawing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_2_ocp\\drawing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_4_isp\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_4_isp\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_2_ocp\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_2_ocp\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_4_isp\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_4_isp\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_2_ocp\\shapes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_2_ocp\\shapes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_3_lsp\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_3_lsp\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\solid_case\\case_1_srp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_1_srp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_1_srp\\interfaces\\iworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_1_srp\\interfaces\\iworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_1_srp\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_1_srp\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_1_srp\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_1_srp\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\solid_case\\case_1_srp\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_1_srp\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_1_srp\\bookprinting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_1_srp\\bookprinting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_2_ocp\\debitcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_2_ocp\\debitcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_2_ocp\\creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_2_ocp\\creditcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\case_2_ocp\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\case_2_ocp\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\solid_case\\salarycalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\solid_case\\salarycalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:solid_case\\salarycalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|c:\\users\\adminstrator\\documents\\iti_9months\\solid principles\\day1\\lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A95396-0B7B-493A-B640-D03438CE69B8}|SOLID_Cases.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,8 +38,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_5_DIP\\Worker.cs",
+              "RelativeDocumentMoniker": "SOLID_Case\\Case_5_DIP\\Worker.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_5_DIP\\Worker.cs",
+              "RelativeToolTip": "SOLID_Case\\Case_5_DIP\\Worker.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T08:59:40.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MultiFunctionDevice.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_4_ISP\\MultiFunctionDevice.cs",
+              "RelativeDocumentMoniker": "SOLID_Case\\Case_4_ISP\\MultiFunctionDevice.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_4_ISP\\MultiFunctionDevice.cs",
+              "RelativeToolTip": "SOLID_Case\\Case_4_ISP\\MultiFunctionDevice.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAqwFEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T08:56:46.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_4_ISP\\Logger.cs",
+              "RelativeDocumentMoniker": "SOLID_Case\\Case_4_ISP\\Logger.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_4_ISP\\Logger.cs",
+              "RelativeToolTip": "SOLID_Case\\Case_4_ISP\\Logger.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwBgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T08:54:19.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Activity.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_4_ISP\\Activity.cs",
+              "RelativeDocumentMoniker": "SOLID_Case\\Case_4_ISP\\Activity.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_4_ISP\\Activity.cs",
+              "RelativeToolTip": "SOLID_Case\\Case_4_ISP\\Activity.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAUwEcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T08:47:46.406Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -90,197 +110,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DebitCard.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\DebitCard.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\Case_2_OCP\\DebitCard.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\DebitCard.cs",
-              "RelativeToolTip": "SOLID_Case\\Case_2_OCP\\DebitCard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwA0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T12:00:17.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreditCard.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\CreditCard.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\Case_2_OCP\\CreditCard.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\CreditCard.cs",
-              "RelativeToolTip": "SOLID_Case\\Case_2_OCP\\CreditCard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T11:59:52.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IPayment.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\Interfaces\\IPayment.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\Case_2_OCP\\Interfaces\\IPayment.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\Interfaces\\IPayment.cs",
-              "RelativeToolTip": "SOLID_Case\\Case_2_OCP\\Interfaces\\IPayment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T11:58:37.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Shape.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\Shape.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\Case_2_OCP\\Shape.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\Shape.cs",
-              "RelativeToolTip": "SOLID_Case\\Case_2_OCP\\Shape.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T11:56:47.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Circle.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\Circle.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\Case_2_OCP\\Circle.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\Circle.cs",
-              "RelativeToolTip": "SOLID_Case\\Case_2_OCP\\Circle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T11:55:38.174Z",
+              "WhenOpened": "2026-04-25T08:41:16.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Shapes.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\Shapes.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\Case_2_OCP\\Shapes.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\Shapes.cs",
-              "RelativeToolTip": "SOLID_Case\\Case_2_OCP\\Shapes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAYAAAAAAAAAA==",
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_3_LSP\\Rectangle.cs",
+              "RelativeDocumentMoniker": "SOLID_Case\\Case_3_LSP\\Rectangle.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_3_LSP\\Rectangle.cs",
+              "RelativeToolTip": "SOLID_Case\\Case_3_LSP\\Rectangle.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwBwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T11:53:25.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SalaryCalculator.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\SalaryCalculator.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\SalaryCalculator.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\SalaryCalculator.cs",
-              "RelativeToolTip": "SOLID_Case\\SalaryCalculator.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T11:48:40.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IWorker.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_1_SRP\\Interfaces\\IWorker.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\Case_1_SRP\\Interfaces\\IWorker.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_1_SRP\\Interfaces\\IWorker.cs",
-              "RelativeToolTip": "SOLID_Case\\Case_1_SRP\\Interfaces\\IWorker.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA4AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T11:42:20.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_1_SRP\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\Case_1_SRP\\EmployeeService.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_1_SRP\\EmployeeService.cs",
-              "RelativeToolTip": "SOLID_Case\\Case_1_SRP\\EmployeeService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA1wBYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T11:27:56.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BookService.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_1_SRP\\BookService.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\Case_1_SRP\\BookService.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_1_SRP\\BookService.cs",
-              "RelativeToolTip": "SOLID_Case\\Case_1_SRP\\BookService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T11:24:35.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BookPrinting.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_1_SRP\\BookPrinting.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\Case_1_SRP\\BookPrinting.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_1_SRP\\BookPrinting.cs",
-              "RelativeToolTip": "SOLID_Case\\Case_1_SRP\\BookPrinting.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAtwAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T11:21:56.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PaymentProcessor.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\PaymentProcessor.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\Case_2_OCP\\PaymentProcessor.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\PaymentProcessor.cs",
-              "RelativeToolTip": "SOLID_Case\\Case_2_OCP\\PaymentProcessor.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:24:31.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Drawing.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\Drawing.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\Case_2_OCP\\Drawing.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_2_OCP\\Drawing.cs",
-              "RelativeToolTip": "SOLID_Case\\Case_2_OCP\\Drawing.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:24:27.267Z",
+              "WhenOpened": "2026-04-25T08:22:17.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_1_SRP\\Employee.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\Case_1_SRP\\Employee.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_1_SRP\\Employee.cs",
-              "RelativeToolTip": "SOLID_Case\\Case_1_SRP\\Employee.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAAhAAAAAAAAAA==",
+              "Title": "SalaryCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\SalaryCalculator.cs",
+              "RelativeDocumentMoniker": "SOLID_Case\\SalaryCalculator.cs",
+              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\SalaryCalculator.cs",
+              "RelativeToolTip": "SOLID_Case\\SalaryCalculator.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:24:15.745Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_1_SRP\\Book.cs",
-              "RelativeDocumentMoniker": "SOLID_Case\\Case_1_SRP\\Book.cs",
-              "ToolTip": "C:\\Users\\adminstrator\\Documents\\ITI_9Months\\SOLID Principles\\Day1\\Lab\\SOLID_Case\\Case_1_SRP\\Book.cs",
-              "RelativeToolTip": "SOLID_Case\\Case_1_SRP\\Book.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAIAwwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:24:09.111Z",
+              "WhenOpened": "2026-04-24T11:48:40.115Z",
               "EditorCaption": ""
             }
           ]

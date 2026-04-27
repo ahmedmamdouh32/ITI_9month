@@ -7,14 +7,24 @@ using System.Threading.Tasks;
 namespace SOLID.SOLID_Implement_2._2_5_DIP
 {
     #region Bad Code
-    public class Manager
+
+    public interface IManagement
+    {
+        void AssignTask();
+    }
+    public class Manager : IManagement
     {
         public void AssignTask() { }
     }
 
     public class Worker
     {
-        private Manager _manager = new Manager();
+        private IManagement _manager;
+
+        public Worker(IManagement manager)
+        {
+            _manager = manager;
+        }
 
         public void DoTask()
         {
