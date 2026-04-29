@@ -1,0 +1,5 @@
+<button class="btn btn-primary d-block my-3 base-btn"
+    [ngClass]="{changeToRed: isRed, changeToGreen : !isRed, scaleUp:scale}" (click)="toggleColor()"
+    style="border-radius: 10px;">
+    <ng-content></ng-content>
+</button>
