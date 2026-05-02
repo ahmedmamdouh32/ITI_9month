@@ -1,0 +1,10 @@
+.link{
+    transition: transform 0.5s ease, color 0.5s ease;
+}
+
+
+.active-link{
+    font: bold;
+    color:rgb(167, 49, 5);
+    transform: scale(1.1);
+}

@@ -1,0 +1,14 @@
+.base-btn {
+  transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.changeToGreen{
+  background-color: green !important;
+}
+
+.scaleUp{
+    transform: scale(1.15);
+}
+.scaleNormal{
+    transform: scale(1.0);
+}

@@ -1,9 +1,10 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Istudent } from '../../Interfaces/istudent';
+import { Button } from '../button/button';
 
 @Component({
   selector: 'app-student-card-component',
-  imports: [],
+  imports: [Button],
   templateUrl: './student-card-component.html',
   styleUrl: './student-card-component.css',
 })

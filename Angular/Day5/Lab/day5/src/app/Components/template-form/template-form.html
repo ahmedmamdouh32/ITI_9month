@@ -1,0 +1,59 @@
+<div class="container">
+
+    <form #myForm="ngForm" (ngSubmit)="formSubmission(myForm)">
+
+        <label for="username">Username</label>
+        <input type="text" name="username" class="form-control" ngModel required="" #usernameControl="ngModel"
+            minlength="5" maxlength="15">
+        @if(usernameControl.invalid && usernameControl.touched)
+        {
+        @if(usernameControl.errors?.['minlength']){
+        <span class="text-danger d-block">length is less than
+            {{usernameControl.errors?.['minlength'].requiredLength}}</span>
+        }
+        @if(usernameControl.errors?.['required']){
+        <span class="text-danger d-block">Name is required</span>
+        }
+        }
+
+        <label for="emailControl">Email</label>
+        <input type="email" name="userEmail" class="form-control" ngModel required="" #emailControl="ngModel" email>
+        @if(emailControl.invalid && emailControl.touched){
+        @if(emailControl.errors?.['required']){
+        <span class="text-danger d-block">Email is required</span>
+        }
+        @if(emailControl.errors?.['email']){
+        <span class="text-danger d-block">Invalid email format</span>
+        }
+        }
+        <label for="userMessage">Message</label>
+        <textarea style="height: 24vh;" class="form-control" name="userMessage" ngModel required=""
+            #messageControl="ngModel"></textarea>
+        @if(messageControl.errors?.['required'] && messageControl.touched){
+        <span class="text-danger">Message is required</span>
+        }
+
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <button type="submit" class="col-2 mt-4 btn btn-primary" [disabled]="myForm.invalid">Submit</button>
+            </div>
+        </div>
+
+    </form>
+
+
+    @if(showData){
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6 border border-success rounded my-5">
+                <h2 class="m-auto text-center me-3">User Data</h2>
+                <p><span class="fw-bold" >Name</span> : {{userData.username}}</p>
+                <p><span class="fw-bold" >Email</span> : {{userData.email}}</p>
+                <p><span class="fw-bold" >Message</span> : {{userData.message}}</p>
+            </div>
+        </div>
+    </div>
+    }
+
+</div>

@@ -1,0 +1,38 @@
+<div class="container">
+    <form (ngSubmit)="submit()">
+        <label>Email</label>
+        <input type="email" class="form-control" [formField]="loginForm.email">
+        @if (loginForm.email().invalid() && loginForm.email()?.touched()) {
+        @for (error of loginForm.email().errors(); track $index) {
+        <span class="text-danger d-block">{{error.message}}</span>
+        }
+        }
+        <label>Password</label>
+        <input type="password" class="form-control" [formField]="loginForm.password">
+        @if (loginForm.password().invalid() && loginForm.password()?.touched()) {
+        @for (error of loginForm.password().errors(); track $index) {
+        <span class="text-danger d-block">{{error.message}}</span>
+        }
+        }
+
+        <label>Username</label>
+        <input type="text" class="form-control" [formField]="loginForm.username">
+
+        <button class="btn btn-primary">Submit</button>
+    </form>
+
+
+    @if(showData)
+    {
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6 border border-success rounded my-5">
+                <h2 class="m-auto text-center me-3">User Data</h2>
+                <p><span class="fw-bold">Email</span> : {{loginModel().email}}</p>
+                <p><span class="fw-bold">Password</span> : {{loginModel().password}}</p>
+                <p><span class="fw-bold">Username</span> : {{loginModel().username}}</p>
+            </div>
+        </div>
+    </div>
+    }
+</div>

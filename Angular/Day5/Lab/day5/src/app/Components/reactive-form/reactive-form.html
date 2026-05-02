@@ -1,0 +1,105 @@
+<div class="container">
+    <!-- <form (ngSubmit)="formSubmit()">
+        <label>Name</label>
+        <input placeholder="Enter Your Name" class="form-control" [formControl]="username">
+        @if(username.invalid && username.touched){
+            @if(username.errors?.['required']){
+                <span class="text-danger d-block">Name is required</span>
+            }
+            @if(username.errors?.['minlength']){
+                <span class="text-danger d-block">Name is very short</span>
+            }
+        }
+
+        <label>Email</label>
+        <input placeholder="Enter Your Email" class="form-control" email="" [formControl]="email">
+        @if(email.invalid && email.touched){
+            @if(email.errors?.['required']){
+                <span class="text-danger d-block">email is required</span>
+            }
+            @if(email.errors?.['email']){
+                <span class="text-danger d-block">Invalid email format</span>
+            }
+        }
+        <button class="btn btn-warning d-block">Submit</button>
+    </form> -->
+
+
+
+
+
+    <form [formGroup]="form" (ngSubmit)="submit()">
+        <label>Name</label>
+        <input type="text" class="form-control" formControlName="name">
+        @if(form.controls.name.invalid && form.controls.name.touched){
+        @if(form.controls.name.errors?.['required']){
+        <p class="text-danger d-block">Name is required</p>
+        }
+        }
+
+        <label>Email</label>
+        <input type="text" class="form-control" formControlName="email">
+        @if(form.controls['email'].invalid && form.controls['email'].touched){
+        @if(form.controls['email'].errors?.['required']){
+        <p class="text-danger d-block">Email is required</p>
+        }
+        @if(form.controls['email'].errors?.['email']){
+        <p class="text-danger d-block">Invalid email format</p>
+        }
+        }
+
+
+        <!-- formgroup address -->
+        <div formGroupName="address">
+            <label for="">Address</label>
+            <input type="text" class="form-control mb-2" formControlName="city" placeholder="Enter your city">
+            <input type="text" class="form-control mb-2" formControlName="street" placeholder="Enter your street name">
+        </div>
+
+        <label>Payment Method</label>
+        <select formControlName="paymentMethod" name="" class="form-control" [value]="userData.paymentMethod">
+            @for (method of paymentMethods; track $index) {
+            <option value={{method}}>
+                {{method}}
+            </option>
+            }
+        </select>
+
+        @if(form.controls.paymentMethod.value === paymentMethods[0] && form.controls.paymentMethod.touched) {
+            <span class="text-danger d-block">Select a payment</span>
+        }
+
+        <button class="btn btn-danger" [disabled]="form.invalid">Submit</button>
+    </form>
+
+
+    @if(showData){
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-6 border border-success rounded my-5">
+                <h2 class="m-auto text-center me-3">User Data</h2>
+                <p><span class="fw-bold">Name</span> : {{userData.name}}</p>
+                <p><span class="fw-bold">Email</span> : {{userData.email}}</p>
+                <p><strong>Address</strong></p>
+                <ul>
+                    <li>City: {{userData.address.city}}</li>
+                    <li>Street: {{userData.address.street}}</li>
+                </ul>
+                <p><span class="fw-bold">Payment Method</span> : {{userData.paymentMethod}}</p>
+            </div>
+        </div>
+    </div>
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
